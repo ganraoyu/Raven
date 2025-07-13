@@ -105,16 +105,22 @@ def build_remove_anime_embed(anime: dict) -> discord.Embed:
   embed.set_footer(text="AniAlert • Anime Removed")
   return embed
 
-def build_anime_notify_list_embed(anime_name: str, id: int, episode: int, iso_air_time: str, image: str) -> discord.Embed:
-  formatted_time = convert_iso(iso_air_time)  
-
+def build_anime_notify_list_embed(anime_name: str, id: int, episodes: list[dict], image: str) -> discord.Embed:
   embed = discord.Embed(
     title=f'🎬 {anime_name} (ID: {id})',
     color=discord.Color.dark_blue()
   )
   
-  embed.add_field(name=f'Episode {episode} in', value=formatted_time, inline=False)
-  embed.set_thumbnail(url=str(image))  
+  for ep in episodes:
+    episode_num = ep.get('episode')
+    air_time = convert_iso(ep.get('airingAt_iso'))
+    embed.add_field(
+      name=f'Episode {episode_num} airs in',
+      value=air_time,
+      inline=False
+    )
+
+  embed.set_thumbnail(url=image)  
   embed.set_footer(text="AniAlert • Notification List")
   return embed
 

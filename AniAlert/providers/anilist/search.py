@@ -39,6 +39,22 @@ query($search: String){
 }
 '''
 
+def _extract_episodes_list(airing_nodes):
+  episode_list = []
+  for node in airing_nodes:
+    airing_at_unix = node.get('airingAt', 0)
+    airing_at_iso = datetime.datetime.utcfromtimestamp(airing_at_unix).strftime("%Y-%m-%dT%H:%M:%S") if airing_at_unix else None
+    time_until_airing = convert_unix(node.get('timeUntilAiring', 0))
+    episode = node.get('episode', 0)
+
+    episode_list.append({
+      'airingAt_unix': airing_at_unix,
+      'airingAt_iso': airing_at_iso,
+      'time_until_airing': time_until_airing,
+      'episode': episode
+    })
+  return episode_list
+
 def search_anime_anilist(search):
     response = requests.post(
         'https://graphql.anilist.co',
@@ -64,6 +80,8 @@ def search_anime_anilist(search):
       if tag['name'] in common_tags:
         filtered_tags.append(tag['name']) 
     
+    data['episode_list'] = _extract_episodes_list(nodes)
+
     data['data']['Media']['genres'] = filtered_tags + filtered_genres
     return data
 
