@@ -94,7 +94,6 @@ def get_full_anime_info(name: str, results_shown: int = 1, media_type: str = 'al
 
     extract_episodes(anime, nodes, index)
     
-
   return anime_list
 
 def get_seasonal_anime_info(
