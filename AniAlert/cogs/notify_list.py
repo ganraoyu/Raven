@@ -34,7 +34,7 @@ class CheckNotifyListCog(commands.Cog):
     await interaction.response.defer(ephemeral=True)
     user_id, guild_id = self._get_user_guild_ids(interaction)
 
-    results = self._fetch_notify_list(user_id, guild_id)
+    results = self._fetch_notify_list(user_id, guild_id, id)
 
     if not results:
       await interaction.followup.send("⚠️ Your notify list is empty.", ephemeral=True)
@@ -47,10 +47,15 @@ class CheckNotifyListCog(commands.Cog):
     user_id, guild_id = get_user_and_guild_ids(interaction)
     return int(user_id), int(guild_id)
 
-  def _fetch_notify_list(self, user_id: int, guild_id: int) -> List[tuple]:
-    query = 'SELECT * FROM anime_notify_list WHERE user_id = ? AND guild_id = ?'
-    self.cursor.execute(query, (user_id, guild_id))
-    return self.cursor.fetchall()
+  def _fetch_notify_list(self, user_id: int, guild_id: int, id: int = None) -> List[tuple]:
+    if id == None:
+      query = 'SELECT * FROM anime_notify_list WHERE user_id = ? AND guild_id = ?'
+      self.cursor.execute(query, (user_id, guild_id))
+      return self.cursor.fetchall()
+    elif id != None:
+      query = 'SELECT * FROM anime_notify_list WHERE user_id = ? AND guild_id = ? AND id = ?'
+      self.cursor.execute(query, (user_id, guild_id, id))
+      return self.cursor.fetchall()
 
   def _get_notify_list_embed(self, anime, full_list: str = 'False') -> discord.Embed:
     id_ = anime[0]
@@ -71,8 +76,8 @@ class CheckNotifyListCog(commands.Cog):
       embeds = [] 
 
       for anime in results:
-          embed = self._get_notify_list_embed(anime, full_list)
-          embeds.append(embed)
+        embed = self._get_notify_list_embed(anime, full_list)
+        embeds.append(embed)
 
       return embeds
       
