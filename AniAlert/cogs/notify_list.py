@@ -1,5 +1,7 @@
 from typing import List, Optional
 import json
+
+import discord
 from discord.ext import commands
 from discord import app_commands, Interaction
 
@@ -28,19 +30,17 @@ class CheckNotifyListCog(commands.Cog):
     interaction: Interaction,
     id: Optional[int] = None,
     full_list: Optional[str] = 'False'
-    ):
+  ):
     await interaction.response.defer(ephemeral=True)
     user_id, guild_id = self._get_user_guild_ids(interaction)
 
     results = self._fetch_notify_list(user_id, guild_id)
 
     if not results:
-      await interaction.followup.send(
-        "⚠️ Your notify list is empty.", ephemeral=True
-      )
+      await interaction.followup.send("⚠️ Your notify list is empty.", ephemeral=True)
       return
 
-    embeds = self._create_notify_list_embeds(results, full_list)
+    embeds = self._create_notify_list_embeds(results, full_list)[:10]
     await interaction.followup.send(embeds=embeds, ephemeral=True)
 
   def _get_user_guild_ids(self, interaction: Interaction) -> tuple[int, int]:
@@ -52,35 +52,27 @@ class CheckNotifyListCog(commands.Cog):
     self.cursor.execute(query, (user_id, guild_id))
     return self.cursor.fetchall()
 
-  def _get_notify_list_embed(self, anime, full_list: str = 'False', ep: dict = None):
+  def _get_notify_list_embed(self, anime, full_list: str = 'False') -> discord.Embed:
     id_ = anime[0]
     anime_name = anime[5]
     image = anime[9]
 
-    if full_list == 'True' and ep is not None:
-      episode = ep['episode']
-      iso_air_time = ep['airingAt_iso']
-    elif full_list == 'False':
-      episode = anime[6]
-      iso_air_time = anime[8]
+    if full_list == 'True':
+      episodes = json.loads(anime[10])
+    else:
+      episodes = [{
+        "episode": anime[6],
+        "airingAt_iso": anime[8]
+      }]
 
-    embed = build_anime_notify_list_embed(anime_name, id_, episode, iso_air_time, image)
-    return embed
+    return build_anime_notify_list_embed(anime_name, id_, episodes[:10], image)
 
-  def _create_notify_list_embeds(self, results: List[tuple], full_list: str = 'False'):
-    embeds = []
+  def _create_notify_list_embeds(self, results: List[tuple], full_list: str = 'False') -> List[discord.Embed]:
+      embeds = [] 
 
-    if full_list == 'False':
       for anime in results:
-        embed = self._get_notify_list_embed(anime, full_list='False')
-        embeds.append(embed)
-    elif full_list == 'True':
-      # Full list: iterate episodes inside each anime
-      for anime in results:
-        episodes_list = json.loads(anime[10])
-        for ep in episodes_list:
-          embed = self._get_notify_list_embed(anime, full_list, ep)
+          embed = self._get_notify_list_embed(anime, full_list)
           embeds.append(embed)
 
-    return embeds
-
+      return embeds
+      

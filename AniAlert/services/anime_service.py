@@ -23,7 +23,7 @@ def extract_episodes(anime: dict, nodes: dict, index: int) -> dict:
   if isinstance(nodes, dict):
     nodes = [nodes]
 
-  anime['upcoming_episodes'] = nodes
+  anime['episodes_list'] = nodes
 
   if nodes:
     episodes_val = anime.get('episodes')
@@ -81,10 +81,11 @@ def get_full_anime_info(name: str, results_shown: int = 1, media_type: str = 'al
 
     if airing_time_stamps:
       next_ep = airing_time_stamps[0]
-      anime['episodes'] = next_ep.get('episode', 0)
+      anime['episodes'] = int(next_ep.get('episode', 0)) - 1
       anime['time_until_airing'] = next_ep.get('time_until_airing')  
       anime['airingAt_iso'] = next_ep.get('airingAt_iso')
       anime['airingAt_unix'] = next_ep.get('airingAt_unix')
+
     else:
       anime['episodes'] = 0
       anime['time_until_airing'] = None
@@ -92,6 +93,7 @@ def get_full_anime_info(name: str, results_shown: int = 1, media_type: str = 'al
       anime['airingAt_unix'] = None
 
     extract_episodes(anime, nodes, index)
+    
 
   return anime_list
 
@@ -113,5 +115,5 @@ def get_random_anime_suggestion(genres: list[str], media_type: str = 'all') -> l
 
 
 if __name__ == '__main__':
-  example = get_full_anime_info('One Piece Film', 5, 'movie')
+  example = get_full_anime_info('One Piece', 1)
   print(json.dumps(example, indent=2, ensure_ascii=False))
