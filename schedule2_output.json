@@ -1,0 +1,68 @@
+[
+  {
+    "title": "DAN DA DAN Season 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185660-uB8RUMBGovGr.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 4
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 19
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 157148,
+        "airing_at_unix": 1752765960
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 761948,
+        "airing_at_unix": 1753370760
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1366748,
+        "airing_at_unix": 1753975560
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1971548,
+        "airing_at_unix": 1754580360
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2576348,
+        "airing_at_unix": 1755185160
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3181148,
+        "airing_at_unix": 1755789960
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3785948,
+        "airing_at_unix": 1756394760
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4390748,
+        "airing_at_unix": 1756999560
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4995548,
+        "airing_at_unix": 1757604360
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5600348,
+        "airing_at_unix": 1758209160
+      }
+    ]
+  }
+]

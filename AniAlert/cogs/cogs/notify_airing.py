@@ -2,7 +2,7 @@
 from discord.ext import commands, tasks
 
 from services.anime_service import get_full_anime_info
-from services.airing_checker import check_notify_list, check_if_aired
+from AniAlert.tasks.airing_checker import check_notify_list, check_if_aired
 
 from AniAlert.utils.builders.embed_builder import build_anime_airing_notification_embed
 
