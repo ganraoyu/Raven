@@ -5,9 +5,9 @@ import discord
 from discord.ext import commands
 from discord import app_commands, Interaction
 
-from utils.embed_builder import build_anime_notify_list_embed
+from AniAlert.utils.builders.embed_builder import build_anime_notify_list_embed
 
-from utils.interaction_helper import get_user_and_guild_ids
+from AniAlert.utils.discord_commands.interaction_helper import get_user_and_guild_ids
 
 class CheckNotifyListCog(commands.Cog):
   def __init__(self, bot, cursor):

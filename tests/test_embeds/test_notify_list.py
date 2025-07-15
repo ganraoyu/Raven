@@ -1,6 +1,6 @@
 import pytest
 import discord
-from AniAlert.utils.embed_builder import build_anime_notify_list_embed
+from AniAlert.utils.builders.embed_builder import build_anime_notify_list_embed
 
 # Everything is passed into the parameters from the database
 def get_dummy_data(**override):

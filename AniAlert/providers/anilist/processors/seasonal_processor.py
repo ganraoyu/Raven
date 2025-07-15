@@ -6,85 +6,10 @@ import requests
 import json
 import datetime
 from AniAlert.utils.time_converter import convert_unix
-from AniAlert.utils.common_genres_tags import get_common_genres_tags
+from AniAlert.utils.discord_commands.common_genres_tags import get_common_genres_tags
+from AniAlert.providers.anilist.query_loader import load_graphql_query
 
-query = '''
-query(
-  $page: Int,
-  $perPage: Int,
-  $seasonYear: Int,
-  $season: MediaSeason,
-  $type: MediaType,
-  $genres: [String],
-  $tags: [String],
-  $media_type: [MediaFormat],
-) {
-  Page(page: $page, perPage: $perPage) {
-    media(
-      seasonYear: $seasonYear,
-      season: $season,
-      type: $type,
-      genre_in: $genres,
-      tag_in: $tags,
-      sort: [POPULARITY_DESC]
-      format_in: $media_type
-    ) {
-      id
-      title {
-        romaji
-        english
-      }
-      format
-      genres
-      tags {
-        name
-      }
-      averageScore
-      meanScore
-      popularity
-      episodes
-      description
-      coverImage {
-        extraLarge
-      }
-      startDate {
-        year
-        month
-        day
-      }
-      endDate {
-        year
-        month
-        day
-      }
-      status
-      format
-      studios {
-        nodes {
-          name
-          isAnimationStudio
-        }
-      }
-      rankings {
-        rank
-        type
-        allTime
-        context
-        year
-        season
-      }
-      airingSchedule(notYetAired: true) {
-        nodes {
-          airingAt
-          timeUntilAiring
-          episode
-        }
-      }
-      status
-    }
-  }
-}
-'''
+query = load_graphql_query('queries/seasonal_query.graphql')
 
 def build_variables(page, per_page, genres, media_type, year, season, common_tags):
   filtered_genres = []

@@ -1,6 +1,6 @@
 import discord
 from typing import List, Tuple
-from .time_converter import convert_iso
+from ..time_converter import convert_iso
 
 def get_anime_variables(anime: dict):
   title = anime.get('title') or 'Unknown Title'

@@ -1,7 +1,7 @@
 import discord
 from typing import Tuple
 import json
-from utils.embed_builder import build_add_anime_embed, build_remove_anime_embed
+from AniAlert.utils.builders.embed_builder import build_add_anime_embed, build_remove_anime_embed
 from db.database import cursor, conn
 
 async def check_anime_exists(interaction, query_params, anime_name) -> bool:

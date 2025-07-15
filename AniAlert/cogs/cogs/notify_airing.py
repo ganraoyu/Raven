@@ -4,7 +4,7 @@ from discord.ext import commands, tasks
 from services.anime_service import get_full_anime_info
 from services.airing_checker import check_notify_list, check_if_aired
 
-from utils.embed_builder import build_anime_airing_notification_embed
+from AniAlert.utils.builders.embed_builder import build_anime_airing_notification_embed
 
 class NotifyAnimeAiredCog(commands.Cog):
   def __init__(self, bot, cursor, conn):

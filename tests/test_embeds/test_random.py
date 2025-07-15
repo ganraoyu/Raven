@@ -1,5 +1,5 @@
 import discord
-from AniAlert.utils.embed_builder import build_random_anime_embed
+from AniAlert.utils.builders.embed_builder import build_random_anime_embed
 
 def get_dummy_anime(**overrides):
     data = {

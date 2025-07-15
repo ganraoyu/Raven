@@ -1,42 +1,8 @@
 import requests, json, random
-from AniAlert.utils.common_genres_tags import get_common_genres_tags
-query = '''
-query($page: Int, $genre_in: [String], $tag_in: [String], $media_type: [MediaFormat],) {
-  Page(page: $page, perPage: 4) {
-    media(
-    type: ANIME,
-    isAdult: false, 
-    genre_in: $genre_in, 
-    sort: [POPULARITY_DESC],
-    tag_in: $tag_in,
-    format_in: $media_type
-    ) {
-      title {
-        romaji
-        english
-      }
-      coverImage {
-        extraLarge
-      }
-      description
-      episodes
-      genres
-      tags {
-        name
-      }
-      studios {
-        nodes {
-          isAnimationStudio
-          name
-        }
-      }
-      format
-      averageScore
-      status
-    }
-  }
-}
-'''
+from AniAlert.utils.discord_commands.common_genres_tags import get_common_genres_tags
+from AniAlert.providers.anilist.query_loader import load_graphql_query
+
+query = load_graphql_query('queries/random_query.graphql')
 
 common_genres, common_tags = get_common_genres_tags()
 

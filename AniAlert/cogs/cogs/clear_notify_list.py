@@ -2,7 +2,7 @@
 from discord.ext import commands
 from discord import app_commands, Interaction
 
-from utils.interaction_helper import get_user_and_guild_ids
+from AniAlert.utils.discord_commands.interaction_helper import get_user_and_guild_ids
 
 class ClearNotifyListCog(commands.Cog):
   def __init__(self, bot, cursor, conn):
