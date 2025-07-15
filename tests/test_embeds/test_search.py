@@ -1,6 +1,6 @@
 import pytest
 import discord
-from AniAlert.utils.embed_builder import build_search_anime_embed
+from AniAlert.utils.builders.embed_builder import build_search_anime_embed
 
 def get_dummy_anime(**overrides):
   data = {

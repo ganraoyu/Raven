@@ -1,0 +1,30 @@
+query($search: String){
+  Media(search: $search, type: ANIME){
+    id,
+    title{
+      romaji,
+      english
+    },
+    genres,
+    tags{
+      name
+    },
+    airingSchedule(notYetAired: true){
+      nodes{
+        airingAt,
+        timeUntilAiring,
+        episode
+      }
+    },
+    averageScore,
+    rankings {
+      rank
+      type
+      allTime
+      context
+      season
+      year
+    }
+    status
+  }
+}

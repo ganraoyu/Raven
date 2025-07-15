@@ -4,10 +4,10 @@ from discord.ext import commands
 from discord import app_commands, Interaction
 
 from services.anime_service import get_full_anime_info
-from utils.embed_builder import build_search_anime_embed
-from utils.embed_builder import build_remove_anime_embed
-from utils.choices import status_type_choices, media_type_choices
-from utils.button_builder import anime_buttons_view
+from AniAlert.utils.builders.embed_builder import build_search_anime_embed
+from AniAlert.utils.builders.embed_builder import build_remove_anime_embed
+from AniAlert.utils.discord_commands.choices import status_type_choices, media_type_choices
+from AniAlert.utils.builders.button_builder import anime_buttons_view
 
 MEDIA_TYPE_CHOICES = media_type_choices()
 STATUS_TYPE_CHOICES = status_type_choices()

@@ -1,5 +1,5 @@
 import discord
-from AniAlert.utils.embed_builder import build_anime_airing_notification_embed
+from AniAlert.utils.builders.embed_builder import build_anime_airing_notification_embed
 
 def get_dummy_airing_data(**overrides):
     data = {

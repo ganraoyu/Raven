@@ -1,6 +1,6 @@
 from discord.ext import commands
 from discord import app_commands, Interaction
-from utils.embed_builder import build_remove_anime_embed
+from AniAlert.utils.builders.embed_builder import build_remove_anime_embed
 
 class RemoveAnimeCog(commands.Cog):
 

@@ -1,7 +1,7 @@
 import pytest
 import discord
 
-from AniAlert.utils.embed_builder import build_seasonal_anime_embed
+from AniAlert.utils.builders.embed_builder import build_seasonal_anime_embed
 
 def get_dummy_data(**overrides):
   data = {

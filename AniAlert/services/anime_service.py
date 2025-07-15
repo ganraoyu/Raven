@@ -1,7 +1,7 @@
 import json
-from AniAlert.providers.anilist.search import search_anime_anilist
-from AniAlert.providers.anilist.seasonal import get_seasonal_animes_anilist
-from AniAlert.providers.anilist.randomize import get_random_anime
+from AniAlert.providers.anilist.processors.search_processor import search_anime_anilist
+from AniAlert.providers.anilist.processors.seasonal_processor import get_seasonal_animes_anilist
+from AniAlert.providers.anilist.processors.random_processor import get_random_anime
 from AniAlert.providers import search_kitsu_anime
 
 

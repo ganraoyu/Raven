@@ -4,9 +4,9 @@ from discord.ext import commands
 from discord import app_commands, Interaction
 
 from services.anime_service import get_random_anime_suggestion
-from utils.embed_builder import build_guess_anime_embed
-from utils.button_builder import guess_anime_buttons_view
-from utils.choices import popular_genre_tag_choices
+from AniAlert.utils.builders.embed_builder import build_guess_anime_embed
+from AniAlert.utils.builders.button_builder import guess_anime_buttons_view
+from AniAlert.utils.discord_commands.choices import popular_genre_tag_choices
 
 POPULAR_GENRE_TAG_CHOICES = popular_genre_tag_choices()
 

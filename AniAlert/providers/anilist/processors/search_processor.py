@@ -2,42 +2,12 @@ import requests
 import json
 import datetime
 from AniAlert.utils.time_converter import convert_unix
-from AniAlert.utils.common_genres_tags import get_common_genres_tags
+from AniAlert.utils.discord_commands.common_genres_tags import get_common_genres_tags
+from AniAlert.providers.anilist.query_loader import load_graphql_query
+
+query = load_graphql_query('queries/search_query.graphql')
 
 common_genres, common_tags = get_common_genres_tags()
-
-query = '''
-query($search: String){
-  Media(search: $search, type: ANIME){
-    id,
-    title{
-      romaji,
-      english
-    },
-    genres,
-    tags{
-      name
-    },
-    airingSchedule(notYetAired: true){
-      nodes{
-        airingAt,
-        timeUntilAiring,
-        episode
-      }
-    },
-    averageScore,
-    rankings {
-      rank
-      type
-      allTime
-      context
-      season
-      year
-    }
-    status
-  }
-}
-'''
 
 def _extract_episodes_list(airing_nodes):
   episode_list = []

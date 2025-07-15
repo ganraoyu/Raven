@@ -2,7 +2,7 @@ import pytest
 from unittest.mock import patch
 import datetime
 
-from AniAlert.providers.anilist.search import search_anime_anilist
+from AniAlert.providers.anilist.processors.search_processor import search_anime_anilist
 from AniAlert.utils.time_converter import convert_unix
 
 @patch('AniAlert.providers.anilist.search.requests.post')
