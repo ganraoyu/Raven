@@ -2,6 +2,7 @@ import json
 from AniAlert.providers.anilist.processors.search_processor import search_anime_anilist
 from AniAlert.providers.anilist.processors.seasonal_processor import get_seasonal_animes_anilist
 from AniAlert.providers.anilist.processors.random_processor import get_random_anime
+from AniAlert.providers.anilist.processors.schedule_processor import get_schedule
 from AniAlert.providers import search_kitsu_anime
 
 
@@ -112,6 +113,9 @@ def get_random_anime_suggestion(genres: list[str], media_type: str = 'all') -> l
   results = get_random_anime(genres, media_type)
   return results
 
+def get_seasonal_schedule():
+  results = get_schedule
+  return results
 
 if __name__ == '__main__':
   example = get_full_anime_info('One Piece', 1)

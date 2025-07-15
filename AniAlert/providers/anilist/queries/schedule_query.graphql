@@ -1,0 +1,70 @@
+query(
+  $page: Int,
+  $perPage: Int,
+  $seasonYear: Int,
+  $season: MediaSeason,
+  $type: MediaType,
+) {
+  Page(page: $page, perPage: $perPage) {
+    media(
+      seasonYear: $seasonYear,
+      season: $season,
+      type: $type,
+      sort: [POPULARITY_DESC]
+    ) {
+      id
+      title {
+        romaji
+        english
+      }
+      format
+      genres
+      tags {
+        name
+      }
+      averageScore
+      meanScore
+      popularity
+      episodes
+      description
+      coverImage {
+        extraLarge
+      }
+      startDate {
+        year
+        month
+        day
+      }
+      endDate {
+        year
+        month
+        day
+      }
+      status
+      format
+      studios {
+        nodes {
+          name
+          isAnimationStudio
+        }
+      }
+      rankings {
+        rank
+        type
+        allTime
+        context
+        year
+        season
+      }
+      airingSchedule(notYetAired: true) {
+        nodes {
+          airingAt
+          timeUntilAiring
+          episode
+        }
+      }
+      status
+    }
+  }
+}
+
