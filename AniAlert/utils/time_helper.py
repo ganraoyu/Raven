@@ -1,4 +1,14 @@
 from datetime import datetime, timezone
+import datetime
+
+def get_today_time():
+  today = datetime.date.today()
+  current_time = datetime.datetime.now()
+  current_unix_time = int(current_time.timestamp())
+  midnight = datetime.datetime.combine(today, datetime.time.min)
+  today_unix_midnight = int(midnight.timestamp())
+
+  return today, today_unix_midnight, current_unix_time
 
 def convert_unix(seconds: int) -> str:
     """Convert duration in seconds to 'Xd Yh Zm Ws' format."""

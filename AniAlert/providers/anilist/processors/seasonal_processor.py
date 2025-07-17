@@ -2,7 +2,7 @@ from typing import List, Union
 import requests
 import json
 import datetime
-from AniAlert.utils.time_converter import convert_unix
+from AniAlert.utils.time_helper import convert_unix
 from AniAlert.utils.discord_commands.common_genres_tags import get_common_genres_tags
 from AniAlert.providers.anilist.query_loader import load_graphql_query
 from AniAlert.utils.seasonal_helper import get_season_year

@@ -14,53 +14,48 @@
     },
     "airing_schedule": [
       {
-        "episode": 3,
-        "time_until_airing": 52947,
-        "airing_at_unix": 1752765960
-      },
-      {
         "episode": 4,
-        "time_until_airing": 657747,
+        "time_until_airing": 589661,
         "airing_at_unix": 1753370760
       },
       {
         "episode": 5,
-        "time_until_airing": 1262547,
+        "time_until_airing": 1194461,
         "airing_at_unix": 1753975560
       },
       {
         "episode": 6,
-        "time_until_airing": 1867347,
+        "time_until_airing": 1799261,
         "airing_at_unix": 1754580360
       },
       {
         "episode": 7,
-        "time_until_airing": 2472147,
+        "time_until_airing": 2404061,
         "airing_at_unix": 1755185160
       },
       {
         "episode": 8,
-        "time_until_airing": 3076947,
+        "time_until_airing": 3008861,
         "airing_at_unix": 1755789960
       },
       {
         "episode": 9,
-        "time_until_airing": 3681747,
+        "time_until_airing": 3613661,
         "airing_at_unix": 1756394760
       },
       {
         "episode": 10,
-        "time_until_airing": 4286547,
+        "time_until_airing": 4218461,
         "airing_at_unix": 1756999560
       },
       {
         "episode": 11,
-        "time_until_airing": 4891347,
+        "time_until_airing": 4823261,
         "airing_at_unix": 1757604360
       },
       {
         "episode": 12,
-        "time_until_airing": 5496147,
+        "time_until_airing": 5428061,
         "airing_at_unix": 1758209160
       }
     ]
@@ -81,52 +76,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 224187,
+        "time_until_airing": 156101,
         "airing_at_unix": 1752937200
       },
       {
         "episode": 4,
-        "time_until_airing": 828987,
+        "time_until_airing": 760901,
         "airing_at_unix": 1753542000
       },
       {
         "episode": 5,
-        "time_until_airing": 1433787,
+        "time_until_airing": 1365701,
         "airing_at_unix": 1754146800
       },
       {
         "episode": 6,
-        "time_until_airing": 2038587,
+        "time_until_airing": 1970501,
         "airing_at_unix": 1754751600
       },
       {
         "episode": 7,
-        "time_until_airing": 2643387,
+        "time_until_airing": 2575301,
         "airing_at_unix": 1755356400
       },
       {
         "episode": 8,
-        "time_until_airing": 3248187,
+        "time_until_airing": 3180101,
         "airing_at_unix": 1755961200
       },
       {
         "episode": 9,
-        "time_until_airing": 3852987,
+        "time_until_airing": 3784901,
         "airing_at_unix": 1756566000
       },
       {
         "episode": 10,
-        "time_until_airing": 4457787,
+        "time_until_airing": 4389701,
         "airing_at_unix": 1757170800
       },
       {
         "episode": 11,
-        "time_until_airing": 5062587,
+        "time_until_airing": 4994501,
         "airing_at_unix": 1757775600
       },
       {
         "episode": 12,
-        "time_until_airing": 5667387,
+        "time_until_airing": 5599301,
         "airing_at_unix": 1758380400
       }
     ]
@@ -144,13 +139,7 @@
       "month": 7,
       "day": 18
     },
-    "airing_schedule": [
-      {
-        "episode": 1,
-        "time_until_airing": 51387,
-        "airing_at_unix": 1752764400
-      }
-    ]
+    "airing_schedule": []
   },
   {
     "title": "Chainsaw Man – The Movie: Reze Arc",
@@ -168,7 +157,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 5494587,
+        "time_until_airing": 5426501,
         "airing_at_unix": 1758207600
       }
     ]
@@ -189,112 +178,112 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 913587,
+        "time_until_airing": 845501,
         "airing_at_unix": 1753626600
       },
       {
         "episode": 4,
-        "time_until_airing": 1518387,
+        "time_until_airing": 1450301,
         "airing_at_unix": 1754231400
       },
       {
         "episode": 5,
-        "time_until_airing": 2123187,
+        "time_until_airing": 2055101,
         "airing_at_unix": 1754836200
       },
       {
         "episode": 6,
-        "time_until_airing": 2727987,
+        "time_until_airing": 2659901,
         "airing_at_unix": 1755441000
       },
       {
         "episode": 7,
-        "time_until_airing": 3332787,
+        "time_until_airing": 3264701,
         "airing_at_unix": 1756045800
       },
       {
         "episode": 8,
-        "time_until_airing": 3937587,
+        "time_until_airing": 3869501,
         "airing_at_unix": 1756650600
       },
       {
         "episode": 9,
-        "time_until_airing": 4542387,
+        "time_until_airing": 4474301,
         "airing_at_unix": 1757255400
       },
       {
         "episode": 10,
-        "time_until_airing": 5147187,
+        "time_until_airing": 5079101,
         "airing_at_unix": 1757860200
       },
       {
         "episode": 11,
-        "time_until_airing": 5751987,
+        "time_until_airing": 5683901,
         "airing_at_unix": 1758465000
       },
       {
         "episode": 12,
-        "time_until_airing": 6356787,
+        "time_until_airing": 6288701,
         "airing_at_unix": 1759069800
       },
       {
         "episode": 13,
-        "time_until_airing": 6961587,
+        "time_until_airing": 6893501,
         "airing_at_unix": 1759674600
       },
       {
         "episode": 14,
-        "time_until_airing": 7566387,
+        "time_until_airing": 7498301,
         "airing_at_unix": 1760279400
       },
       {
         "episode": 15,
-        "time_until_airing": 8171187,
+        "time_until_airing": 8103101,
         "airing_at_unix": 1760884200
       },
       {
         "episode": 16,
-        "time_until_airing": 8775987,
+        "time_until_airing": 8707901,
         "airing_at_unix": 1761489000
       },
       {
         "episode": 17,
-        "time_until_airing": 9380787,
+        "time_until_airing": 9312701,
         "airing_at_unix": 1762093800
       },
       {
         "episode": 18,
-        "time_until_airing": 9985587,
+        "time_until_airing": 9917501,
         "airing_at_unix": 1762698600
       },
       {
         "episode": 19,
-        "time_until_airing": 10590387,
+        "time_until_airing": 10522301,
         "airing_at_unix": 1763303400
       },
       {
         "episode": 20,
-        "time_until_airing": 11195187,
+        "time_until_airing": 11127101,
         "airing_at_unix": 1763908200
       },
       {
         "episode": 21,
-        "time_until_airing": 11799987,
+        "time_until_airing": 11731901,
         "airing_at_unix": 1764513000
       },
       {
         "episode": 22,
-        "time_until_airing": 12404787,
+        "time_until_airing": 12336701,
         "airing_at_unix": 1765117800
       },
       {
         "episode": 23,
-        "time_until_airing": 13009587,
+        "time_until_airing": 12941501,
         "airing_at_unix": 1765722600
       },
       {
         "episode": 24,
-        "time_until_airing": 13614387,
+        "time_until_airing": 13546301,
         "airing_at_unix": 1766327400
       }
     ]
@@ -315,57 +304,57 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 225987,
+        "time_until_airing": 157901,
         "airing_at_unix": 1752939000
       },
       {
         "episode": 4,
-        "time_until_airing": 830787,
+        "time_until_airing": 762701,
         "airing_at_unix": 1753543800
       },
       {
         "episode": 5,
-        "time_until_airing": 1435587,
+        "time_until_airing": 1367501,
         "airing_at_unix": 1754148600
       },
       {
         "episode": 6,
-        "time_until_airing": 2040387,
+        "time_until_airing": 1972301,
         "airing_at_unix": 1754753400
       },
       {
         "episode": 7,
-        "time_until_airing": 2645187,
+        "time_until_airing": 2577101,
         "airing_at_unix": 1755358200
       },
       {
         "episode": 8,
-        "time_until_airing": 3249987,
+        "time_until_airing": 3181901,
         "airing_at_unix": 1755963000
       },
       {
         "episode": 9,
-        "time_until_airing": 3854787,
+        "time_until_airing": 3786701,
         "airing_at_unix": 1756567800
       },
       {
         "episode": 10,
-        "time_until_airing": 4459587,
+        "time_until_airing": 4391501,
         "airing_at_unix": 1757172600
       },
       {
         "episode": 11,
-        "time_until_airing": 5064387,
+        "time_until_airing": 4996301,
         "airing_at_unix": 1757777400
       },
       {
         "episode": 12,
-        "time_until_airing": 5669187,
+        "time_until_airing": 5601101,
         "airing_at_unix": 1758382200
       },
       {
         "episode": 13,
-        "time_until_airing": 6273987,
+        "time_until_airing": 6205901,
         "airing_at_unix": 1758987000
       }
     ]
@@ -386,62 +375,62 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 220587,
+        "time_until_airing": 152501,
         "airing_at_unix": 1752933600
       },
       {
         "episode": 2,
-        "time_until_airing": 825387,
+        "time_until_airing": 757301,
         "airing_at_unix": 1753538400
       },
       {
         "episode": 3,
-        "time_until_airing": 1430187,
+        "time_until_airing": 1362101,
         "airing_at_unix": 1754143200
       },
       {
         "episode": 4,
-        "time_until_airing": 2034987,
+        "time_until_airing": 1966901,
         "airing_at_unix": 1754748000
       },
       {
         "episode": 5,
-        "time_until_airing": 2639787,
+        "time_until_airing": 2571701,
         "airing_at_unix": 1755352800
       },
       {
         "episode": 6,
-        "time_until_airing": 3244587,
+        "time_until_airing": 3176501,
         "airing_at_unix": 1755957600
       },
       {
         "episode": 7,
-        "time_until_airing": 3849387,
+        "time_until_airing": 3781301,
         "airing_at_unix": 1756562400
       },
       {
         "episode": 8,
-        "time_until_airing": 4454187,
+        "time_until_airing": 4386101,
         "airing_at_unix": 1757167200
       },
       {
         "episode": 9,
-        "time_until_airing": 5058987,
+        "time_until_airing": 4990901,
         "airing_at_unix": 1757772000
       },
       {
         "episode": 10,
-        "time_until_airing": 5663787,
+        "time_until_airing": 5595701,
         "airing_at_unix": 1758376800
       },
       {
         "episode": 11,
-        "time_until_airing": 6268587,
+        "time_until_airing": 6200501,
         "airing_at_unix": 1758981600
       },
       {
         "episode": 12,
-        "time_until_airing": 6873387,
+        "time_until_airing": 6805301,
         "airing_at_unix": 1759586400
       }
     ]
@@ -462,52 +451,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 227547,
+        "time_until_airing": 159461,
         "airing_at_unix": 1752940560
       },
       {
         "episode": 4,
-        "time_until_airing": 832347,
+        "time_until_airing": 764261,
         "airing_at_unix": 1753545360
       },
       {
         "episode": 5,
-        "time_until_airing": 1437147,
+        "time_until_airing": 1369061,
         "airing_at_unix": 1754150160
       },
       {
         "episode": 6,
-        "time_until_airing": 2041947,
+        "time_until_airing": 1973861,
         "airing_at_unix": 1754754960
       },
       {
         "episode": 7,
-        "time_until_airing": 2646747,
+        "time_until_airing": 2578661,
         "airing_at_unix": 1755359760
       },
       {
         "episode": 8,
-        "time_until_airing": 3251547,
+        "time_until_airing": 3183461,
         "airing_at_unix": 1755964560
       },
       {
         "episode": 9,
-        "time_until_airing": 3856347,
+        "time_until_airing": 3788261,
         "airing_at_unix": 1756569360
       },
       {
         "episode": 10,
-        "time_until_airing": 4461147,
+        "time_until_airing": 4393061,
         "airing_at_unix": 1757174160
       },
       {
         "episode": 11,
-        "time_until_airing": 5065947,
+        "time_until_airing": 4997861,
         "airing_at_unix": 1757778960
       },
       {
         "episode": 12,
-        "time_until_airing": 5670747,
+        "time_until_airing": 5602661,
         "airing_at_unix": 1758383760
       }
     ]
@@ -528,52 +517,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 135987,
+        "time_until_airing": 67901,
         "airing_at_unix": 1752849000
       },
       {
         "episode": 4,
-        "time_until_airing": 740787,
+        "time_until_airing": 672701,
         "airing_at_unix": 1753453800
       },
       {
         "episode": 5,
-        "time_until_airing": 1345587,
+        "time_until_airing": 1277501,
         "airing_at_unix": 1754058600
       },
       {
         "episode": 6,
-        "time_until_airing": 1950387,
+        "time_until_airing": 1882301,
         "airing_at_unix": 1754663400
       },
       {
         "episode": 7,
-        "time_until_airing": 2555187,
+        "time_until_airing": 2487101,
         "airing_at_unix": 1755268200
       },
       {
         "episode": 8,
-        "time_until_airing": 3159987,
+        "time_until_airing": 3091901,
         "airing_at_unix": 1755873000
       },
       {
         "episode": 9,
-        "time_until_airing": 3764787,
+        "time_until_airing": 3696701,
         "airing_at_unix": 1756477800
       },
       {
         "episode": 10,
-        "time_until_airing": 4369587,
+        "time_until_airing": 4301501,
         "airing_at_unix": 1757082600
       },
       {
         "episode": 11,
-        "time_until_airing": 4974387,
+        "time_until_airing": 4906301,
         "airing_at_unix": 1757687400
       },
       {
         "episode": 12,
-        "time_until_airing": 5579187,
+        "time_until_airing": 5511101,
         "airing_at_unix": 1758292200
       }
     ]
@@ -594,47 +583,47 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 396987,
+        "time_until_airing": 328901,
         "airing_at_unix": 1753110000
       },
       {
         "episode": 4,
-        "time_until_airing": 1001787,
+        "time_until_airing": 933701,
         "airing_at_unix": 1753714800
       },
       {
         "episode": 5,
-        "time_until_airing": 1606587,
+        "time_until_airing": 1538501,
         "airing_at_unix": 1754319600
       },
       {
         "episode": 6,
-        "time_until_airing": 2211387,
+        "time_until_airing": 2143301,
         "airing_at_unix": 1754924400
       },
       {
         "episode": 7,
-        "time_until_airing": 2816187,
+        "time_until_airing": 2748101,
         "airing_at_unix": 1755529200
       },
       {
         "episode": 8,
-        "time_until_airing": 3420987,
+        "time_until_airing": 3352901,
         "airing_at_unix": 1756134000
       },
       {
         "episode": 9,
-        "time_until_airing": 4025787,
+        "time_until_airing": 3957701,
         "airing_at_unix": 1756738800
       },
       {
         "episode": 10,
-        "time_until_airing": 4630587,
+        "time_until_airing": 4562501,
         "airing_at_unix": 1757343600
       },
       {
         "episode": 11,
-        "time_until_airing": 5235387,
+        "time_until_airing": 5167301,
         "airing_at_unix": 1757948400
       }
     ]
@@ -655,17 +644,17 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 137787,
+        "time_until_airing": 69701,
         "airing_at_unix": 1752850800
       },
       {
         "episode": 5,
-        "time_until_airing": 742587,
+        "time_until_airing": 674501,
         "airing_at_unix": 1753455600
       },
       {
         "episode": 6,
-        "time_until_airing": 1347387,
+        "time_until_airing": 1279301,
         "airing_at_unix": 1754060400
       }
     ]
@@ -686,57 +675,57 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 222387,
+        "time_until_airing": 154301,
         "airing_at_unix": 1752935400
       },
       {
         "episode": 4,
-        "time_until_airing": 827187,
+        "time_until_airing": 759101,
         "airing_at_unix": 1753540200
       },
       {
         "episode": 5,
-        "time_until_airing": 1431987,
+        "time_until_airing": 1363901,
         "airing_at_unix": 1754145000
       },
       {
         "episode": 6,
-        "time_until_airing": 2036787,
+        "time_until_airing": 1968701,
         "airing_at_unix": 1754749800
       },
       {
         "episode": 7,
-        "time_until_airing": 2641587,
+        "time_until_airing": 2573501,
         "airing_at_unix": 1755354600
       },
       {
         "episode": 8,
-        "time_until_airing": 3246387,
+        "time_until_airing": 3178301,
         "airing_at_unix": 1755959400
       },
       {
         "episode": 9,
-        "time_until_airing": 3851187,
+        "time_until_airing": 3783101,
         "airing_at_unix": 1756564200
       },
       {
         "episode": 10,
-        "time_until_airing": 4455987,
+        "time_until_airing": 4387901,
         "airing_at_unix": 1757169000
       },
       {
         "episode": 11,
-        "time_until_airing": 5060787,
+        "time_until_airing": 4992701,
         "airing_at_unix": 1757773800
       },
       {
         "episode": 12,
-        "time_until_airing": 5665587,
+        "time_until_airing": 5597501,
         "airing_at_unix": 1758378600
       },
       {
         "episode": 13,
-        "time_until_airing": 6270387,
+        "time_until_airing": 6202301,
         "airing_at_unix": 1758983400
       }
     ]
@@ -757,52 +746,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 558987,
+        "time_until_airing": 490901,
         "airing_at_unix": 1753272000
       },
       {
         "episode": 4,
-        "time_until_airing": 1163787,
+        "time_until_airing": 1095701,
         "airing_at_unix": 1753876800
       },
       {
         "episode": 5,
-        "time_until_airing": 1768587,
+        "time_until_airing": 1700501,
         "airing_at_unix": 1754481600
       },
       {
         "episode": 6,
-        "time_until_airing": 2373387,
+        "time_until_airing": 2305301,
         "airing_at_unix": 1755086400
       },
       {
         "episode": 7,
-        "time_until_airing": 2978187,
+        "time_until_airing": 2910101,
         "airing_at_unix": 1755691200
       },
       {
         "episode": 8,
-        "time_until_airing": 3582987,
+        "time_until_airing": 3514901,
         "airing_at_unix": 1756296000
       },
       {
         "episode": 9,
-        "time_until_airing": 4187787,
+        "time_until_airing": 4119701,
         "airing_at_unix": 1756900800
       },
       {
         "episode": 10,
-        "time_until_airing": 4792587,
+        "time_until_airing": 4724501,
         "airing_at_unix": 1757505600
       },
       {
         "episode": 11,
-        "time_until_airing": 5397387,
+        "time_until_airing": 5329301,
         "airing_at_unix": 1758110400
       },
       {
         "episode": 12,
-        "time_until_airing": 6002187,
+        "time_until_airing": 5934101,
         "airing_at_unix": 1758715200
       }
     ]
@@ -822,58 +811,53 @@
     },
     "airing_schedule": [
       {
-        "episode": 2,
-        "time_until_airing": 44187,
-        "airing_at_unix": 1752757200
-      },
-      {
         "episode": 3,
-        "time_until_airing": 648987,
+        "time_until_airing": 580901,
         "airing_at_unix": 1753362000
       },
       {
         "episode": 4,
-        "time_until_airing": 1253787,
+        "time_until_airing": 1185701,
         "airing_at_unix": 1753966800
       },
       {
         "episode": 5,
-        "time_until_airing": 1858587,
+        "time_until_airing": 1790501,
         "airing_at_unix": 1754571600
       },
       {
         "episode": 6,
-        "time_until_airing": 2463387,
+        "time_until_airing": 2395301,
         "airing_at_unix": 1755176400
       },
       {
         "episode": 7,
-        "time_until_airing": 3068187,
+        "time_until_airing": 3000101,
         "airing_at_unix": 1755781200
       },
       {
         "episode": 8,
-        "time_until_airing": 3672987,
+        "time_until_airing": 3604901,
         "airing_at_unix": 1756386000
       },
       {
         "episode": 9,
-        "time_until_airing": 4277787,
+        "time_until_airing": 4209701,
         "airing_at_unix": 1756990800
       },
       {
         "episode": 10,
-        "time_until_airing": 4882587,
+        "time_until_airing": 4814501,
         "airing_at_unix": 1757595600
       },
       {
         "episode": 11,
-        "time_until_airing": 5487387,
+        "time_until_airing": 5419301,
         "airing_at_unix": 1758200400
       },
       {
         "episode": 12,
-        "time_until_airing": 6092187,
+        "time_until_airing": 6024101,
         "airing_at_unix": 1758805200
       }
     ]
@@ -894,52 +878,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 398787,
+        "time_until_airing": 330701,
         "airing_at_unix": 1753111800
       },
       {
         "episode": 4,
-        "time_until_airing": 1003587,
+        "time_until_airing": 935501,
         "airing_at_unix": 1753716600
       },
       {
         "episode": 5,
-        "time_until_airing": 1608387,
+        "time_until_airing": 1540301,
         "airing_at_unix": 1754321400
       },
       {
         "episode": 6,
-        "time_until_airing": 2213187,
+        "time_until_airing": 2145101,
         "airing_at_unix": 1754926200
       },
       {
         "episode": 7,
-        "time_until_airing": 2817987,
+        "time_until_airing": 2749901,
         "airing_at_unix": 1755531000
       },
       {
         "episode": 8,
-        "time_until_airing": 3422787,
+        "time_until_airing": 3354701,
         "airing_at_unix": 1756135800
       },
       {
         "episode": 9,
-        "time_until_airing": 4027587,
+        "time_until_airing": 3959501,
         "airing_at_unix": 1756740600
       },
       {
         "episode": 10,
-        "time_until_airing": 4632387,
+        "time_until_airing": 4564301,
         "airing_at_unix": 1757345400
       },
       {
         "episode": 11,
-        "time_until_airing": 5237187,
+        "time_until_airing": 5169101,
         "airing_at_unix": 1757950200
       },
       {
         "episode": 12,
-        "time_until_airing": 5841987,
+        "time_until_airing": 5773901,
         "airing_at_unix": 1758555000
       }
     ]
@@ -960,57 +944,57 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 137787,
+        "time_until_airing": 69701,
         "airing_at_unix": 1752850800
       },
       {
         "episode": 4,
-        "time_until_airing": 742587,
+        "time_until_airing": 674501,
         "airing_at_unix": 1753455600
       },
       {
         "episode": 5,
-        "time_until_airing": 1347387,
+        "time_until_airing": 1279301,
         "airing_at_unix": 1754060400
       },
       {
         "episode": 6,
-        "time_until_airing": 1952187,
+        "time_until_airing": 1884101,
         "airing_at_unix": 1754665200
       },
       {
         "episode": 7,
-        "time_until_airing": 2556987,
+        "time_until_airing": 2488901,
         "airing_at_unix": 1755270000
       },
       {
         "episode": 8,
-        "time_until_airing": 3161787,
+        "time_until_airing": 3093701,
         "airing_at_unix": 1755874800
       },
       {
         "episode": 9,
-        "time_until_airing": 3766587,
+        "time_until_airing": 3698501,
         "airing_at_unix": 1756479600
       },
       {
         "episode": 10,
-        "time_until_airing": 4371387,
+        "time_until_airing": 4303301,
         "airing_at_unix": 1757084400
       },
       {
         "episode": 11,
-        "time_until_airing": 4976187,
+        "time_until_airing": 4908101,
         "airing_at_unix": 1757689200
       },
       {
         "episode": 12,
-        "time_until_airing": 5580987,
+        "time_until_airing": 5512901,
         "airing_at_unix": 1758294000
       },
       {
         "episode": 13,
-        "time_until_airing": 6185787,
+        "time_until_airing": 6117701,
         "airing_at_unix": 1758898800
       }
     ]
@@ -1030,185 +1014,49 @@
     },
     "airing_schedule": [
       {
-        "episode": 3,
-        "time_until_airing": 56667,
-        "airing_at_unix": 1752769680
-      },
-      {
         "episode": 4,
-        "time_until_airing": 661467,
+        "time_until_airing": 593381,
         "airing_at_unix": 1753374480
       },
       {
         "episode": 5,
-        "time_until_airing": 1266267,
+        "time_until_airing": 1198181,
         "airing_at_unix": 1753979280
       },
       {
         "episode": 6,
-        "time_until_airing": 1871067,
+        "time_until_airing": 1802981,
         "airing_at_unix": 1754584080
       },
       {
         "episode": 7,
-        "time_until_airing": 2475867,
+        "time_until_airing": 2407781,
         "airing_at_unix": 1755188880
       },
       {
         "episode": 8,
-        "time_until_airing": 3080667,
+        "time_until_airing": 3012581,
         "airing_at_unix": 1755793680
       },
       {
         "episode": 9,
-        "time_until_airing": 3685467,
+        "time_until_airing": 3617381,
         "airing_at_unix": 1756398480
       },
       {
         "episode": 10,
-        "time_until_airing": 4290267,
+        "time_until_airing": 4222181,
         "airing_at_unix": 1757003280
       },
       {
         "episode": 11,
-        "time_until_airing": 4895067,
+        "time_until_airing": 4826981,
         "airing_at_unix": 1757608080
       },
       {
         "episode": 12,
-        "time_until_airing": 5499867,
+        "time_until_airing": 5431781,
         "airing_at_unix": 1758212880
-      }
-    ]
-  },
-  {
-    "title": "TOUGEN ANKI",
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177474-oHil1yLWldfl.jpg",
-    "start_date": {
-      "year": 2025,
-      "month": 7,
-      "day": 11
-    },
-    "end_date": {
-      "year": null,
-      "month": null,
-      "day": null
-    },
-    "airing_schedule": [
-      {
-        "episode": 2,
-        "time_until_airing": 134187,
-        "airing_at_unix": 1752847200
-      },
-      {
-        "episode": 3,
-        "time_until_airing": 738987,
-        "airing_at_unix": 1753452000
-      },
-      {
-        "episode": 4,
-        "time_until_airing": 1343787,
-        "airing_at_unix": 1754056800
-      },
-      {
-        "episode": 5,
-        "time_until_airing": 1948587,
-        "airing_at_unix": 1754661600
-      },
-      {
-        "episode": 6,
-        "time_until_airing": 2553387,
-        "airing_at_unix": 1755266400
-      },
-      {
-        "episode": 7,
-        "time_until_airing": 3158187,
-        "airing_at_unix": 1755871200
-      },
-      {
-        "episode": 8,
-        "time_until_airing": 3762987,
-        "airing_at_unix": 1756476000
-      },
-      {
-        "episode": 9,
-        "time_until_airing": 4367787,
-        "airing_at_unix": 1757080800
-      },
-      {
-        "episode": 10,
-        "time_until_airing": 4972587,
-        "airing_at_unix": 1757685600
-      },
-      {
-        "episode": 11,
-        "time_until_airing": 5577387,
-        "airing_at_unix": 1758290400
-      },
-      {
-        "episode": 12,
-        "time_until_airing": 6182187,
-        "airing_at_unix": 1758895200
-      },
-      {
-        "episode": 13,
-        "time_until_airing": 6786987,
-        "airing_at_unix": 1759500000
-      },
-      {
-        "episode": 14,
-        "time_until_airing": 7391787,
-        "airing_at_unix": 1760104800
-      },
-      {
-        "episode": 15,
-        "time_until_airing": 7996587,
-        "airing_at_unix": 1760709600
-      },
-      {
-        "episode": 16,
-        "time_until_airing": 8601387,
-        "airing_at_unix": 1761314400
-      },
-      {
-        "episode": 17,
-        "time_until_airing": 9206187,
-        "airing_at_unix": 1761919200
-      },
-      {
-        "episode": 18,
-        "time_until_airing": 9810987,
-        "airing_at_unix": 1762524000
-      },
-      {
-        "episode": 19,
-        "time_until_airing": 10415787,
-        "airing_at_unix": 1763128800
-      },
-      {
-        "episode": 20,
-        "time_until_airing": 11020587,
-        "airing_at_unix": 1763733600
-      },
-      {
-        "episode": 21,
-        "time_until_airing": 11625387,
-        "airing_at_unix": 1764338400
-      },
-      {
-        "episode": 22,
-        "time_until_airing": 12230187,
-        "airing_at_unix": 1764943200
-      },
-      {
-        "episode": 23,
-        "time_until_airing": 12834987,
-        "airing_at_unix": 1765548000
-      },
-      {
-        "episode": 24,
-        "time_until_airing": 13439787,
-        "airing_at_unix": 1766152800
       }
     ]
   },
@@ -1228,53 +1076,184 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       },
       {
         "episode": 4,
-        "time_until_airing": 1174587,
+        "time_until_airing": 1106501,
         "airing_at_unix": 1753887600
       },
       {
         "episode": 5,
-        "time_until_airing": 1779387,
+        "time_until_airing": 1711301,
         "airing_at_unix": 1754492400
       },
       {
         "episode": 6,
-        "time_until_airing": 2384187,
+        "time_until_airing": 2316101,
         "airing_at_unix": 1755097200
       },
       {
         "episode": 7,
-        "time_until_airing": 2988987,
+        "time_until_airing": 2920901,
         "airing_at_unix": 1755702000
       },
       {
         "episode": 8,
-        "time_until_airing": 3593787,
+        "time_until_airing": 3525701,
         "airing_at_unix": 1756306800
       },
       {
         "episode": 9,
-        "time_until_airing": 4198587,
+        "time_until_airing": 4130501,
         "airing_at_unix": 1756911600
       },
       {
         "episode": 10,
-        "time_until_airing": 4803387,
+        "time_until_airing": 4735301,
         "airing_at_unix": 1757516400
       },
       {
         "episode": 11,
-        "time_until_airing": 5408187,
+        "time_until_airing": 5340101,
         "airing_at_unix": 1758121200
       },
       {
         "episode": 12,
-        "time_until_airing": 6012987,
+        "time_until_airing": 5944901,
         "airing_at_unix": 1758726000
+      }
+    ]
+  },
+  {
+    "title": "TOUGEN ANKI",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177474-oHil1yLWldfl.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 11
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 2,
+        "time_until_airing": 66101,
+        "airing_at_unix": 1752847200
+      },
+      {
+        "episode": 3,
+        "time_until_airing": 670901,
+        "airing_at_unix": 1753452000
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1275701,
+        "airing_at_unix": 1754056800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1880501,
+        "airing_at_unix": 1754661600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2485301,
+        "airing_at_unix": 1755266400
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 3090101,
+        "airing_at_unix": 1755871200
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3694901,
+        "airing_at_unix": 1756476000
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4299701,
+        "airing_at_unix": 1757080800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4904501,
+        "airing_at_unix": 1757685600
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5509301,
+        "airing_at_unix": 1758290400
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6114101,
+        "airing_at_unix": 1758895200
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6718901,
+        "airing_at_unix": 1759500000
+      },
+      {
+        "episode": 14,
+        "time_until_airing": 7323701,
+        "airing_at_unix": 1760104800
+      },
+      {
+        "episode": 15,
+        "time_until_airing": 7928501,
+        "airing_at_unix": 1760709600
+      },
+      {
+        "episode": 16,
+        "time_until_airing": 8533301,
+        "airing_at_unix": 1761314400
+      },
+      {
+        "episode": 17,
+        "time_until_airing": 9138101,
+        "airing_at_unix": 1761919200
+      },
+      {
+        "episode": 18,
+        "time_until_airing": 9742901,
+        "airing_at_unix": 1762524000
+      },
+      {
+        "episode": 19,
+        "time_until_airing": 10347701,
+        "airing_at_unix": 1763128800
+      },
+      {
+        "episode": 20,
+        "time_until_airing": 10952501,
+        "airing_at_unix": 1763733600
+      },
+      {
+        "episode": 21,
+        "time_until_airing": 11557301,
+        "airing_at_unix": 1764338400
+      },
+      {
+        "episode": 22,
+        "time_until_airing": 12162101,
+        "airing_at_unix": 1764943200
+      },
+      {
+        "episode": 23,
+        "time_until_airing": 12766901,
+        "airing_at_unix": 1765548000
+      },
+      {
+        "episode": 24,
+        "time_until_airing": 13371701,
+        "airing_at_unix": 1766152800
       }
     ]
   },
@@ -1294,57 +1273,57 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 310587,
+        "time_until_airing": 242501,
         "airing_at_unix": 1753023600
       },
       {
         "episode": 4,
-        "time_until_airing": 915387,
+        "time_until_airing": 847301,
         "airing_at_unix": 1753628400
       },
       {
         "episode": 5,
-        "time_until_airing": 1520187,
+        "time_until_airing": 1452101,
         "airing_at_unix": 1754233200
       },
       {
         "episode": 6,
-        "time_until_airing": 2124987,
+        "time_until_airing": 2056901,
         "airing_at_unix": 1754838000
       },
       {
         "episode": 7,
-        "time_until_airing": 2729787,
+        "time_until_airing": 2661701,
         "airing_at_unix": 1755442800
       },
       {
         "episode": 8,
-        "time_until_airing": 3334587,
+        "time_until_airing": 3266501,
         "airing_at_unix": 1756047600
       },
       {
         "episode": 9,
-        "time_until_airing": 3939387,
+        "time_until_airing": 3871301,
         "airing_at_unix": 1756652400
       },
       {
         "episode": 10,
-        "time_until_airing": 4544187,
+        "time_until_airing": 4476101,
         "airing_at_unix": 1757257200
       },
       {
         "episode": 11,
-        "time_until_airing": 5148987,
+        "time_until_airing": 5080901,
         "airing_at_unix": 1757862000
       },
       {
         "episode": 12,
-        "time_until_airing": 5753787,
+        "time_until_airing": 5685701,
         "airing_at_unix": 1758466800
       },
       {
         "episode": 13,
-        "time_until_airing": 6358587,
+        "time_until_airing": 6290501,
         "airing_at_unix": 1759071600
       }
     ]
@@ -1365,57 +1344,57 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 573387,
+        "time_until_airing": 505301,
         "airing_at_unix": 1753286400
       },
       {
         "episode": 4,
-        "time_until_airing": 1178187,
+        "time_until_airing": 1110101,
         "airing_at_unix": 1753891200
       },
       {
         "episode": 5,
-        "time_until_airing": 1782987,
+        "time_until_airing": 1714901,
         "airing_at_unix": 1754496000
       },
       {
         "episode": 6,
-        "time_until_airing": 2387787,
+        "time_until_airing": 2319701,
         "airing_at_unix": 1755100800
       },
       {
         "episode": 7,
-        "time_until_airing": 2992587,
+        "time_until_airing": 2924501,
         "airing_at_unix": 1755705600
       },
       {
         "episode": 8,
-        "time_until_airing": 3597387,
+        "time_until_airing": 3529301,
         "airing_at_unix": 1756310400
       },
       {
         "episode": 9,
-        "time_until_airing": 4202187,
+        "time_until_airing": 4134101,
         "airing_at_unix": 1756915200
       },
       {
         "episode": 10,
-        "time_until_airing": 4806987,
+        "time_until_airing": 4738901,
         "airing_at_unix": 1757520000
       },
       {
         "episode": 11,
-        "time_until_airing": 5411787,
+        "time_until_airing": 5343701,
         "airing_at_unix": 1758124800
       },
       {
         "episode": 12,
-        "time_until_airing": 6016587,
+        "time_until_airing": 5948501,
         "airing_at_unix": 1758729600
       },
       {
         "episode": 13,
-        "time_until_airing": 6621387,
+        "time_until_airing": 6553301,
         "airing_at_unix": 1759334400
       }
     ]
@@ -1436,47 +1415,47 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 562587,
+        "time_until_airing": 494501,
         "airing_at_unix": 1753275600
       },
       {
         "episode": 5,
-        "time_until_airing": 1167387,
+        "time_until_airing": 1099301,
         "airing_at_unix": 1753880400
       },
       {
         "episode": 6,
-        "time_until_airing": 1772187,
+        "time_until_airing": 1704101,
         "airing_at_unix": 1754485200
       },
       {
         "episode": 7,
-        "time_until_airing": 2376987,
+        "time_until_airing": 2308901,
         "airing_at_unix": 1755090000
       },
       {
         "episode": 8,
-        "time_until_airing": 2981787,
+        "time_until_airing": 2913701,
         "airing_at_unix": 1755694800
       },
       {
         "episode": 9,
-        "time_until_airing": 3586587,
+        "time_until_airing": 3518501,
         "airing_at_unix": 1756299600
       },
       {
         "episode": 10,
-        "time_until_airing": 4191387,
+        "time_until_airing": 4123301,
         "airing_at_unix": 1756904400
       },
       {
         "episode": 11,
-        "time_until_airing": 4796187,
+        "time_until_airing": 4728101,
         "airing_at_unix": 1757509200
       },
       {
         "episode": 12,
-        "time_until_airing": 5400987,
+        "time_until_airing": 5332901,
         "airing_at_unix": 1758114000
       }
     ]
@@ -1497,52 +1476,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 400587,
+        "time_until_airing": 332501,
         "airing_at_unix": 1753113600
       },
       {
         "episode": 4,
-        "time_until_airing": 1005387,
+        "time_until_airing": 937301,
         "airing_at_unix": 1753718400
       },
       {
         "episode": 5,
-        "time_until_airing": 1610187,
+        "time_until_airing": 1542101,
         "airing_at_unix": 1754323200
       },
       {
         "episode": 6,
-        "time_until_airing": 2214987,
+        "time_until_airing": 2146901,
         "airing_at_unix": 1754928000
       },
       {
         "episode": 7,
-        "time_until_airing": 2819787,
+        "time_until_airing": 2751701,
         "airing_at_unix": 1755532800
       },
       {
         "episode": 8,
-        "time_until_airing": 3424587,
+        "time_until_airing": 3356501,
         "airing_at_unix": 1756137600
       },
       {
         "episode": 9,
-        "time_until_airing": 4029387,
+        "time_until_airing": 3961301,
         "airing_at_unix": 1756742400
       },
       {
         "episode": 10,
-        "time_until_airing": 4634187,
+        "time_until_airing": 4566101,
         "airing_at_unix": 1757347200
       },
       {
         "episode": 11,
-        "time_until_airing": 5238987,
+        "time_until_airing": 5170901,
         "airing_at_unix": 1757952000
       },
       {
         "episode": 12,
-        "time_until_airing": 5843787,
+        "time_until_airing": 5775701,
         "airing_at_unix": 1758556800
       }
     ]
@@ -1563,47 +1542,47 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 476187,
+        "time_until_airing": 408101,
         "airing_at_unix": 1753189200
       },
       {
         "episode": 5,
-        "time_until_airing": 1080987,
+        "time_until_airing": 1012901,
         "airing_at_unix": 1753794000
       },
       {
         "episode": 6,
-        "time_until_airing": 1685787,
+        "time_until_airing": 1617701,
         "airing_at_unix": 1754398800
       },
       {
         "episode": 7,
-        "time_until_airing": 2290587,
+        "time_until_airing": 2222501,
         "airing_at_unix": 1755003600
       },
       {
         "episode": 8,
-        "time_until_airing": 2895387,
+        "time_until_airing": 2827301,
         "airing_at_unix": 1755608400
       },
       {
         "episode": 9,
-        "time_until_airing": 3500187,
+        "time_until_airing": 3432101,
         "airing_at_unix": 1756213200
       },
       {
         "episode": 10,
-        "time_until_airing": 4104987,
+        "time_until_airing": 4036901,
         "airing_at_unix": 1756818000
       },
       {
         "episode": 11,
-        "time_until_airing": 4709787,
+        "time_until_airing": 4641701,
         "airing_at_unix": 1757422800
       },
       {
         "episode": 12,
-        "time_until_airing": 5314587,
+        "time_until_airing": 5246501,
         "airing_at_unix": 1758027600
       }
     ]
@@ -1624,52 +1603,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 305187,
+        "time_until_airing": 237101,
         "airing_at_unix": 1753018200
       },
       {
         "episode": 4,
-        "time_until_airing": 909987,
+        "time_until_airing": 841901,
         "airing_at_unix": 1753623000
       },
       {
         "episode": 5,
-        "time_until_airing": 1514787,
+        "time_until_airing": 1446701,
         "airing_at_unix": 1754227800
       },
       {
         "episode": 6,
-        "time_until_airing": 2119587,
+        "time_until_airing": 2051501,
         "airing_at_unix": 1754832600
       },
       {
         "episode": 7,
-        "time_until_airing": 2724387,
+        "time_until_airing": 2656301,
         "airing_at_unix": 1755437400
       },
       {
         "episode": 8,
-        "time_until_airing": 3329187,
+        "time_until_airing": 3261101,
         "airing_at_unix": 1756042200
       },
       {
         "episode": 9,
-        "time_until_airing": 3933987,
+        "time_until_airing": 3865901,
         "airing_at_unix": 1756647000
       },
       {
         "episode": 10,
-        "time_until_airing": 4538787,
+        "time_until_airing": 4470701,
         "airing_at_unix": 1757251800
       },
       {
         "episode": 11,
-        "time_until_airing": 5143587,
+        "time_until_airing": 5075501,
         "airing_at_unix": 1757856600
       },
       {
         "episode": 12,
-        "time_until_airing": 5748387,
+        "time_until_airing": 5680301,
         "airing_at_unix": 1758461400
       }
     ]
@@ -1690,57 +1669,57 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 301587,
+        "time_until_airing": 233501,
         "airing_at_unix": 1753014600
       },
       {
         "episode": 4,
-        "time_until_airing": 906387,
+        "time_until_airing": 838301,
         "airing_at_unix": 1753619400
       },
       {
         "episode": 5,
-        "time_until_airing": 1511187,
+        "time_until_airing": 1443101,
         "airing_at_unix": 1754224200
       },
       {
         "episode": 6,
-        "time_until_airing": 2115987,
+        "time_until_airing": 2047901,
         "airing_at_unix": 1754829000
       },
       {
         "episode": 7,
-        "time_until_airing": 2720787,
+        "time_until_airing": 2652701,
         "airing_at_unix": 1755433800
       },
       {
         "episode": 8,
-        "time_until_airing": 3325587,
+        "time_until_airing": 3257501,
         "airing_at_unix": 1756038600
       },
       {
         "episode": 9,
-        "time_until_airing": 3930387,
+        "time_until_airing": 3862301,
         "airing_at_unix": 1756643400
       },
       {
         "episode": 10,
-        "time_until_airing": 4535187,
+        "time_until_airing": 4467101,
         "airing_at_unix": 1757248200
       },
       {
         "episode": 11,
-        "time_until_airing": 5139987,
+        "time_until_airing": 5071901,
         "airing_at_unix": 1757853000
       },
       {
         "episode": 12,
-        "time_until_airing": 5744787,
+        "time_until_airing": 5676701,
         "airing_at_unix": 1758457800
       },
       {
         "episode": 13,
-        "time_until_airing": 6349587,
+        "time_until_airing": 6281501,
         "airing_at_unix": 1759062600
       }
     ]
@@ -1761,47 +1740,47 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 577947,
+        "time_until_airing": 509861,
         "airing_at_unix": 1753290960
       },
       {
         "episode": 5,
-        "time_until_airing": 1182747,
+        "time_until_airing": 1114661,
         "airing_at_unix": 1753895760
       },
       {
         "episode": 6,
-        "time_until_airing": 1787547,
+        "time_until_airing": 1719461,
         "airing_at_unix": 1754500560
       },
       {
         "episode": 7,
-        "time_until_airing": 2392347,
+        "time_until_airing": 2324261,
         "airing_at_unix": 1755105360
       },
       {
         "episode": 8,
-        "time_until_airing": 2997147,
+        "time_until_airing": 2929061,
         "airing_at_unix": 1755710160
       },
       {
         "episode": 9,
-        "time_until_airing": 3601947,
+        "time_until_airing": 3533861,
         "airing_at_unix": 1756314960
       },
       {
         "episode": 10,
-        "time_until_airing": 4206747,
+        "time_until_airing": 4138661,
         "airing_at_unix": 1756919760
       },
       {
         "episode": 11,
-        "time_until_airing": 4811547,
+        "time_until_airing": 4743461,
         "airing_at_unix": 1757524560
       },
       {
         "episode": 12,
-        "time_until_airing": 5416347,
+        "time_until_airing": 5348261,
         "airing_at_unix": 1758129360
       }
     ]
@@ -1822,52 +1801,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 479787,
+        "time_until_airing": 411701,
         "airing_at_unix": 1753192800
       },
       {
         "episode": 4,
-        "time_until_airing": 1084587,
+        "time_until_airing": 1016501,
         "airing_at_unix": 1753797600
       },
       {
         "episode": 5,
-        "time_until_airing": 1689387,
+        "time_until_airing": 1621301,
         "airing_at_unix": 1754402400
       },
       {
         "episode": 6,
-        "time_until_airing": 2294187,
+        "time_until_airing": 2226101,
         "airing_at_unix": 1755007200
       },
       {
         "episode": 7,
-        "time_until_airing": 2898987,
+        "time_until_airing": 2830901,
         "airing_at_unix": 1755612000
       },
       {
         "episode": 8,
-        "time_until_airing": 3503787,
+        "time_until_airing": 3435701,
         "airing_at_unix": 1756216800
       },
       {
         "episode": 9,
-        "time_until_airing": 4108587,
+        "time_until_airing": 4040501,
         "airing_at_unix": 1756821600
       },
       {
         "episode": 10,
-        "time_until_airing": 4713387,
+        "time_until_airing": 4645301,
         "airing_at_unix": 1757426400
       },
       {
         "episode": 11,
-        "time_until_airing": 5318187,
+        "time_until_airing": 5250101,
         "airing_at_unix": 1758031200
       },
       {
         "episode": 12,
-        "time_until_airing": 5922987,
+        "time_until_airing": 5854901,
         "airing_at_unix": 1758636000
       }
     ]
@@ -1888,47 +1867,47 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 570987,
+        "time_until_airing": 502901,
         "airing_at_unix": 1753284000
       },
       {
         "episode": 5,
-        "time_until_airing": 1175787,
+        "time_until_airing": 1107701,
         "airing_at_unix": 1753888800
       },
       {
         "episode": 6,
-        "time_until_airing": 1780587,
+        "time_until_airing": 1712501,
         "airing_at_unix": 1754493600
       },
       {
         "episode": 7,
-        "time_until_airing": 2385387,
+        "time_until_airing": 2317301,
         "airing_at_unix": 1755098400
       },
       {
         "episode": 8,
-        "time_until_airing": 2990187,
+        "time_until_airing": 2922101,
         "airing_at_unix": 1755703200
       },
       {
         "episode": 9,
-        "time_until_airing": 3594987,
+        "time_until_airing": 3526901,
         "airing_at_unix": 1756308000
       },
       {
         "episode": 10,
-        "time_until_airing": 4199787,
+        "time_until_airing": 4131701,
         "airing_at_unix": 1756912800
       },
       {
         "episode": 11,
-        "time_until_airing": 4804587,
+        "time_until_airing": 4736501,
         "airing_at_unix": 1757517600
       },
       {
         "episode": 12,
-        "time_until_airing": 5409387,
+        "time_until_airing": 5341301,
         "airing_at_unix": 1758122400
       }
     ]
@@ -1949,52 +1928,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 224187,
+        "time_until_airing": 156101,
         "airing_at_unix": 1752937200
       },
       {
         "episode": 4,
-        "time_until_airing": 828987,
+        "time_until_airing": 760901,
         "airing_at_unix": 1753542000
       },
       {
         "episode": 5,
-        "time_until_airing": 1433787,
+        "time_until_airing": 1365701,
         "airing_at_unix": 1754146800
       },
       {
         "episode": 6,
-        "time_until_airing": 2038587,
+        "time_until_airing": 1970501,
         "airing_at_unix": 1754751600
       },
       {
         "episode": 7,
-        "time_until_airing": 2643387,
+        "time_until_airing": 2575301,
         "airing_at_unix": 1755356400
       },
       {
         "episode": 8,
-        "time_until_airing": 3248187,
+        "time_until_airing": 3180101,
         "airing_at_unix": 1755961200
       },
       {
         "episode": 9,
-        "time_until_airing": 3852987,
+        "time_until_airing": 3784901,
         "airing_at_unix": 1756566000
       },
       {
         "episode": 10,
-        "time_until_airing": 4457787,
+        "time_until_airing": 4389701,
         "airing_at_unix": 1757170800
       },
       {
         "episode": 11,
-        "time_until_airing": 5062587,
+        "time_until_airing": 4994501,
         "airing_at_unix": 1757775600
       },
       {
         "episode": 12,
-        "time_until_airing": 5667387,
+        "time_until_airing": 5599301,
         "airing_at_unix": 1758380400
       }
     ]
@@ -2015,47 +1994,47 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 562587,
+        "time_until_airing": 494501,
         "airing_at_unix": 1753275600
       },
       {
         "episode": 5,
-        "time_until_airing": 1167387,
+        "time_until_airing": 1099301,
         "airing_at_unix": 1753880400
       },
       {
         "episode": 6,
-        "time_until_airing": 1772187,
+        "time_until_airing": 1704101,
         "airing_at_unix": 1754485200
       },
       {
         "episode": 7,
-        "time_until_airing": 2376987,
+        "time_until_airing": 2308901,
         "airing_at_unix": 1755090000
       },
       {
         "episode": 8,
-        "time_until_airing": 2981787,
+        "time_until_airing": 2913701,
         "airing_at_unix": 1755694800
       },
       {
         "episode": 9,
-        "time_until_airing": 3586587,
+        "time_until_airing": 3518501,
         "airing_at_unix": 1756299600
       },
       {
         "episode": 10,
-        "time_until_airing": 4191387,
+        "time_until_airing": 4123301,
         "airing_at_unix": 1756904400
       },
       {
         "episode": 11,
-        "time_until_airing": 4796187,
+        "time_until_airing": 4728101,
         "airing_at_unix": 1757509200
       },
       {
         "episode": 12,
-        "time_until_airing": 5400987,
+        "time_until_airing": 5332901,
         "airing_at_unix": 1758114000
       }
     ]
@@ -2076,12 +2055,12 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 141387,
+        "time_until_airing": 73301,
         "airing_at_unix": 1752854400
       },
       {
         "episode": 4,
-        "time_until_airing": 746187,
+        "time_until_airing": 678101,
         "airing_at_unix": 1753459200
       }
     ]
@@ -2102,47 +2081,47 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 229587,
+        "time_until_airing": 161501,
         "airing_at_unix": 1752942600
       },
       {
         "episode": 5,
-        "time_until_airing": 834387,
+        "time_until_airing": 766301,
         "airing_at_unix": 1753547400
       },
       {
         "episode": 6,
-        "time_until_airing": 1439187,
+        "time_until_airing": 1371101,
         "airing_at_unix": 1754152200
       },
       {
         "episode": 7,
-        "time_until_airing": 2043987,
+        "time_until_airing": 1975901,
         "airing_at_unix": 1754757000
       },
       {
         "episode": 8,
-        "time_until_airing": 2648787,
+        "time_until_airing": 2580701,
         "airing_at_unix": 1755361800
       },
       {
         "episode": 9,
-        "time_until_airing": 3253587,
+        "time_until_airing": 3185501,
         "airing_at_unix": 1755966600
       },
       {
         "episode": 10,
-        "time_until_airing": 3858387,
+        "time_until_airing": 3790301,
         "airing_at_unix": 1756571400
       },
       {
         "episode": 11,
-        "time_until_airing": 4463187,
+        "time_until_airing": 4395101,
         "airing_at_unix": 1757176200
       },
       {
         "episode": 12,
-        "time_until_airing": 5067987,
+        "time_until_airing": 4999901,
         "airing_at_unix": 1757781000
       }
     ]
@@ -2163,179 +2142,48 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 481587,
+        "time_until_airing": 413501,
         "airing_at_unix": 1753194600
       },
       {
         "episode": 5,
-        "time_until_airing": 1086387,
+        "time_until_airing": 1018301,
         "airing_at_unix": 1753799400
       },
       {
         "episode": 6,
-        "time_until_airing": 1691187,
+        "time_until_airing": 1623101,
         "airing_at_unix": 1754404200
       },
       {
         "episode": 7,
-        "time_until_airing": 2295987,
+        "time_until_airing": 2227901,
         "airing_at_unix": 1755009000
       },
       {
         "episode": 8,
-        "time_until_airing": 2900787,
+        "time_until_airing": 2832701,
         "airing_at_unix": 1755613800
       },
       {
         "episode": 9,
-        "time_until_airing": 3505587,
+        "time_until_airing": 3437501,
         "airing_at_unix": 1756218600
       },
       {
         "episode": 10,
-        "time_until_airing": 4110387,
+        "time_until_airing": 4042301,
         "airing_at_unix": 1756823400
       },
       {
         "episode": 11,
-        "time_until_airing": 4715187,
+        "time_until_airing": 4647101,
         "airing_at_unix": 1757428200
       },
       {
         "episode": 12,
-        "time_until_airing": 5319987,
+        "time_until_airing": 5251901,
         "airing_at_unix": 1758033000
-      }
-    ]
-  },
-  {
-    "title": "Solo Camping for Two",
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185965-LlzTLSTBUbEA.jpg",
-    "start_date": {
-      "year": 2025,
-      "month": 7,
-      "day": 11
-    },
-    "end_date": {
-      "year": null,
-      "month": null,
-      "day": null
-    },
-    "airing_schedule": [
-      {
-        "episode": 2,
-        "time_until_airing": 53187,
-        "airing_at_unix": 1752766200
-      },
-      {
-        "episode": 3,
-        "time_until_airing": 657987,
-        "airing_at_unix": 1753371000
-      },
-      {
-        "episode": 4,
-        "time_until_airing": 1262787,
-        "airing_at_unix": 1753975800
-      },
-      {
-        "episode": 5,
-        "time_until_airing": 1867587,
-        "airing_at_unix": 1754580600
-      },
-      {
-        "episode": 6,
-        "time_until_airing": 2472387,
-        "airing_at_unix": 1755185400
-      },
-      {
-        "episode": 7,
-        "time_until_airing": 3077187,
-        "airing_at_unix": 1755790200
-      },
-      {
-        "episode": 8,
-        "time_until_airing": 3681987,
-        "airing_at_unix": 1756395000
-      },
-      {
-        "episode": 9,
-        "time_until_airing": 4286787,
-        "airing_at_unix": 1756999800
-      },
-      {
-        "episode": 10,
-        "time_until_airing": 4891587,
-        "airing_at_unix": 1757604600
-      },
-      {
-        "episode": 11,
-        "time_until_airing": 5496387,
-        "airing_at_unix": 1758209400
-      },
-      {
-        "episode": 12,
-        "time_until_airing": 6101187,
-        "airing_at_unix": 1758814200
-      },
-      {
-        "episode": 13,
-        "time_until_airing": 6705987,
-        "airing_at_unix": 1759419000
-      },
-      {
-        "episode": 14,
-        "time_until_airing": 7310787,
-        "airing_at_unix": 1760023800
-      },
-      {
-        "episode": 15,
-        "time_until_airing": 7915587,
-        "airing_at_unix": 1760628600
-      },
-      {
-        "episode": 16,
-        "time_until_airing": 8520387,
-        "airing_at_unix": 1761233400
-      },
-      {
-        "episode": 17,
-        "time_until_airing": 9125187,
-        "airing_at_unix": 1761838200
-      },
-      {
-        "episode": 18,
-        "time_until_airing": 9729987,
-        "airing_at_unix": 1762443000
-      },
-      {
-        "episode": 19,
-        "time_until_airing": 10334787,
-        "airing_at_unix": 1763047800
-      },
-      {
-        "episode": 20,
-        "time_until_airing": 10939587,
-        "airing_at_unix": 1763652600
-      },
-      {
-        "episode": 21,
-        "time_until_airing": 11544387,
-        "airing_at_unix": 1764257400
-      },
-      {
-        "episode": 22,
-        "time_until_airing": 12149187,
-        "airing_at_unix": 1764862200
-      },
-      {
-        "episode": 23,
-        "time_until_airing": 12753987,
-        "airing_at_unix": 1765467000
-      },
-      {
-        "episode": 24,
-        "time_until_airing": 13358787,
-        "airing_at_unix": 1766071800
       }
     ]
   },
@@ -2354,54 +2202,175 @@
     },
     "airing_schedule": [
       {
-        "episode": 3,
-        "time_until_airing": 51387,
-        "airing_at_unix": 1752764400
-      },
-      {
         "episode": 4,
-        "time_until_airing": 656187,
+        "time_until_airing": 588101,
         "airing_at_unix": 1753369200
       },
       {
         "episode": 5,
-        "time_until_airing": 1260987,
+        "time_until_airing": 1192901,
         "airing_at_unix": 1753974000
       },
       {
         "episode": 6,
-        "time_until_airing": 1865787,
+        "time_until_airing": 1797701,
         "airing_at_unix": 1754578800
       },
       {
         "episode": 7,
-        "time_until_airing": 2470587,
+        "time_until_airing": 2402501,
         "airing_at_unix": 1755183600
       },
       {
         "episode": 8,
-        "time_until_airing": 3075387,
+        "time_until_airing": 3007301,
         "airing_at_unix": 1755788400
       },
       {
         "episode": 9,
-        "time_until_airing": 3680187,
+        "time_until_airing": 3612101,
         "airing_at_unix": 1756393200
       },
       {
         "episode": 10,
-        "time_until_airing": 4284987,
+        "time_until_airing": 4216901,
         "airing_at_unix": 1756998000
       },
       {
         "episode": 11,
-        "time_until_airing": 4889787,
+        "time_until_airing": 4821701,
         "airing_at_unix": 1757602800
       },
       {
         "episode": 12,
-        "time_until_airing": 5494587,
+        "time_until_airing": 5426501,
         "airing_at_unix": 1758207600
+      }
+    ]
+  },
+  {
+    "title": "Solo Camping for Two",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185965-LlzTLSTBUbEA.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 11
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 589901,
+        "airing_at_unix": 1753371000
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1194701,
+        "airing_at_unix": 1753975800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1799501,
+        "airing_at_unix": 1754580600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2404301,
+        "airing_at_unix": 1755185400
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 3009101,
+        "airing_at_unix": 1755790200
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3613901,
+        "airing_at_unix": 1756395000
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4218701,
+        "airing_at_unix": 1756999800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4823501,
+        "airing_at_unix": 1757604600
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5428301,
+        "airing_at_unix": 1758209400
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6033101,
+        "airing_at_unix": 1758814200
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6637901,
+        "airing_at_unix": 1759419000
+      },
+      {
+        "episode": 14,
+        "time_until_airing": 7242701,
+        "airing_at_unix": 1760023800
+      },
+      {
+        "episode": 15,
+        "time_until_airing": 7847501,
+        "airing_at_unix": 1760628600
+      },
+      {
+        "episode": 16,
+        "time_until_airing": 8452301,
+        "airing_at_unix": 1761233400
+      },
+      {
+        "episode": 17,
+        "time_until_airing": 9057101,
+        "airing_at_unix": 1761838200
+      },
+      {
+        "episode": 18,
+        "time_until_airing": 9661901,
+        "airing_at_unix": 1762443000
+      },
+      {
+        "episode": 19,
+        "time_until_airing": 10266701,
+        "airing_at_unix": 1763047800
+      },
+      {
+        "episode": 20,
+        "time_until_airing": 10871501,
+        "airing_at_unix": 1763652600
+      },
+      {
+        "episode": 21,
+        "time_until_airing": 11476301,
+        "airing_at_unix": 1764257400
+      },
+      {
+        "episode": 22,
+        "time_until_airing": 12081101,
+        "airing_at_unix": 1764862200
+      },
+      {
+        "episode": 23,
+        "time_until_airing": 12685901,
+        "airing_at_unix": 1765467000
+      },
+      {
+        "episode": 24,
+        "time_until_airing": 13290701,
+        "airing_at_unix": 1766071800
       }
     ]
   },
@@ -2421,52 +2390,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 229587,
+        "time_until_airing": 161501,
         "airing_at_unix": 1752942600
       },
       {
         "episode": 4,
-        "time_until_airing": 834387,
+        "time_until_airing": 766301,
         "airing_at_unix": 1753547400
       },
       {
         "episode": 5,
-        "time_until_airing": 1439187,
+        "time_until_airing": 1371101,
         "airing_at_unix": 1754152200
       },
       {
         "episode": 6,
-        "time_until_airing": 2043987,
+        "time_until_airing": 1975901,
         "airing_at_unix": 1754757000
       },
       {
         "episode": 7,
-        "time_until_airing": 2648787,
+        "time_until_airing": 2580701,
         "airing_at_unix": 1755361800
       },
       {
         "episode": 8,
-        "time_until_airing": 3253587,
+        "time_until_airing": 3185501,
         "airing_at_unix": 1755966600
       },
       {
         "episode": 9,
-        "time_until_airing": 3858387,
+        "time_until_airing": 3790301,
         "airing_at_unix": 1756571400
       },
       {
         "episode": 10,
-        "time_until_airing": 4463187,
+        "time_until_airing": 4395101,
         "airing_at_unix": 1757176200
       },
       {
         "episode": 11,
-        "time_until_airing": 5067987,
+        "time_until_airing": 4999901,
         "airing_at_unix": 1757781000
       },
       {
         "episode": 12,
-        "time_until_airing": 5672787,
+        "time_until_airing": 5604701,
         "airing_at_unix": 1758385800
       }
     ]
@@ -2487,119 +2456,53 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 283587,
+        "time_until_airing": 215501,
         "airing_at_unix": 1752996600
       },
       {
         "episode": 4,
-        "time_until_airing": 888387,
+        "time_until_airing": 820301,
         "airing_at_unix": 1753601400
       },
       {
         "episode": 5,
-        "time_until_airing": 1493187,
+        "time_until_airing": 1425101,
         "airing_at_unix": 1754206200
       },
       {
         "episode": 6,
-        "time_until_airing": 2097987,
+        "time_until_airing": 2029901,
         "airing_at_unix": 1754811000
       },
       {
         "episode": 7,
-        "time_until_airing": 2702787,
+        "time_until_airing": 2634701,
         "airing_at_unix": 1755415800
       },
       {
         "episode": 8,
-        "time_until_airing": 3307587,
+        "time_until_airing": 3239501,
         "airing_at_unix": 1756020600
       },
       {
         "episode": 9,
-        "time_until_airing": 3912387,
+        "time_until_airing": 3844301,
         "airing_at_unix": 1756625400
       },
       {
         "episode": 10,
-        "time_until_airing": 4517187,
+        "time_until_airing": 4449101,
         "airing_at_unix": 1757230200
       },
       {
         "episode": 11,
-        "time_until_airing": 5121987,
+        "time_until_airing": 5053901,
         "airing_at_unix": 1757835000
       },
       {
         "episode": 12,
-        "time_until_airing": 5726787,
+        "time_until_airing": 5658701,
         "airing_at_unix": 1758439800
-      }
-    ]
-  },
-  {
-    "title": "Betrothed to My Sister's Ex",
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179879-569v3MdQeVmt.jpg",
-    "start_date": {
-      "year": 2025,
-      "month": 7,
-      "day": 5
-    },
-    "end_date": {
-      "year": 2025,
-      "month": 9,
-      "day": 20
-    },
-    "airing_schedule": [
-      {
-        "episode": 3,
-        "time_until_airing": 144567,
-        "airing_at_unix": 1752857580
-      },
-      {
-        "episode": 4,
-        "time_until_airing": 749367,
-        "airing_at_unix": 1753462380
-      },
-      {
-        "episode": 5,
-        "time_until_airing": 1354167,
-        "airing_at_unix": 1754067180
-      },
-      {
-        "episode": 6,
-        "time_until_airing": 1958967,
-        "airing_at_unix": 1754671980
-      },
-      {
-        "episode": 7,
-        "time_until_airing": 2563767,
-        "airing_at_unix": 1755276780
-      },
-      {
-        "episode": 8,
-        "time_until_airing": 3168567,
-        "airing_at_unix": 1755881580
-      },
-      {
-        "episode": 9,
-        "time_until_airing": 3773367,
-        "airing_at_unix": 1756486380
-      },
-      {
-        "episode": 10,
-        "time_until_airing": 4378167,
-        "airing_at_unix": 1757091180
-      },
-      {
-        "episode": 11,
-        "time_until_airing": 4982967,
-        "airing_at_unix": 1757695980
-      },
-      {
-        "episode": 12,
-        "time_until_airing": 5587767,
-        "airing_at_unix": 1758300780
       }
     ]
   },
@@ -2619,53 +2522,119 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 220587,
+        "time_until_airing": 152501,
         "airing_at_unix": 1752933600
       },
       {
         "episode": 4,
-        "time_until_airing": 825387,
+        "time_until_airing": 757301,
         "airing_at_unix": 1753538400
       },
       {
         "episode": 5,
-        "time_until_airing": 1430187,
+        "time_until_airing": 1362101,
         "airing_at_unix": 1754143200
       },
       {
         "episode": 6,
-        "time_until_airing": 2034987,
+        "time_until_airing": 1966901,
         "airing_at_unix": 1754748000
       },
       {
         "episode": 7,
-        "time_until_airing": 2639787,
+        "time_until_airing": 2571701,
         "airing_at_unix": 1755352800
       },
       {
         "episode": 8,
-        "time_until_airing": 3244587,
+        "time_until_airing": 3176501,
         "airing_at_unix": 1755957600
       },
       {
         "episode": 9,
-        "time_until_airing": 3849387,
+        "time_until_airing": 3781301,
         "airing_at_unix": 1756562400
       },
       {
         "episode": 10,
-        "time_until_airing": 4454187,
+        "time_until_airing": 4386101,
         "airing_at_unix": 1757167200
       },
       {
         "episode": 11,
-        "time_until_airing": 5058987,
+        "time_until_airing": 4990901,
         "airing_at_unix": 1757772000
       },
       {
         "episode": 12,
-        "time_until_airing": 5663787,
+        "time_until_airing": 5595701,
         "airing_at_unix": 1758376800
+      }
+    ]
+  },
+  {
+    "title": "Betrothed to My Sister's Ex",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179879-569v3MdQeVmt.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 5
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 20
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 76481,
+        "airing_at_unix": 1752857580
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 681281,
+        "airing_at_unix": 1753462380
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1286081,
+        "airing_at_unix": 1754067180
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1890881,
+        "airing_at_unix": 1754671980
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2495681,
+        "airing_at_unix": 1755276780
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3100481,
+        "airing_at_unix": 1755881580
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3705281,
+        "airing_at_unix": 1756486380
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4310081,
+        "airing_at_unix": 1757091180
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4914881,
+        "airing_at_unix": 1757695980
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5519681,
+        "airing_at_unix": 1758300780
       }
     ]
   },
@@ -2685,52 +2654,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 224187,
+        "time_until_airing": 156101,
         "airing_at_unix": 1752937200
       },
       {
         "episode": 4,
-        "time_until_airing": 828987,
+        "time_until_airing": 760901,
         "airing_at_unix": 1753542000
       },
       {
         "episode": 5,
-        "time_until_airing": 1433787,
+        "time_until_airing": 1365701,
         "airing_at_unix": 1754146800
       },
       {
         "episode": 6,
-        "time_until_airing": 2038587,
+        "time_until_airing": 1970501,
         "airing_at_unix": 1754751600
       },
       {
         "episode": 7,
-        "time_until_airing": 2643387,
+        "time_until_airing": 2575301,
         "airing_at_unix": 1755356400
       },
       {
         "episode": 8,
-        "time_until_airing": 3248187,
+        "time_until_airing": 3180101,
         "airing_at_unix": 1755961200
       },
       {
         "episode": 9,
-        "time_until_airing": 3852987,
+        "time_until_airing": 3784901,
         "airing_at_unix": 1756566000
       },
       {
         "episode": 10,
-        "time_until_airing": 4457787,
+        "time_until_airing": 4389701,
         "airing_at_unix": 1757170800
       },
       {
         "episode": 11,
-        "time_until_airing": 5062587,
+        "time_until_airing": 4994501,
         "airing_at_unix": 1757775600
       },
       {
         "episode": 12,
-        "time_until_airing": 5667387,
+        "time_until_airing": 5599301,
         "airing_at_unix": 1758380400
       }
     ]
@@ -2751,52 +2720,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 308787,
+        "time_until_airing": 240701,
         "airing_at_unix": 1753021800
       },
       {
         "episode": 4,
-        "time_until_airing": 913587,
+        "time_until_airing": 845501,
         "airing_at_unix": 1753626600
       },
       {
         "episode": 5,
-        "time_until_airing": 1518387,
+        "time_until_airing": 1450301,
         "airing_at_unix": 1754231400
       },
       {
         "episode": 6,
-        "time_until_airing": 2123187,
+        "time_until_airing": 2055101,
         "airing_at_unix": 1754836200
       },
       {
         "episode": 7,
-        "time_until_airing": 2727987,
+        "time_until_airing": 2659901,
         "airing_at_unix": 1755441000
       },
       {
         "episode": 8,
-        "time_until_airing": 3332787,
+        "time_until_airing": 3264701,
         "airing_at_unix": 1756045800
       },
       {
         "episode": 9,
-        "time_until_airing": 3937587,
+        "time_until_airing": 3869501,
         "airing_at_unix": 1756650600
       },
       {
         "episode": 10,
-        "time_until_airing": 4542387,
+        "time_until_airing": 4474301,
         "airing_at_unix": 1757255400
       },
       {
         "episode": 11,
-        "time_until_airing": 5147187,
+        "time_until_airing": 5079101,
         "airing_at_unix": 1757860200
       },
       {
         "episode": 12,
-        "time_until_airing": 5751987,
+        "time_until_airing": 5683901,
         "airing_at_unix": 1758465000
       }
     ]
@@ -2817,22 +2786,22 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 391587,
+        "time_until_airing": 323501,
         "airing_at_unix": 1753104600
       },
       {
         "episode": 4,
-        "time_until_airing": 996387,
+        "time_until_airing": 928301,
         "airing_at_unix": 1753709400
       },
       {
         "episode": 5,
-        "time_until_airing": 1601187,
+        "time_until_airing": 1533101,
         "airing_at_unix": 1754314200
       },
       {
         "episode": 6,
-        "time_until_airing": 2205987,
+        "time_until_airing": 2137901,
         "airing_at_unix": 1754919000
       }
     ]
@@ -2853,42 +2822,42 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 135987,
+        "time_until_airing": 67901,
         "airing_at_unix": 1752849000
       },
       {
         "episode": 4,
-        "time_until_airing": 740787,
+        "time_until_airing": 672701,
         "airing_at_unix": 1753453800
       },
       {
         "episode": 5,
-        "time_until_airing": 1345587,
+        "time_until_airing": 1277501,
         "airing_at_unix": 1754058600
       },
       {
         "episode": 6,
-        "time_until_airing": 1950387,
+        "time_until_airing": 1882301,
         "airing_at_unix": 1754663400
       },
       {
         "episode": 7,
-        "time_until_airing": 2555187,
+        "time_until_airing": 2487101,
         "airing_at_unix": 1755268200
       },
       {
         "episode": 8,
-        "time_until_airing": 3159987,
+        "time_until_airing": 3091901,
         "airing_at_unix": 1755873000
       },
       {
         "episode": 9,
-        "time_until_airing": 3764787,
+        "time_until_airing": 3696701,
         "airing_at_unix": 1756477800
       },
       {
         "episode": 10,
-        "time_until_airing": 4369587,
+        "time_until_airing": 4301501,
         "airing_at_unix": 1757082600
       }
     ]
@@ -2909,52 +2878,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 308787,
+        "time_until_airing": 240701,
         "airing_at_unix": 1753021800
       },
       {
         "episode": 4,
-        "time_until_airing": 913587,
+        "time_until_airing": 845501,
         "airing_at_unix": 1753626600
       },
       {
         "episode": 5,
-        "time_until_airing": 1518387,
+        "time_until_airing": 1450301,
         "airing_at_unix": 1754231400
       },
       {
         "episode": 6,
-        "time_until_airing": 2123187,
+        "time_until_airing": 2055101,
         "airing_at_unix": 1754836200
       },
       {
         "episode": 7,
-        "time_until_airing": 2727987,
+        "time_until_airing": 2659901,
         "airing_at_unix": 1755441000
       },
       {
         "episode": 8,
-        "time_until_airing": 3332787,
+        "time_until_airing": 3264701,
         "airing_at_unix": 1756045800
       },
       {
         "episode": 9,
-        "time_until_airing": 3937587,
+        "time_until_airing": 3869501,
         "airing_at_unix": 1756650600
       },
       {
         "episode": 10,
-        "time_until_airing": 4542387,
+        "time_until_airing": 4474301,
         "airing_at_unix": 1757255400
       },
       {
         "episode": 11,
-        "time_until_airing": 5147187,
+        "time_until_airing": 5079101,
         "airing_at_unix": 1757860200
       },
       {
         "episode": 12,
-        "time_until_airing": 5751987,
+        "time_until_airing": 5683901,
         "airing_at_unix": 1758465000
       }
     ]
@@ -2975,42 +2944,42 @@
     "airing_schedule": [
       {
         "episode": 5,
-        "time_until_airing": 568887,
+        "time_until_airing": 500801,
         "airing_at_unix": 1753281900
       },
       {
         "episode": 6,
-        "time_until_airing": 1173687,
+        "time_until_airing": 1105601,
         "airing_at_unix": 1753886700
       },
       {
         "episode": 7,
-        "time_until_airing": 1778487,
+        "time_until_airing": 1710401,
         "airing_at_unix": 1754491500
       },
       {
         "episode": 8,
-        "time_until_airing": 2383287,
+        "time_until_airing": 2315201,
         "airing_at_unix": 1755096300
       },
       {
         "episode": 9,
-        "time_until_airing": 2988087,
+        "time_until_airing": 2920001,
         "airing_at_unix": 1755701100
       },
       {
         "episode": 10,
-        "time_until_airing": 3592887,
+        "time_until_airing": 3524801,
         "airing_at_unix": 1756305900
       },
       {
         "episode": 11,
-        "time_until_airing": 4197687,
+        "time_until_airing": 4129601,
         "airing_at_unix": 1756910700
       },
       {
         "episode": 12,
-        "time_until_airing": 4802487,
+        "time_until_airing": 4734401,
         "airing_at_unix": 1757515500
       }
     ]
@@ -3031,52 +3000,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 306987,
+        "time_until_airing": 238901,
         "airing_at_unix": 1753020000
       },
       {
         "episode": 4,
-        "time_until_airing": 911787,
+        "time_until_airing": 843701,
         "airing_at_unix": 1753624800
       },
       {
         "episode": 5,
-        "time_until_airing": 1516587,
+        "time_until_airing": 1448501,
         "airing_at_unix": 1754229600
       },
       {
         "episode": 6,
-        "time_until_airing": 2121387,
+        "time_until_airing": 2053301,
         "airing_at_unix": 1754834400
       },
       {
         "episode": 7,
-        "time_until_airing": 2726187,
+        "time_until_airing": 2658101,
         "airing_at_unix": 1755439200
       },
       {
         "episode": 8,
-        "time_until_airing": 3330987,
+        "time_until_airing": 3262901,
         "airing_at_unix": 1756044000
       },
       {
         "episode": 9,
-        "time_until_airing": 3935787,
+        "time_until_airing": 3867701,
         "airing_at_unix": 1756648800
       },
       {
         "episode": 10,
-        "time_until_airing": 4540587,
+        "time_until_airing": 4472501,
         "airing_at_unix": 1757253600
       },
       {
         "episode": 11,
-        "time_until_airing": 5145387,
+        "time_until_airing": 5077301,
         "airing_at_unix": 1757858400
       },
       {
         "episode": 12,
-        "time_until_airing": 5750187,
+        "time_until_airing": 5682101,
         "airing_at_unix": 1758463200
       }
     ]
@@ -3097,52 +3066,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 303387,
+        "time_until_airing": 235301,
         "airing_at_unix": 1753016400
       },
       {
         "episode": 4,
-        "time_until_airing": 908187,
+        "time_until_airing": 840101,
         "airing_at_unix": 1753621200
       },
       {
         "episode": 5,
-        "time_until_airing": 1512987,
+        "time_until_airing": 1444901,
         "airing_at_unix": 1754226000
       },
       {
         "episode": 6,
-        "time_until_airing": 2117787,
+        "time_until_airing": 2049701,
         "airing_at_unix": 1754830800
       },
       {
         "episode": 7,
-        "time_until_airing": 2722587,
+        "time_until_airing": 2654501,
         "airing_at_unix": 1755435600
       },
       {
         "episode": 8,
-        "time_until_airing": 3327387,
+        "time_until_airing": 3259301,
         "airing_at_unix": 1756040400
       },
       {
         "episode": 9,
-        "time_until_airing": 3932187,
+        "time_until_airing": 3864101,
         "airing_at_unix": 1756645200
       },
       {
         "episode": 10,
-        "time_until_airing": 4536987,
+        "time_until_airing": 4468901,
         "airing_at_unix": 1757250000
       },
       {
         "episode": 11,
-        "time_until_airing": 5141787,
+        "time_until_airing": 5073701,
         "airing_at_unix": 1757854800
       },
       {
         "episode": 12,
-        "time_until_airing": 5746587,
+        "time_until_airing": 5678501,
         "airing_at_unix": 1758459600
       }
     ]
@@ -3163,57 +3132,57 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 132387,
+        "time_until_airing": 64301,
         "airing_at_unix": 1752845400
       },
       {
         "episode": 4,
-        "time_until_airing": 737187,
+        "time_until_airing": 669101,
         "airing_at_unix": 1753450200
       },
       {
         "episode": 5,
-        "time_until_airing": 1341987,
+        "time_until_airing": 1273901,
         "airing_at_unix": 1754055000
       },
       {
         "episode": 6,
-        "time_until_airing": 1946787,
+        "time_until_airing": 1878701,
         "airing_at_unix": 1754659800
       },
       {
         "episode": 7,
-        "time_until_airing": 2551587,
+        "time_until_airing": 2483501,
         "airing_at_unix": 1755264600
       },
       {
         "episode": 8,
-        "time_until_airing": 3156387,
+        "time_until_airing": 3088301,
         "airing_at_unix": 1755869400
       },
       {
         "episode": 9,
-        "time_until_airing": 3761187,
+        "time_until_airing": 3693101,
         "airing_at_unix": 1756474200
       },
       {
         "episode": 10,
-        "time_until_airing": 4365987,
+        "time_until_airing": 4297901,
         "airing_at_unix": 1757079000
       },
       {
         "episode": 11,
-        "time_until_airing": 4970787,
+        "time_until_airing": 4902701,
         "airing_at_unix": 1757683800
       },
       {
         "episode": 12,
-        "time_until_airing": 5575587,
+        "time_until_airing": 5507501,
         "airing_at_unix": 1758288600
       },
       {
         "episode": 13,
-        "time_until_airing": 6180387,
+        "time_until_airing": 6112301,
         "airing_at_unix": 1758893400
       }
     ]
@@ -3234,52 +3203,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 488727,
+        "time_until_airing": 420641,
         "airing_at_unix": 1753201740
       },
       {
         "episode": 4,
-        "time_until_airing": 1093527,
+        "time_until_airing": 1025441,
         "airing_at_unix": 1753806540
       },
       {
         "episode": 5,
-        "time_until_airing": 1698327,
+        "time_until_airing": 1630241,
         "airing_at_unix": 1754411340
       },
       {
         "episode": 6,
-        "time_until_airing": 2303127,
+        "time_until_airing": 2235041,
         "airing_at_unix": 1755016140
       },
       {
         "episode": 7,
-        "time_until_airing": 2907927,
+        "time_until_airing": 2839841,
         "airing_at_unix": 1755620940
       },
       {
         "episode": 8,
-        "time_until_airing": 3512727,
+        "time_until_airing": 3444641,
         "airing_at_unix": 1756225740
       },
       {
         "episode": 9,
-        "time_until_airing": 4117527,
+        "time_until_airing": 4049441,
         "airing_at_unix": 1756830540
       },
       {
         "episode": 10,
-        "time_until_airing": 4722327,
+        "time_until_airing": 4654241,
         "airing_at_unix": 1757435340
       },
       {
         "episode": 11,
-        "time_until_airing": 5327127,
+        "time_until_airing": 5259041,
         "airing_at_unix": 1758040140
       },
       {
         "episode": 12,
-        "time_until_airing": 5931927,
+        "time_until_airing": 5863841,
         "airing_at_unix": 1758644940
       }
     ]
@@ -3300,52 +3269,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 309747,
+        "time_until_airing": 241661,
         "airing_at_unix": 1753022760
       },
       {
         "episode": 4,
-        "time_until_airing": 914547,
+        "time_until_airing": 846461,
         "airing_at_unix": 1753627560
       },
       {
         "episode": 5,
-        "time_until_airing": 1519347,
+        "time_until_airing": 1451261,
         "airing_at_unix": 1754232360
       },
       {
         "episode": 6,
-        "time_until_airing": 2124147,
+        "time_until_airing": 2056061,
         "airing_at_unix": 1754837160
       },
       {
         "episode": 7,
-        "time_until_airing": 2728947,
+        "time_until_airing": 2660861,
         "airing_at_unix": 1755441960
       },
       {
         "episode": 8,
-        "time_until_airing": 3333747,
+        "time_until_airing": 3265661,
         "airing_at_unix": 1756046760
       },
       {
         "episode": 9,
-        "time_until_airing": 3938547,
+        "time_until_airing": 3870461,
         "airing_at_unix": 1756651560
       },
       {
         "episode": 10,
-        "time_until_airing": 4543347,
+        "time_until_airing": 4475261,
         "airing_at_unix": 1757256360
       },
       {
         "episode": 11,
-        "time_until_airing": 5148147,
+        "time_until_airing": 5080061,
         "airing_at_unix": 1757861160
       },
       {
         "episode": 12,
-        "time_until_airing": 5752947,
+        "time_until_airing": 5684861,
         "airing_at_unix": 1758465960
       }
     ]
@@ -3366,47 +3335,47 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 572547,
+        "time_until_airing": 504461,
         "airing_at_unix": 1753285560
       },
       {
         "episode": 5,
-        "time_until_airing": 1177347,
+        "time_until_airing": 1109261,
         "airing_at_unix": 1753890360
       },
       {
         "episode": 6,
-        "time_until_airing": 1782147,
+        "time_until_airing": 1714061,
         "airing_at_unix": 1754495160
       },
       {
         "episode": 7,
-        "time_until_airing": 2386947,
+        "time_until_airing": 2318861,
         "airing_at_unix": 1755099960
       },
       {
         "episode": 8,
-        "time_until_airing": 2991747,
+        "time_until_airing": 2923661,
         "airing_at_unix": 1755704760
       },
       {
         "episode": 9,
-        "time_until_airing": 3596547,
+        "time_until_airing": 3528461,
         "airing_at_unix": 1756309560
       },
       {
         "episode": 10,
-        "time_until_airing": 4201347,
+        "time_until_airing": 4133261,
         "airing_at_unix": 1756914360
       },
       {
         "episode": 11,
-        "time_until_airing": 4806147,
+        "time_until_airing": 4738061,
         "airing_at_unix": 1757519160
       },
       {
         "episode": 12,
-        "time_until_airing": 5410947,
+        "time_until_airing": 5342861,
         "airing_at_unix": 1758123960
       }
     ]
@@ -3427,57 +3396,57 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 145347,
+        "time_until_airing": 77261,
         "airing_at_unix": 1752858360
       },
       {
         "episode": 2,
-        "time_until_airing": 750147,
+        "time_until_airing": 682061,
         "airing_at_unix": 1753463160
       },
       {
         "episode": 3,
-        "time_until_airing": 1354947,
+        "time_until_airing": 1286861,
         "airing_at_unix": 1754067960
       },
       {
         "episode": 4,
-        "time_until_airing": 1959747,
+        "time_until_airing": 1891661,
         "airing_at_unix": 1754672760
       },
       {
         "episode": 5,
-        "time_until_airing": 2564547,
+        "time_until_airing": 2496461,
         "airing_at_unix": 1755277560
       },
       {
         "episode": 6,
-        "time_until_airing": 3169347,
+        "time_until_airing": 3101261,
         "airing_at_unix": 1755882360
       },
       {
         "episode": 7,
-        "time_until_airing": 3774147,
+        "time_until_airing": 3706061,
         "airing_at_unix": 1756487160
       },
       {
         "episode": 8,
-        "time_until_airing": 4378947,
+        "time_until_airing": 4310861,
         "airing_at_unix": 1757091960
       },
       {
         "episode": 9,
-        "time_until_airing": 4983747,
+        "time_until_airing": 4915661,
         "airing_at_unix": 1757696760
       },
       {
         "episode": 10,
-        "time_until_airing": 5588547,
+        "time_until_airing": 5520461,
         "airing_at_unix": 1758301560
       },
       {
         "episode": 11,
-        "time_until_airing": 6193347,
+        "time_until_airing": 6125261,
         "airing_at_unix": 1758906360
       }
     ]
@@ -3498,22 +3467,22 @@
     "airing_schedule": [
       {
         "episode": 9,
-        "time_until_airing": 2297787,
+        "time_until_airing": 2229701,
         "airing_at_unix": 1755010800
       },
       {
         "episode": 10,
-        "time_until_airing": 2297787,
+        "time_until_airing": 2229701,
         "airing_at_unix": 1755010800
       },
       {
         "episode": 11,
-        "time_until_airing": 2297787,
+        "time_until_airing": 2229701,
         "airing_at_unix": 1755010800
       },
       {
         "episode": 12,
-        "time_until_airing": 2297787,
+        "time_until_airing": 2229701,
         "airing_at_unix": 1755010800
       }
     ]
@@ -3534,52 +3503,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 222387,
+        "time_until_airing": 154301,
         "airing_at_unix": 1752935400
       },
       {
         "episode": 4,
-        "time_until_airing": 827187,
+        "time_until_airing": 759101,
         "airing_at_unix": 1753540200
       },
       {
         "episode": 5,
-        "time_until_airing": 1431987,
+        "time_until_airing": 1363901,
         "airing_at_unix": 1754145000
       },
       {
         "episode": 6,
-        "time_until_airing": 2036787,
+        "time_until_airing": 1968701,
         "airing_at_unix": 1754749800
       },
       {
         "episode": 7,
-        "time_until_airing": 2641587,
+        "time_until_airing": 2573501,
         "airing_at_unix": 1755354600
       },
       {
         "episode": 8,
-        "time_until_airing": 3246387,
+        "time_until_airing": 3178301,
         "airing_at_unix": 1755959400
       },
       {
         "episode": 9,
-        "time_until_airing": 3851187,
+        "time_until_airing": 3783101,
         "airing_at_unix": 1756564200
       },
       {
         "episode": 10,
-        "time_until_airing": 4455987,
+        "time_until_airing": 4387901,
         "airing_at_unix": 1757169000
       },
       {
         "episode": 11,
-        "time_until_airing": 5060787,
+        "time_until_airing": 4992701,
         "airing_at_unix": 1757773800
       },
       {
         "episode": 12,
-        "time_until_airing": 5665587,
+        "time_until_airing": 5597501,
         "airing_at_unix": 1758378600
       }
     ]
@@ -3600,27 +3569,27 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 486987,
+        "time_until_airing": 418901,
         "airing_at_unix": 1753200000
       },
       {
         "episode": 5,
-        "time_until_airing": 1091787,
+        "time_until_airing": 1023701,
         "airing_at_unix": 1753804800
       },
       {
         "episode": 6,
-        "time_until_airing": 1696587,
+        "time_until_airing": 1628501,
         "airing_at_unix": 1754409600
       },
       {
         "episode": 7,
-        "time_until_airing": 2301387,
+        "time_until_airing": 2233301,
         "airing_at_unix": 1755014400
       },
       {
         "episode": 8,
-        "time_until_airing": 2906187,
+        "time_until_airing": 2838101,
         "airing_at_unix": 1755619200
       }
     ]
@@ -3641,7 +3610,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 3248187,
+        "time_until_airing": 3180101,
         "airing_at_unix": 1755961200
       }
     ]
@@ -3662,7 +3631,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 5494587,
+        "time_until_airing": 5426501,
         "airing_at_unix": 1758207600
       }
     ]
@@ -3683,52 +3652,52 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 216987,
+        "time_until_airing": 148901,
         "airing_at_unix": 1752930000
       },
       {
         "episode": 5,
-        "time_until_airing": 821787,
+        "time_until_airing": 753701,
         "airing_at_unix": 1753534800
       },
       {
         "episode": 6,
-        "time_until_airing": 1426587,
+        "time_until_airing": 1358501,
         "airing_at_unix": 1754139600
       },
       {
         "episode": 7,
-        "time_until_airing": 2031387,
+        "time_until_airing": 1963301,
         "airing_at_unix": 1754744400
       },
       {
         "episode": 8,
-        "time_until_airing": 2636187,
+        "time_until_airing": 2568101,
         "airing_at_unix": 1755349200
       },
       {
         "episode": 9,
-        "time_until_airing": 3240987,
+        "time_until_airing": 3172901,
         "airing_at_unix": 1755954000
       },
       {
         "episode": 10,
-        "time_until_airing": 3845787,
+        "time_until_airing": 3777701,
         "airing_at_unix": 1756558800
       },
       {
         "episode": 11,
-        "time_until_airing": 4450587,
+        "time_until_airing": 4382501,
         "airing_at_unix": 1757163600
       },
       {
         "episode": 12,
-        "time_until_airing": 5055387,
+        "time_until_airing": 4987301,
         "airing_at_unix": 1757768400
       },
       {
         "episode": 13,
-        "time_until_airing": 5660187,
+        "time_until_airing": 5592101,
         "airing_at_unix": 1758373200
       }
     ]
@@ -3748,58 +3717,53 @@
     },
     "airing_schedule": [
       {
-        "episode": 3,
-        "time_until_airing": 51147,
-        "airing_at_unix": 1752764160
-      },
-      {
         "episode": 4,
-        "time_until_airing": 655947,
+        "time_until_airing": 587861,
         "airing_at_unix": 1753368960
       },
       {
         "episode": 5,
-        "time_until_airing": 1260747,
+        "time_until_airing": 1192661,
         "airing_at_unix": 1753973760
       },
       {
         "episode": 6,
-        "time_until_airing": 1865547,
+        "time_until_airing": 1797461,
         "airing_at_unix": 1754578560
       },
       {
         "episode": 7,
-        "time_until_airing": 2470347,
+        "time_until_airing": 2402261,
         "airing_at_unix": 1755183360
       },
       {
         "episode": 8,
-        "time_until_airing": 3075147,
+        "time_until_airing": 3007061,
         "airing_at_unix": 1755788160
       },
       {
         "episode": 9,
-        "time_until_airing": 3679947,
+        "time_until_airing": 3611861,
         "airing_at_unix": 1756392960
       },
       {
         "episode": 10,
-        "time_until_airing": 4284747,
+        "time_until_airing": 4216661,
         "airing_at_unix": 1756997760
       },
       {
         "episode": 11,
-        "time_until_airing": 4889547,
+        "time_until_airing": 4821461,
         "airing_at_unix": 1757602560
       },
       {
         "episode": 12,
-        "time_until_airing": 5494347,
+        "time_until_airing": 5426261,
         "airing_at_unix": 1758207360
       },
       {
         "episode": 13,
-        "time_until_airing": 6099147,
+        "time_until_airing": 6031061,
         "airing_at_unix": 1758812160
       }
     ]
@@ -3835,47 +3799,47 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 481587,
+        "time_until_airing": 413501,
         "airing_at_unix": 1753194600
       },
       {
         "episode": 5,
-        "time_until_airing": 1086387,
+        "time_until_airing": 1018301,
         "airing_at_unix": 1753799400
       },
       {
         "episode": 6,
-        "time_until_airing": 1691187,
+        "time_until_airing": 1623101,
         "airing_at_unix": 1754404200
       },
       {
         "episode": 7,
-        "time_until_airing": 2295987,
+        "time_until_airing": 2227901,
         "airing_at_unix": 1755009000
       },
       {
         "episode": 8,
-        "time_until_airing": 2900787,
+        "time_until_airing": 2832701,
         "airing_at_unix": 1755613800
       },
       {
         "episode": 9,
-        "time_until_airing": 3505587,
+        "time_until_airing": 3437501,
         "airing_at_unix": 1756218600
       },
       {
         "episode": 10,
-        "time_until_airing": 4110387,
+        "time_until_airing": 4042301,
         "airing_at_unix": 1756823400
       },
       {
         "episode": 11,
-        "time_until_airing": 4715187,
+        "time_until_airing": 4647101,
         "airing_at_unix": 1757428200
       },
       {
         "episode": 12,
-        "time_until_airing": 5319987,
+        "time_until_airing": 5251901,
         "airing_at_unix": 1758033000
       }
     ]
@@ -3911,27 +3875,27 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 650787,
+        "time_until_airing": 582701,
         "airing_at_unix": 1753363800
       },
       {
         "episode": 2,
-        "time_until_airing": 1255587,
+        "time_until_airing": 1187501,
         "airing_at_unix": 1753968600
       },
       {
         "episode": 3,
-        "time_until_airing": 1860387,
+        "time_until_airing": 1792301,
         "airing_at_unix": 1754573400
       },
       {
         "episode": 4,
-        "time_until_airing": 2465187,
+        "time_until_airing": 2397101,
         "airing_at_unix": 1755178200
       },
       {
         "episode": 5,
-        "time_until_airing": 3069987,
+        "time_until_airing": 3001901,
         "airing_at_unix": 1755783000
       }
     ]
@@ -3952,42 +3916,42 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 3069987,
+        "time_until_airing": 3001901,
         "airing_at_unix": 1755783000
       },
       {
         "episode": 2,
-        "time_until_airing": 3674787,
+        "time_until_airing": 3606701,
         "airing_at_unix": 1756387800
       },
       {
         "episode": 3,
-        "time_until_airing": 4279587,
+        "time_until_airing": 4211501,
         "airing_at_unix": 1756992600
       },
       {
         "episode": 4,
-        "time_until_airing": 4884387,
+        "time_until_airing": 4816301,
         "airing_at_unix": 1757597400
       },
       {
         "episode": 5,
-        "time_until_airing": 5489187,
+        "time_until_airing": 5421101,
         "airing_at_unix": 1758202200
       },
       {
         "episode": 6,
-        "time_until_airing": 6093987,
+        "time_until_airing": 6025901,
         "airing_at_unix": 1758807000
       },
       {
         "episode": 7,
-        "time_until_airing": 6698787,
+        "time_until_airing": 6630701,
         "airing_at_unix": 1759411800
       },
       {
         "episode": 8,
-        "time_until_airing": 7303587,
+        "time_until_airing": 7235501,
         "airing_at_unix": 1760016600
       }
     ]
@@ -4008,7 +3972,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 3680187,
+        "time_until_airing": 3612101,
         "airing_at_unix": 1756393200
       }
     ]
@@ -4028,63 +3992,58 @@
     },
     "airing_schedule": [
       {
-        "episode": 1,
-        "time_until_airing": 42147,
-        "airing_at_unix": 1752755160
-      },
-      {
         "episode": 2,
-        "time_until_airing": 646947,
+        "time_until_airing": 578861,
         "airing_at_unix": 1753359960
       },
       {
         "episode": 3,
-        "time_until_airing": 1251747,
+        "time_until_airing": 1183661,
         "airing_at_unix": 1753964760
       },
       {
         "episode": 4,
-        "time_until_airing": 1856547,
+        "time_until_airing": 1788461,
         "airing_at_unix": 1754569560
       },
       {
         "episode": 5,
-        "time_until_airing": 2461347,
+        "time_until_airing": 2393261,
         "airing_at_unix": 1755174360
       },
       {
         "episode": 6,
-        "time_until_airing": 3066147,
+        "time_until_airing": 2998061,
         "airing_at_unix": 1755779160
       },
       {
         "episode": 7,
-        "time_until_airing": 3670947,
+        "time_until_airing": 3602861,
         "airing_at_unix": 1756383960
       },
       {
         "episode": 8,
-        "time_until_airing": 4275747,
+        "time_until_airing": 4207661,
         "airing_at_unix": 1756988760
       },
       {
         "episode": 9,
-        "time_until_airing": 4880547,
+        "time_until_airing": 4812461,
         "airing_at_unix": 1757593560
       },
       {
         "episode": 10,
-        "time_until_airing": 5485347,
+        "time_until_airing": 5417261,
         "airing_at_unix": 1758198360
       },
       {
         "episode": 11,
-        "time_until_airing": 6090147,
+        "time_until_airing": 6022061,
         "airing_at_unix": 1758803160
       },
       {
         "episode": 12,
-        "time_until_airing": 6694947,
+        "time_until_airing": 6626861,
         "airing_at_unix": 1759407960
       }
     ]
@@ -4105,52 +4064,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 571587,
+        "time_until_airing": 503501,
         "airing_at_unix": 1753284600
       },
       {
         "episode": 4,
-        "time_until_airing": 1176387,
+        "time_until_airing": 1108301,
         "airing_at_unix": 1753889400
       },
       {
         "episode": 5,
-        "time_until_airing": 1781187,
+        "time_until_airing": 1713101,
         "airing_at_unix": 1754494200
       },
       {
         "episode": 6,
-        "time_until_airing": 2385987,
+        "time_until_airing": 2317901,
         "airing_at_unix": 1755099000
       },
       {
         "episode": 7,
-        "time_until_airing": 2990787,
+        "time_until_airing": 2922701,
         "airing_at_unix": 1755703800
       },
       {
         "episode": 8,
-        "time_until_airing": 3595587,
+        "time_until_airing": 3527501,
         "airing_at_unix": 1756308600
       },
       {
         "episode": 9,
-        "time_until_airing": 4200387,
+        "time_until_airing": 4132301,
         "airing_at_unix": 1756913400
       },
       {
         "episode": 10,
-        "time_until_airing": 4805187,
+        "time_until_airing": 4737101,
         "airing_at_unix": 1757518200
       },
       {
         "episode": 11,
-        "time_until_airing": 5409987,
+        "time_until_airing": 5341901,
         "airing_at_unix": 1758123000
       },
       {
         "episode": 12,
-        "time_until_airing": 6014787,
+        "time_until_airing": 5946701,
         "airing_at_unix": 1758727800
       }
     ]
@@ -4170,53 +4129,48 @@
     },
     "airing_schedule": [
       {
-        "episode": 3,
-        "time_until_airing": 43827,
-        "airing_at_unix": 1752756840
-      },
-      {
         "episode": 4,
-        "time_until_airing": 648627,
+        "time_until_airing": 580541,
         "airing_at_unix": 1753361640
       },
       {
         "episode": 5,
-        "time_until_airing": 1253427,
+        "time_until_airing": 1185341,
         "airing_at_unix": 1753966440
       },
       {
         "episode": 6,
-        "time_until_airing": 1858227,
+        "time_until_airing": 1790141,
         "airing_at_unix": 1754571240
       },
       {
         "episode": 7,
-        "time_until_airing": 2463027,
+        "time_until_airing": 2394941,
         "airing_at_unix": 1755176040
       },
       {
         "episode": 8,
-        "time_until_airing": 3067827,
+        "time_until_airing": 2999741,
         "airing_at_unix": 1755780840
       },
       {
         "episode": 9,
-        "time_until_airing": 3672627,
+        "time_until_airing": 3604541,
         "airing_at_unix": 1756385640
       },
       {
         "episode": 10,
-        "time_until_airing": 4277427,
+        "time_until_airing": 4209341,
         "airing_at_unix": 1756990440
       },
       {
         "episode": 11,
-        "time_until_airing": 4882227,
+        "time_until_airing": 4814141,
         "airing_at_unix": 1757595240
       },
       {
         "episode": 12,
-        "time_until_airing": 5487027,
+        "time_until_airing": 5418941,
         "airing_at_unix": 1758200040
       }
     ]
@@ -4237,62 +4191,62 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       },
       {
         "episode": 2,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       },
       {
         "episode": 3,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       },
       {
         "episode": 4,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       },
       {
         "episode": 5,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       },
       {
         "episode": 6,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       },
       {
         "episode": 7,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       },
       {
         "episode": 8,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       },
       {
         "episode": 9,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       },
       {
         "episode": 10,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       },
       {
         "episode": 11,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       },
       {
         "episode": 12,
-        "time_until_airing": 569787,
+        "time_until_airing": 501701,
         "airing_at_unix": 1753282800
       }
     ]
@@ -4313,7 +4267,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 2470587,
+        "time_until_airing": 2402501,
         "airing_at_unix": 1755183600
       }
     ]
@@ -4334,52 +4288,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 287187,
+        "time_until_airing": 219101,
         "airing_at_unix": 1753000200
       },
       {
         "episode": 4,
-        "time_until_airing": 891987,
+        "time_until_airing": 823901,
         "airing_at_unix": 1753605000
       },
       {
         "episode": 5,
-        "time_until_airing": 1496787,
+        "time_until_airing": 1428701,
         "airing_at_unix": 1754209800
       },
       {
         "episode": 6,
-        "time_until_airing": 2101587,
+        "time_until_airing": 2033501,
         "airing_at_unix": 1754814600
       },
       {
         "episode": 7,
-        "time_until_airing": 2706387,
+        "time_until_airing": 2638301,
         "airing_at_unix": 1755419400
       },
       {
         "episode": 8,
-        "time_until_airing": 3311187,
+        "time_until_airing": 3243101,
         "airing_at_unix": 1756024200
       },
       {
         "episode": 9,
-        "time_until_airing": 3915987,
+        "time_until_airing": 3847901,
         "airing_at_unix": 1756629000
       },
       {
         "episode": 10,
-        "time_until_airing": 4520787,
+        "time_until_airing": 4452701,
         "airing_at_unix": 1757233800
       },
       {
         "episode": 11,
-        "time_until_airing": 5125587,
+        "time_until_airing": 5057501,
         "airing_at_unix": 1757838600
       },
       {
         "episode": 12,
-        "time_until_airing": 5730387,
+        "time_until_airing": 5662301,
         "airing_at_unix": 1758443400
       }
     ]
@@ -4400,57 +4354,57 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 483387,
+        "time_until_airing": 415301,
         "airing_at_unix": 1753196400
       },
       {
         "episode": 4,
-        "time_until_airing": 1088187,
+        "time_until_airing": 1020101,
         "airing_at_unix": 1753801200
       },
       {
         "episode": 5,
-        "time_until_airing": 1692987,
+        "time_until_airing": 1624901,
         "airing_at_unix": 1754406000
       },
       {
         "episode": 6,
-        "time_until_airing": 2297787,
+        "time_until_airing": 2229701,
         "airing_at_unix": 1755010800
       },
       {
         "episode": 7,
-        "time_until_airing": 2902587,
+        "time_until_airing": 2834501,
         "airing_at_unix": 1755615600
       },
       {
         "episode": 8,
-        "time_until_airing": 3507387,
+        "time_until_airing": 3439301,
         "airing_at_unix": 1756220400
       },
       {
         "episode": 9,
-        "time_until_airing": 4112187,
+        "time_until_airing": 4044101,
         "airing_at_unix": 1756825200
       },
       {
         "episode": 10,
-        "time_until_airing": 4716987,
+        "time_until_airing": 4648901,
         "airing_at_unix": 1757430000
       },
       {
         "episode": 11,
-        "time_until_airing": 5321787,
+        "time_until_airing": 5253701,
         "airing_at_unix": 1758034800
       },
       {
         "episode": 12,
-        "time_until_airing": 5926587,
+        "time_until_airing": 5858501,
         "airing_at_unix": 1758639600
       },
       {
         "episode": 13,
-        "time_until_airing": 6531387,
+        "time_until_airing": 6463301,
         "airing_at_unix": 1759244400
       }
     ]
@@ -4471,52 +4425,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 393387,
+        "time_until_airing": 325301,
         "airing_at_unix": 1753106400
       },
       {
         "episode": 4,
-        "time_until_airing": 998187,
+        "time_until_airing": 930101,
         "airing_at_unix": 1753711200
       },
       {
         "episode": 5,
-        "time_until_airing": 1602987,
+        "time_until_airing": 1534901,
         "airing_at_unix": 1754316000
       },
       {
         "episode": 6,
-        "time_until_airing": 2207787,
+        "time_until_airing": 2139701,
         "airing_at_unix": 1754920800
       },
       {
         "episode": 7,
-        "time_until_airing": 2812587,
+        "time_until_airing": 2744501,
         "airing_at_unix": 1755525600
       },
       {
         "episode": 8,
-        "time_until_airing": 3417387,
+        "time_until_airing": 3349301,
         "airing_at_unix": 1756130400
       },
       {
         "episode": 9,
-        "time_until_airing": 4022187,
+        "time_until_airing": 3954101,
         "airing_at_unix": 1756735200
       },
       {
         "episode": 10,
-        "time_until_airing": 4626987,
+        "time_until_airing": 4558901,
         "airing_at_unix": 1757340000
       },
       {
         "episode": 11,
-        "time_until_airing": 5231787,
+        "time_until_airing": 5163701,
         "airing_at_unix": 1757944800
       },
       {
         "episode": 12,
-        "time_until_airing": 5836587,
+        "time_until_airing": 5768501,
         "airing_at_unix": 1758549600
       }
     ]
@@ -4534,13 +4488,7 @@
       "month": 7,
       "day": 18
     },
-    "airing_schedule": [
-      {
-        "episode": 1,
-        "time_until_airing": 51387,
-        "airing_at_unix": 1752764400
-      }
-    ]
+    "airing_schedule": []
   },
   {
     "title": "AS ONE",
@@ -4558,7 +4506,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 3075387,
+        "time_until_airing": 3007301,
         "airing_at_unix": 1755788400
       }
     ]
@@ -4579,7 +4527,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 6099387,
+        "time_until_airing": 6031301,
         "airing_at_unix": 1758812400
       }
     ]
@@ -4630,7 +4578,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 3075387,
+        "time_until_airing": 3007301,
         "airing_at_unix": 1755788400
       }
     ]
@@ -4651,32 +4599,32 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 310587,
+        "time_until_airing": 242501,
         "airing_at_unix": 1753023600
       },
       {
         "episode": 4,
-        "time_until_airing": 1520187,
+        "time_until_airing": 1452101,
         "airing_at_unix": 1754233200
       },
       {
         "episode": 5,
-        "time_until_airing": 2124987,
+        "time_until_airing": 2056901,
         "airing_at_unix": 1754838000
       },
       {
         "episode": 6,
-        "time_until_airing": 2729787,
+        "time_until_airing": 2661701,
         "airing_at_unix": 1755442800
       },
       {
         "episode": 7,
-        "time_until_airing": 3939387,
+        "time_until_airing": 3871301,
         "airing_at_unix": 1756652400
       },
       {
         "episode": 8,
-        "time_until_airing": 4544187,
+        "time_until_airing": 4476101,
         "airing_at_unix": 1757257200
       }
     ]
@@ -4697,62 +4645,62 @@
     "airing_schedule": [
       {
         "episode": 2,
-        "time_until_airing": 320787,
+        "time_until_airing": 252701,
         "airing_at_unix": 1753033800
       },
       {
         "episode": 3,
-        "time_until_airing": 925587,
+        "time_until_airing": 857501,
         "airing_at_unix": 1753638600
       },
       {
         "episode": 4,
-        "time_until_airing": 1530387,
+        "time_until_airing": 1462301,
         "airing_at_unix": 1754243400
       },
       {
         "episode": 5,
-        "time_until_airing": 2135187,
+        "time_until_airing": 2067101,
         "airing_at_unix": 1754848200
       },
       {
         "episode": 6,
-        "time_until_airing": 2739987,
+        "time_until_airing": 2671901,
         "airing_at_unix": 1755453000
       },
       {
         "episode": 7,
-        "time_until_airing": 3344787,
+        "time_until_airing": 3276701,
         "airing_at_unix": 1756057800
       },
       {
         "episode": 8,
-        "time_until_airing": 3949587,
+        "time_until_airing": 3881501,
         "airing_at_unix": 1756662600
       },
       {
         "episode": 9,
-        "time_until_airing": 4554387,
+        "time_until_airing": 4486301,
         "airing_at_unix": 1757267400
       },
       {
         "episode": 10,
-        "time_until_airing": 5159187,
+        "time_until_airing": 5091101,
         "airing_at_unix": 1757872200
       },
       {
         "episode": 11,
-        "time_until_airing": 5763987,
+        "time_until_airing": 5695901,
         "airing_at_unix": 1758477000
       },
       {
         "episode": 12,
-        "time_until_airing": 6368787,
+        "time_until_airing": 6300701,
         "airing_at_unix": 1759081800
       },
       {
         "episode": 13,
-        "time_until_airing": 6973587,
+        "time_until_airing": 6905501,
         "airing_at_unix": 1759686600
       }
     ]
@@ -4773,52 +4721,52 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 166587,
+        "time_until_airing": 98501,
         "airing_at_unix": 1752879600
       },
       {
         "episode": 4,
-        "time_until_airing": 771387,
+        "time_until_airing": 703301,
         "airing_at_unix": 1753484400
       },
       {
         "episode": 5,
-        "time_until_airing": 1376187,
+        "time_until_airing": 1308101,
         "airing_at_unix": 1754089200
       },
       {
         "episode": 6,
-        "time_until_airing": 1980987,
+        "time_until_airing": 1912901,
         "airing_at_unix": 1754694000
       },
       {
         "episode": 7,
-        "time_until_airing": 2585787,
+        "time_until_airing": 2517701,
         "airing_at_unix": 1755298800
       },
       {
         "episode": 8,
-        "time_until_airing": 3190587,
+        "time_until_airing": 3122501,
         "airing_at_unix": 1755903600
       },
       {
         "episode": 9,
-        "time_until_airing": 3795387,
+        "time_until_airing": 3727301,
         "airing_at_unix": 1756508400
       },
       {
         "episode": 10,
-        "time_until_airing": 4400187,
+        "time_until_airing": 4332101,
         "airing_at_unix": 1757113200
       },
       {
         "episode": 11,
-        "time_until_airing": 5004987,
+        "time_until_airing": 4936901,
         "airing_at_unix": 1757718000
       },
       {
         "episode": 12,
-        "time_until_airing": 5609787,
+        "time_until_airing": 5541701,
         "airing_at_unix": 1758322800
       }
     ]
@@ -4839,7 +4787,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 1865787,
+        "time_until_airing": 1797701,
         "airing_at_unix": 1754578800
       }
     ]
@@ -4875,12 +4823,12 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 656187,
+        "time_until_airing": 588101,
         "airing_at_unix": 1753369200
       },
       {
         "episode": 2,
-        "time_until_airing": 656187,
+        "time_until_airing": 588101,
         "airing_at_unix": 1753369200
       }
     ]
@@ -4901,12 +4849,12 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 4889787,
+        "time_until_airing": 4821701,
         "airing_at_unix": 1757602800
       },
       {
         "episode": 2,
-        "time_until_airing": 7308987,
+        "time_until_airing": 7240901,
         "airing_at_unix": 1760022000
       }
     ]
@@ -4927,7 +4875,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 656187,
+        "time_until_airing": 588101,
         "airing_at_unix": 1753369200
       }
     ]
@@ -4948,7 +4896,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 3680187,
+        "time_until_airing": 3612101,
         "airing_at_unix": 1756393200
       }
     ]
@@ -4969,12 +4917,12 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 3680187,
+        "time_until_airing": 3612101,
         "airing_at_unix": 1756393200
       },
       {
         "episode": 2,
-        "time_until_airing": 3680187,
+        "time_until_airing": 3612101,
         "airing_at_unix": 1756393200
       }
     ]
@@ -4995,127 +4943,127 @@
     "airing_schedule": [
       {
         "episode": 4,
-        "time_until_airing": 508947,
+        "time_until_airing": 440861,
         "airing_at_unix": 1753221960
       },
       {
         "episode": 5,
-        "time_until_airing": 1113747,
+        "time_until_airing": 1045661,
         "airing_at_unix": 1753826760
       },
       {
         "episode": 6,
-        "time_until_airing": 1718547,
+        "time_until_airing": 1650461,
         "airing_at_unix": 1754431560
       },
       {
         "episode": 7,
-        "time_until_airing": 2323347,
+        "time_until_airing": 2255261,
         "airing_at_unix": 1755036360
       },
       {
         "episode": 8,
-        "time_until_airing": 2928147,
+        "time_until_airing": 2860061,
         "airing_at_unix": 1755641160
       },
       {
         "episode": 9,
-        "time_until_airing": 3532947,
+        "time_until_airing": 3464861,
         "airing_at_unix": 1756245960
       },
       {
         "episode": 10,
-        "time_until_airing": 4137747,
+        "time_until_airing": 4069661,
         "airing_at_unix": 1756850760
       },
       {
         "episode": 11,
-        "time_until_airing": 4742547,
+        "time_until_airing": 4674461,
         "airing_at_unix": 1757455560
       },
       {
         "episode": 12,
-        "time_until_airing": 5347347,
+        "time_until_airing": 5279261,
         "airing_at_unix": 1758060360
       },
       {
         "episode": 13,
-        "time_until_airing": 5952147,
+        "time_until_airing": 5884061,
         "airing_at_unix": 1758665160
       },
       {
         "episode": 14,
-        "time_until_airing": 6556947,
+        "time_until_airing": 6488861,
         "airing_at_unix": 1759269960
       },
       {
         "episode": 15,
-        "time_until_airing": 7161747,
+        "time_until_airing": 7093661,
         "airing_at_unix": 1759874760
       },
       {
         "episode": 16,
-        "time_until_airing": 7766547,
+        "time_until_airing": 7698461,
         "airing_at_unix": 1760479560
       },
       {
         "episode": 17,
-        "time_until_airing": 8371347,
+        "time_until_airing": 8303261,
         "airing_at_unix": 1761084360
       },
       {
         "episode": 18,
-        "time_until_airing": 8976147,
+        "time_until_airing": 8908061,
         "airing_at_unix": 1761689160
       },
       {
         "episode": 19,
-        "time_until_airing": 9580947,
+        "time_until_airing": 9512861,
         "airing_at_unix": 1762293960
       },
       {
         "episode": 20,
-        "time_until_airing": 10185747,
+        "time_until_airing": 10117661,
         "airing_at_unix": 1762898760
       },
       {
         "episode": 21,
-        "time_until_airing": 10790547,
+        "time_until_airing": 10722461,
         "airing_at_unix": 1763503560
       },
       {
         "episode": 22,
-        "time_until_airing": 11395347,
+        "time_until_airing": 11327261,
         "airing_at_unix": 1764108360
       },
       {
         "episode": 23,
-        "time_until_airing": 12000147,
+        "time_until_airing": 11932061,
         "airing_at_unix": 1764713160
       },
       {
         "episode": 24,
-        "time_until_airing": 12604947,
+        "time_until_airing": 12536861,
         "airing_at_unix": 1765317960
       },
       {
         "episode": 25,
-        "time_until_airing": 13209747,
+        "time_until_airing": 13141661,
         "airing_at_unix": 1765922760
       },
       {
         "episode": 26,
-        "time_until_airing": 13814547,
+        "time_until_airing": 13746461,
         "airing_at_unix": 1766527560
       },
       {
         "episode": 27,
-        "time_until_airing": 14419347,
+        "time_until_airing": 14351261,
         "airing_at_unix": 1767132360
       },
       {
         "episode": 28,
-        "time_until_airing": 15024147,
+        "time_until_airing": 14956061,
         "airing_at_unix": 1767737160
       }
     ]
@@ -5136,12 +5084,12 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 3680187,
+        "time_until_airing": 3612101,
         "airing_at_unix": 1756393200
       },
       {
         "episode": 2,
-        "time_until_airing": 6099387,
+        "time_until_airing": 6031301,
         "airing_at_unix": 1758812400
       }
     ]
@@ -5162,7 +5110,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 6099387,
+        "time_until_airing": 6031301,
         "airing_at_unix": 1758812400
       }
     ]
@@ -5183,117 +5131,117 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 172887,
+        "time_until_airing": 104801,
         "airing_at_unix": 1752885900
       },
       {
         "episode": 4,
-        "time_until_airing": 777687,
+        "time_until_airing": 709601,
         "airing_at_unix": 1753490700
       },
       {
         "episode": 5,
-        "time_until_airing": 1382487,
+        "time_until_airing": 1314401,
         "airing_at_unix": 1754095500
       },
       {
         "episode": 6,
-        "time_until_airing": 1987287,
+        "time_until_airing": 1919201,
         "airing_at_unix": 1754700300
       },
       {
         "episode": 7,
-        "time_until_airing": 2592087,
+        "time_until_airing": 2524001,
         "airing_at_unix": 1755305100
       },
       {
         "episode": 8,
-        "time_until_airing": 3196887,
+        "time_until_airing": 3128801,
         "airing_at_unix": 1755909900
       },
       {
         "episode": 9,
-        "time_until_airing": 3801687,
+        "time_until_airing": 3733601,
         "airing_at_unix": 1756514700
       },
       {
         "episode": 10,
-        "time_until_airing": 4406487,
+        "time_until_airing": 4338401,
         "airing_at_unix": 1757119500
       },
       {
         "episode": 11,
-        "time_until_airing": 5011287,
+        "time_until_airing": 4943201,
         "airing_at_unix": 1757724300
       },
       {
         "episode": 12,
-        "time_until_airing": 5616087,
+        "time_until_airing": 5548001,
         "airing_at_unix": 1758329100
       },
       {
         "episode": 13,
-        "time_until_airing": 6220887,
+        "time_until_airing": 6152801,
         "airing_at_unix": 1758933900
       },
       {
         "episode": 14,
-        "time_until_airing": 6825687,
+        "time_until_airing": 6757601,
         "airing_at_unix": 1759538700
       },
       {
         "episode": 15,
-        "time_until_airing": 7430487,
+        "time_until_airing": 7362401,
         "airing_at_unix": 1760143500
       },
       {
         "episode": 16,
-        "time_until_airing": 8035287,
+        "time_until_airing": 7967201,
         "airing_at_unix": 1760748300
       },
       {
         "episode": 17,
-        "time_until_airing": 8640087,
+        "time_until_airing": 8572001,
         "airing_at_unix": 1761353100
       },
       {
         "episode": 18,
-        "time_until_airing": 9244887,
+        "time_until_airing": 9176801,
         "airing_at_unix": 1761957900
       },
       {
         "episode": 19,
-        "time_until_airing": 9849687,
+        "time_until_airing": 9781601,
         "airing_at_unix": 1762562700
       },
       {
         "episode": 20,
-        "time_until_airing": 10454487,
+        "time_until_airing": 10386401,
         "airing_at_unix": 1763167500
       },
       {
         "episode": 21,
-        "time_until_airing": 11059287,
+        "time_until_airing": 10991201,
         "airing_at_unix": 1763772300
       },
       {
         "episode": 22,
-        "time_until_airing": 11664087,
+        "time_until_airing": 11596001,
         "airing_at_unix": 1764377100
       },
       {
         "episode": 23,
-        "time_until_airing": 12268887,
+        "time_until_airing": 12200801,
         "airing_at_unix": 1764981900
       },
       {
         "episode": 24,
-        "time_until_airing": 12873687,
+        "time_until_airing": 12805601,
         "airing_at_unix": 1765586700
       },
       {
         "episode": 25,
-        "time_until_airing": 13478487,
+        "time_until_airing": 13410401,
         "airing_at_unix": 1766191500
       }
     ]
@@ -5314,7 +5262,7 @@
     "airing_schedule": [
       {
         "episode": 1,
-        "time_until_airing": 6099387,
+        "time_until_airing": 6031301,
         "airing_at_unix": 1758812400
       }
     ]
@@ -5335,119 +5283,53 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 162987,
+        "time_until_airing": 94901,
         "airing_at_unix": 1752876000
       },
       {
         "episode": 4,
-        "time_until_airing": 767787,
+        "time_until_airing": 699701,
         "airing_at_unix": 1753480800
       },
       {
         "episode": 5,
-        "time_until_airing": 1372587,
+        "time_until_airing": 1304501,
         "airing_at_unix": 1754085600
       },
       {
         "episode": 6,
-        "time_until_airing": 1977387,
+        "time_until_airing": 1909301,
         "airing_at_unix": 1754690400
       },
       {
         "episode": 7,
-        "time_until_airing": 2582187,
+        "time_until_airing": 2514101,
         "airing_at_unix": 1755295200
       },
       {
         "episode": 8,
-        "time_until_airing": 3186987,
+        "time_until_airing": 3118901,
         "airing_at_unix": 1755900000
       },
       {
         "episode": 9,
-        "time_until_airing": 3791787,
+        "time_until_airing": 3723701,
         "airing_at_unix": 1756504800
       },
       {
         "episode": 10,
-        "time_until_airing": 4396587,
+        "time_until_airing": 4328501,
         "airing_at_unix": 1757109600
       },
       {
         "episode": 11,
-        "time_until_airing": 5001387,
+        "time_until_airing": 4933301,
         "airing_at_unix": 1757714400
       },
       {
         "episode": 12,
-        "time_until_airing": 5606187,
+        "time_until_airing": 5538101,
         "airing_at_unix": 1758319200
-      }
-    ]
-  },
-  {
-    "title": "Shinobanai! Crypto Ninja Sakuya San no Maki",
-    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181867-mRwcaXoo0cl4.png",
-    "start_date": {
-      "year": 2025,
-      "month": 7,
-      "day": 7
-    },
-    "end_date": {
-      "year": null,
-      "month": null,
-      "day": null
-    },
-    "airing_schedule": [
-      {
-        "episode": 3,
-        "time_until_airing": 389427,
-        "airing_at_unix": 1753102440
-      },
-      {
-        "episode": 4,
-        "time_until_airing": 994227,
-        "airing_at_unix": 1753707240
-      },
-      {
-        "episode": 5,
-        "time_until_airing": 1599027,
-        "airing_at_unix": 1754312040
-      },
-      {
-        "episode": 6,
-        "time_until_airing": 2203827,
-        "airing_at_unix": 1754916840
-      },
-      {
-        "episode": 7,
-        "time_until_airing": 2808627,
-        "airing_at_unix": 1755521640
-      },
-      {
-        "episode": 8,
-        "time_until_airing": 3413427,
-        "airing_at_unix": 1756126440
-      },
-      {
-        "episode": 9,
-        "time_until_airing": 4018227,
-        "airing_at_unix": 1756731240
-      },
-      {
-        "episode": 10,
-        "time_until_airing": 4623027,
-        "airing_at_unix": 1757336040
-      },
-      {
-        "episode": 11,
-        "time_until_airing": 5227827,
-        "airing_at_unix": 1757940840
-      },
-      {
-        "episode": 12,
-        "time_until_airing": 5832627,
-        "airing_at_unix": 1758545640
       }
     ]
   },
@@ -5465,6 +5347,72 @@
       "day": null
     },
     "airing_schedule": []
+  },
+  {
+    "title": "Shinobanai! Crypto Ninja Sakuya San no Maki",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181867-mRwcaXoo0cl4.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 7
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 321341,
+        "airing_at_unix": 1753102440
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 926141,
+        "airing_at_unix": 1753707240
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1530941,
+        "airing_at_unix": 1754312040
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2135741,
+        "airing_at_unix": 1754916840
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2740541,
+        "airing_at_unix": 1755521640
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3345341,
+        "airing_at_unix": 1756126440
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3950141,
+        "airing_at_unix": 1756731240
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4554941,
+        "airing_at_unix": 1757336040
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5159741,
+        "airing_at_unix": 1757940840
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5764541,
+        "airing_at_unix": 1758545640
+      }
+    ]
   },
   {
     "title": "Obusu ni Hanataba wo",

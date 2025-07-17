@@ -1,6 +1,6 @@
 import discord
 from typing import List, Tuple
-from ..time_converter import convert_iso, convert_unix
+from ..time_helper import convert_iso, convert_unix
 
 def get_anime_variables(anime: dict):
   title = anime.get('title') or 'Unknown Title'
@@ -174,7 +174,7 @@ def build_schedule_embed(anime_name: str, airing_schedule: list[dict], image_url
     color=discord.Color.dark_blue()
   )
 
-  for ep in airing_schedule[:10]:
+  for ep in airing_schedule:
     episode_num = ep.get('episode')
     air_time = convert_unix(ep.get('time_until_airing'))
     embed.add_field(

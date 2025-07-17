@@ -1,7 +1,7 @@
 import sqlite3
 import json
 import os
-
+import time 
 DB_PATH = os.path.join("AniAlert", "db", "database.db")
 
 # Create a global connection and cursor
@@ -47,6 +47,7 @@ def print_table_contents():
       "image": row[3],
       "airing_at": row[4]
     }, indent=2, ensure_ascii=False))
+
 
 def close_connection():
   cursor.close()

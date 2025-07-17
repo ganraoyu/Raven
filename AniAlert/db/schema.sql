@@ -16,8 +16,8 @@ CREATE TABLE IF NOT EXISTS seasonal_schedule (
   id             INTEGER PRIMARY KEY AUTOINCREMENT,
   anime_name     TEXT NOT NULL,
   episode_number INTEGER,
-  image          TEXT,
-  airing_at      INTEGER,
-  season:        TEXT NOT NULL,
-  year:          INT NOT NULL 
+  airing_at_unix INTEGER,
+  season         TEXT NOT NULL,
+  year           INT NOT NULL,
+  image          TEXT
 );

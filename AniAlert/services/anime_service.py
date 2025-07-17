@@ -114,7 +114,7 @@ def get_random_anime_suggestion(genres: list[str], media_type: str = 'all') -> l
   return results
 
 def get_seasonal_schedule():
-  results = get_schedule
+  results = get_schedule()
   return results
 
 if __name__ == '__main__':

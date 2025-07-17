@@ -1,6 +1,6 @@
 from unittest.mock import patch
 from AniAlert.providers.anilist.processors.seasonal_processor import get_seasonal_animes_anilist
-from AniAlert.utils.time_converter import convert_unix
+from AniAlert.utils.time_helper import convert_unix
 
 @patch('AniAlert.providers.anilist.seasonal.requests.post')
 def test_get_dandadan_anime(mock_post):
