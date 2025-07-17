@@ -36,9 +36,9 @@ def print_table_contents():
       "episodes_list": json.loads(row[10]) if row[10] else []
     }, indent=2, ensure_ascii=False))
 
-  cursor.execute("SELECT * FROM airing_schedule;")
+  cursor.execute("SELECT * FROM seasonal_schedule;")
   rows = cursor.fetchall()
-  print("Rows in airing_schedule:")
+  print("Rows in seasonal_schedule:")
   for row in rows:
     print(json.dumps({
       "id": row[0],

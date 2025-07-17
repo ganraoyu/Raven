@@ -1,24 +1,22 @@
-YEAR = 2025
-SEASON = "SUMMER"
-
 import requests
 import json
 
+from AniAlert.utils.seasonal_helper import get_season_year
 from AniAlert.providers.anilist.query_loader import load_graphql_query
 
 query = load_graphql_query('queries/schedule_query.graphql')
+current_year, current_season = get_season_year()
 
 def build_variables(page: int, perPage: int):
   return {
   "page": page,
   "perPage": perPage,
-  "seasonYear": YEAR,
-  "season": SEASON,
+  "seasonYear": current_year,
+  "season": current_season,
   "type": "ANIME"
 }
 
 def get_schedule() -> list[dict]:
-
   animes_list = []
 
   for i in range(4):  

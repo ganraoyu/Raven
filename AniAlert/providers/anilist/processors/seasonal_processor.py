@@ -1,6 +1,3 @@
-YEAR = 2025
-SEASON = 'SUMMER'
-
 from typing import List, Union
 import requests
 import json
@@ -8,8 +5,10 @@ import datetime
 from AniAlert.utils.time_converter import convert_unix
 from AniAlert.utils.discord_commands.common_genres_tags import get_common_genres_tags
 from AniAlert.providers.anilist.query_loader import load_graphql_query
+from AniAlert.utils.seasonal_helper import get_season_year
 
 query = load_graphql_query('queries/seasonal_query.graphql')
+current_year, current_season = get_season_year()
 
 def build_variables(page, per_page, genres, media_type, year, season, common_tags):
   filtered_genres = []
@@ -22,7 +21,7 @@ def build_variables(page, per_page, genres, media_type, year, season, common_tag
       filtered_genres.append(genre)
 
   if season not in ['WINTER', 'SPRING', 'SUMMER', 'FALL']:
-    season = SEASON
+    season = current_season
 
   variables = {
     'page': page,
@@ -82,8 +81,8 @@ def get_seasonal_animes_anilist(
     per_page: int,
     genres: Union[List[str], str] = 'all',
     media_type: Union[List[str], str] = 'all',
-    year: int = YEAR,
-    season: str = SEASON
+    year: int = current_year,
+    season: str = current_season
 ):
   common_genres, common_tags = get_common_genres_tags()
 
@@ -144,5 +143,5 @@ def get_seasonal_animes_anilist(
   return anime_list
 
 if __name__ == '__main__':
-  result = get_seasonal_animes_anilist(1, 1, ["Drama"], ['TV'], 2025, "SUMMER")
+  result = get_seasonal_animes_anilist(1, 1)
   print(json.dumps(result, indent=2, ensure_ascii=False))

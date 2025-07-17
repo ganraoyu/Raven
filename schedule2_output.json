@@ -15,54 +15,5470 @@
     "airing_schedule": [
       {
         "episode": 3,
-        "time_until_airing": 157148,
+        "time_until_airing": 52947,
         "airing_at_unix": 1752765960
       },
       {
         "episode": 4,
-        "time_until_airing": 761948,
+        "time_until_airing": 657747,
         "airing_at_unix": 1753370760
       },
       {
         "episode": 5,
-        "time_until_airing": 1366748,
+        "time_until_airing": 1262547,
         "airing_at_unix": 1753975560
       },
       {
         "episode": 6,
-        "time_until_airing": 1971548,
+        "time_until_airing": 1867347,
         "airing_at_unix": 1754580360
       },
       {
         "episode": 7,
-        "time_until_airing": 2576348,
+        "time_until_airing": 2472147,
         "airing_at_unix": 1755185160
       },
       {
         "episode": 8,
-        "time_until_airing": 3181148,
+        "time_until_airing": 3076947,
         "airing_at_unix": 1755789960
       },
       {
         "episode": 9,
-        "time_until_airing": 3785948,
+        "time_until_airing": 3681747,
         "airing_at_unix": 1756394760
       },
       {
         "episode": 10,
-        "time_until_airing": 4390748,
+        "time_until_airing": 4286547,
         "airing_at_unix": 1756999560
       },
       {
         "episode": 11,
-        "time_until_airing": 4995548,
+        "time_until_airing": 4891347,
         "airing_at_unix": 1757604360
       },
       {
         "episode": 12,
-        "time_until_airing": 5600348,
+        "time_until_airing": 5496147,
         "airing_at_unix": 1758209160
       }
     ]
+  },
+  {
+    "title": "My Dress-Up Darling Season 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154768-DHHvNd4MjV1p.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 21
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 224187,
+        "airing_at_unix": 1752937200
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 828987,
+        "airing_at_unix": 1753542000
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1433787,
+        "airing_at_unix": 1754146800
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2038587,
+        "airing_at_unix": 1754751600
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2643387,
+        "airing_at_unix": 1755356400
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3248187,
+        "airing_at_unix": 1755961200
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3852987,
+        "airing_at_unix": 1756566000
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4457787,
+        "airing_at_unix": 1757170800
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5062587,
+        "airing_at_unix": 1757775600
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5667387,
+        "airing_at_unix": 1758380400
+      }
+    ]
+  },
+  {
+    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178788-YGZc0lb7DNoe.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 18
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 18
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 51387,
+        "airing_at_unix": 1752764400
+      }
+    ]
+  },
+  {
+    "title": "Chainsaw Man – The Movie: Reze Arc",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171627-smzCQpAP6UQE.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 19
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 19
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 5494587,
+        "airing_at_unix": 1758207600
+      }
+    ]
+  },
+  {
+    "title": "Gachiakuta",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178025-cWJKEsZynkil.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 913587,
+        "airing_at_unix": 1753626600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1518387,
+        "airing_at_unix": 1754231400
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 2123187,
+        "airing_at_unix": 1754836200
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2727987,
+        "airing_at_unix": 1755441000
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 3332787,
+        "airing_at_unix": 1756045800
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3937587,
+        "airing_at_unix": 1756650600
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4542387,
+        "airing_at_unix": 1757255400
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 5147187,
+        "airing_at_unix": 1757860200
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5751987,
+        "airing_at_unix": 1758465000
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6356787,
+        "airing_at_unix": 1759069800
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6961587,
+        "airing_at_unix": 1759674600
+      },
+      {
+        "episode": 14,
+        "time_until_airing": 7566387,
+        "airing_at_unix": 1760279400
+      },
+      {
+        "episode": 15,
+        "time_until_airing": 8171187,
+        "airing_at_unix": 1760884200
+      },
+      {
+        "episode": 16,
+        "time_until_airing": 8775987,
+        "airing_at_unix": 1761489000
+      },
+      {
+        "episode": 17,
+        "time_until_airing": 9380787,
+        "airing_at_unix": 1762093800
+      },
+      {
+        "episode": 18,
+        "time_until_airing": 9985587,
+        "airing_at_unix": 1762698600
+      },
+      {
+        "episode": 19,
+        "time_until_airing": 10590387,
+        "airing_at_unix": 1763303400
+      },
+      {
+        "episode": 20,
+        "time_until_airing": 11195187,
+        "airing_at_unix": 1763908200
+      },
+      {
+        "episode": 21,
+        "time_until_airing": 11799987,
+        "airing_at_unix": 1764513000
+      },
+      {
+        "episode": 22,
+        "time_until_airing": 12404787,
+        "airing_at_unix": 1765117800
+      },
+      {
+        "episode": 23,
+        "time_until_airing": 13009587,
+        "airing_at_unix": 1765722600
+      },
+      {
+        "episode": 24,
+        "time_until_airing": 13614387,
+        "airing_at_unix": 1766327400
+      }
+    ]
+  },
+  {
+    "title": "The Fragrant Flower Blooms With Dignity",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181444-Ut9DDUZdfHwg.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 28
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 225987,
+        "airing_at_unix": 1752939000
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 830787,
+        "airing_at_unix": 1753543800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1435587,
+        "airing_at_unix": 1754148600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2040387,
+        "airing_at_unix": 1754753400
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2645187,
+        "airing_at_unix": 1755358200
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3249987,
+        "airing_at_unix": 1755963000
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3854787,
+        "airing_at_unix": 1756567800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4459587,
+        "airing_at_unix": 1757172600
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5064387,
+        "airing_at_unix": 1757777400
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5669187,
+        "airing_at_unix": 1758382200
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6273987,
+        "airing_at_unix": 1758987000
+      }
+    ]
+  },
+  {
+    "title": "Kaiju No. 8 Season 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178754-Dgrub8xgC03M.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 19
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 10,
+      "day": 4
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 220587,
+        "airing_at_unix": 1752933600
+      },
+      {
+        "episode": 2,
+        "time_until_airing": 825387,
+        "airing_at_unix": 1753538400
+      },
+      {
+        "episode": 3,
+        "time_until_airing": 1430187,
+        "airing_at_unix": 1754143200
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 2034987,
+        "airing_at_unix": 1754748000
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 2639787,
+        "airing_at_unix": 1755352800
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 3244587,
+        "airing_at_unix": 1755957600
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 3849387,
+        "airing_at_unix": 1756562400
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 4454187,
+        "airing_at_unix": 1757167200
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 5058987,
+        "airing_at_unix": 1757772000
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 5663787,
+        "airing_at_unix": 1758376800
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 6268587,
+        "airing_at_unix": 1758981600
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6873387,
+        "airing_at_unix": 1759586400
+      }
+    ]
+  },
+  {
+    "title": "The Summer Hikaru Died",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177689-d0mB5nYgdnhi.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 21
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 227547,
+        "airing_at_unix": 1752940560
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 832347,
+        "airing_at_unix": 1753545360
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1437147,
+        "airing_at_unix": 1754150160
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2041947,
+        "airing_at_unix": 1754754960
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2646747,
+        "airing_at_unix": 1755359760
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3251547,
+        "airing_at_unix": 1755964560
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3856347,
+        "airing_at_unix": 1756569360
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4461147,
+        "airing_at_unix": 1757174160
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5065947,
+        "airing_at_unix": 1757778960
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5670747,
+        "airing_at_unix": 1758383760
+      }
+    ]
+  },
+  {
+    "title": "Call of the Night Season 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175914-VsbL90WzuqoM.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 4
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 19
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 135987,
+        "airing_at_unix": 1752849000
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 740787,
+        "airing_at_unix": 1753453800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1345587,
+        "airing_at_unix": 1754058600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1950387,
+        "airing_at_unix": 1754663400
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2555187,
+        "airing_at_unix": 1755268200
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3159987,
+        "airing_at_unix": 1755873000
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3764787,
+        "airing_at_unix": 1756477800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4369587,
+        "airing_at_unix": 1757082600
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4974387,
+        "airing_at_unix": 1757687400
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5579187,
+        "airing_at_unix": 1758292200
+      }
+    ]
+  },
+  {
+    "title": "SAKAMOTO DAYS Part 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184237-OJAksU2fsIPx.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 15
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 396987,
+        "airing_at_unix": 1753110000
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1001787,
+        "airing_at_unix": 1753714800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1606587,
+        "airing_at_unix": 1754319600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2211387,
+        "airing_at_unix": 1754924400
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2816187,
+        "airing_at_unix": 1755529200
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3420987,
+        "airing_at_unix": 1756134000
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4025787,
+        "airing_at_unix": 1756738800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4630587,
+        "airing_at_unix": 1757343600
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5235387,
+        "airing_at_unix": 1757948400
+      }
+    ]
+  },
+  {
+    "title": "Takopi's Original Sin",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185407-7uzY4fA3hokP.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 6,
+      "day": 28
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 2
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 137787,
+        "airing_at_unix": 1752850800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 742587,
+        "airing_at_unix": 1753455600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1347387,
+        "airing_at_unix": 1754060400
+      }
+    ]
+  },
+  {
+    "title": "Rascal Does Not Dream of Santa Claus",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171046-9leqLiNuOqNu.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 5
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 27
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 222387,
+        "airing_at_unix": 1752935400
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 827187,
+        "airing_at_unix": 1753540200
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1431987,
+        "airing_at_unix": 1754145000
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2036787,
+        "airing_at_unix": 1754749800
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2641587,
+        "airing_at_unix": 1755354600
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3246387,
+        "airing_at_unix": 1755959400
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3851187,
+        "airing_at_unix": 1756564200
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4455987,
+        "airing_at_unix": 1757169000
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5060787,
+        "airing_at_unix": 1757773800
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5665587,
+        "airing_at_unix": 1758378600
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6270387,
+        "airing_at_unix": 1758983400
+      }
+    ]
+  },
+  {
+    "title": "The Rising of the Shield Hero Season 4",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173780-O7v1YfXg61JT.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 9
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 24
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 558987,
+        "airing_at_unix": 1753272000
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1163787,
+        "airing_at_unix": 1753876800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1768587,
+        "airing_at_unix": 1754481600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2373387,
+        "airing_at_unix": 1755086400
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2978187,
+        "airing_at_unix": 1755691200
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3582987,
+        "airing_at_unix": 1756296000
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4187787,
+        "airing_at_unix": 1756900800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4792587,
+        "airing_at_unix": 1757505600
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5397387,
+        "airing_at_unix": 1758110400
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6002187,
+        "airing_at_unix": 1758715200
+      }
+    ]
+  },
+  {
+    "title": "Dr. STONE SCIENCE FUTURE Cour 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189117-EJQHOFjLoK2k.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 10
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 2,
+        "time_until_airing": 44187,
+        "airing_at_unix": 1752757200
+      },
+      {
+        "episode": 3,
+        "time_until_airing": 648987,
+        "airing_at_unix": 1753362000
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1253787,
+        "airing_at_unix": 1753966800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1858587,
+        "airing_at_unix": 1754571600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2463387,
+        "airing_at_unix": 1755176400
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 3068187,
+        "airing_at_unix": 1755781200
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3672987,
+        "airing_at_unix": 1756386000
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4277787,
+        "airing_at_unix": 1756990800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4882587,
+        "airing_at_unix": 1757595600
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5487387,
+        "airing_at_unix": 1758200400
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6092187,
+        "airing_at_unix": 1758805200
+      }
+    ]
+  },
+  {
+    "title": "Grand Blue Dreaming Season 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182309-tThxqSRn3At1.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 8
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 23
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 398787,
+        "airing_at_unix": 1753111800
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1003587,
+        "airing_at_unix": 1753716600
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1608387,
+        "airing_at_unix": 1754321400
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2213187,
+        "airing_at_unix": 1754926200
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2817987,
+        "airing_at_unix": 1755531000
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3422787,
+        "airing_at_unix": 1756135800
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4027587,
+        "airing_at_unix": 1756740600
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4632387,
+        "airing_at_unix": 1757345400
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5237187,
+        "airing_at_unix": 1757950200
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5841987,
+        "airing_at_unix": 1758555000
+      }
+    ]
+  },
+  {
+    "title": "Secrets of the Silent Witch",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179966-g0EU7rVe2Og7.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 5
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 27
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 137787,
+        "airing_at_unix": 1752850800
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 742587,
+        "airing_at_unix": 1753455600
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1347387,
+        "airing_at_unix": 1754060400
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1952187,
+        "airing_at_unix": 1754665200
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2556987,
+        "airing_at_unix": 1755270000
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3161787,
+        "airing_at_unix": 1755874800
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3766587,
+        "airing_at_unix": 1756479600
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4371387,
+        "airing_at_unix": 1757084400
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4976187,
+        "airing_at_unix": 1757689200
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5580987,
+        "airing_at_unix": 1758294000
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6185787,
+        "airing_at_unix": 1758898800
+      }
+    ]
+  },
+  {
+    "title": "The Water Magician",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186052-zq8h0Qo0O0sP.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 4
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 19
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 56667,
+        "airing_at_unix": 1752769680
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 661467,
+        "airing_at_unix": 1753374480
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1266267,
+        "airing_at_unix": 1753979280
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1871067,
+        "airing_at_unix": 1754584080
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2475867,
+        "airing_at_unix": 1755188880
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3080667,
+        "airing_at_unix": 1755793680
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3685467,
+        "airing_at_unix": 1756398480
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4290267,
+        "airing_at_unix": 1757003280
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4895067,
+        "airing_at_unix": 1757608080
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5499867,
+        "airing_at_unix": 1758212880
+      }
+    ]
+  },
+  {
+    "title": "TOUGEN ANKI",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177474-oHil1yLWldfl.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 11
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 2,
+        "time_until_airing": 134187,
+        "airing_at_unix": 1752847200
+      },
+      {
+        "episode": 3,
+        "time_until_airing": 738987,
+        "airing_at_unix": 1753452000
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1343787,
+        "airing_at_unix": 1754056800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1948587,
+        "airing_at_unix": 1754661600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2553387,
+        "airing_at_unix": 1755266400
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 3158187,
+        "airing_at_unix": 1755871200
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3762987,
+        "airing_at_unix": 1756476000
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4367787,
+        "airing_at_unix": 1757080800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4972587,
+        "airing_at_unix": 1757685600
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5577387,
+        "airing_at_unix": 1758290400
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6182187,
+        "airing_at_unix": 1758895200
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6786987,
+        "airing_at_unix": 1759500000
+      },
+      {
+        "episode": 14,
+        "time_until_airing": 7391787,
+        "airing_at_unix": 1760104800
+      },
+      {
+        "episode": 15,
+        "time_until_airing": 7996587,
+        "airing_at_unix": 1760709600
+      },
+      {
+        "episode": 16,
+        "time_until_airing": 8601387,
+        "airing_at_unix": 1761314400
+      },
+      {
+        "episode": 17,
+        "time_until_airing": 9206187,
+        "airing_at_unix": 1761919200
+      },
+      {
+        "episode": 18,
+        "time_until_airing": 9810987,
+        "airing_at_unix": 1762524000
+      },
+      {
+        "episode": 19,
+        "time_until_airing": 10415787,
+        "airing_at_unix": 1763128800
+      },
+      {
+        "episode": 20,
+        "time_until_airing": 11020587,
+        "airing_at_unix": 1763733600
+      },
+      {
+        "episode": 21,
+        "time_until_airing": 11625387,
+        "airing_at_unix": 1764338400
+      },
+      {
+        "episode": 22,
+        "time_until_airing": 12230187,
+        "airing_at_unix": 1764943200
+      },
+      {
+        "episode": 23,
+        "time_until_airing": 12834987,
+        "airing_at_unix": 1765548000
+      },
+      {
+        "episode": 24,
+        "time_until_airing": 13439787,
+        "airing_at_unix": 1766152800
+      }
+    ]
+  },
+  {
+    "title": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability Season 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178090-1OOScJqXLjRd.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 10
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 25
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1174587,
+        "airing_at_unix": 1753887600
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1779387,
+        "airing_at_unix": 1754492400
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2384187,
+        "airing_at_unix": 1755097200
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2988987,
+        "airing_at_unix": 1755702000
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3593787,
+        "airing_at_unix": 1756306800
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4198587,
+        "airing_at_unix": 1756911600
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4803387,
+        "airing_at_unix": 1757516400
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5408187,
+        "airing_at_unix": 1758121200
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6012987,
+        "airing_at_unix": 1758726000
+      }
+    ]
+  },
+  {
+    "title": "CITY THE ANIMATION",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181841-9TcjIyZefot2.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 7
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 310587,
+        "airing_at_unix": 1753023600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 915387,
+        "airing_at_unix": 1753628400
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1520187,
+        "airing_at_unix": 1754233200
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2124987,
+        "airing_at_unix": 1754838000
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2729787,
+        "airing_at_unix": 1755442800
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3334587,
+        "airing_at_unix": 1756047600
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3939387,
+        "airing_at_unix": 1756652400
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4544187,
+        "airing_at_unix": 1757257200
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5148987,
+        "airing_at_unix": 1757862000
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5753787,
+        "airing_at_unix": 1758466800
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6358587,
+        "airing_at_unix": 1759071600
+      }
+    ]
+  },
+  {
+    "title": "New PANTY & STOCKING with GARTERBELT",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151799-igwbH3AffgHc.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 10
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 10,
+      "day": 2
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 573387,
+        "airing_at_unix": 1753286400
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1178187,
+        "airing_at_unix": 1753891200
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1782987,
+        "airing_at_unix": 1754496000
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2387787,
+        "airing_at_unix": 1755100800
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2992587,
+        "airing_at_unix": 1755705600
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3597387,
+        "airing_at_unix": 1756310400
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4202187,
+        "airing_at_unix": 1756915200
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4806987,
+        "airing_at_unix": 1757520000
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5411787,
+        "airing_at_unix": 1758124800
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6016587,
+        "airing_at_unix": 1758729600
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6621387,
+        "airing_at_unix": 1759334400
+      }
+    ]
+  },
+  {
+    "title": "Clevatess",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178869-qiEz0gQD8H5N.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 2
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 17
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 562587,
+        "airing_at_unix": 1753275600
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1167387,
+        "airing_at_unix": 1753880400
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1772187,
+        "airing_at_unix": 1754485200
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2376987,
+        "airing_at_unix": 1755090000
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2981787,
+        "airing_at_unix": 1755694800
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3586587,
+        "airing_at_unix": 1756299600
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4191387,
+        "airing_at_unix": 1756904400
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4796187,
+        "airing_at_unix": 1757509200
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5400987,
+        "airing_at_unix": 1758114000
+      }
+    ]
+  },
+  {
+    "title": "There's No Freaking Way I'll Be Your Lover! Unless...",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184591-jRXZ29bN61Zc.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 8
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 23
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 400587,
+        "airing_at_unix": 1753113600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1005387,
+        "airing_at_unix": 1753718400
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1610187,
+        "airing_at_unix": 1754323200
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2214987,
+        "airing_at_unix": 1754928000
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2819787,
+        "airing_at_unix": 1755532800
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3424587,
+        "airing_at_unix": 1756137600
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4029387,
+        "airing_at_unix": 1756742400
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4634187,
+        "airing_at_unix": 1757347200
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5238987,
+        "airing_at_unix": 1757952000
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5843787,
+        "airing_at_unix": 1758556800
+      }
+    ]
+  },
+  {
+    "title": "Rent-a-Girlfriend Season 4",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179344-GQzJfehpQI72.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 1
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 16
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 476187,
+        "airing_at_unix": 1753189200
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1080987,
+        "airing_at_unix": 1753794000
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1685787,
+        "airing_at_unix": 1754398800
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2290587,
+        "airing_at_unix": 1755003600
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2895387,
+        "airing_at_unix": 1755608400
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3500187,
+        "airing_at_unix": 1756213200
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4104987,
+        "airing_at_unix": 1756818000
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4709787,
+        "airing_at_unix": 1757422800
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5314587,
+        "airing_at_unix": 1758027600
+      }
+    ]
+  },
+  {
+    "title": "Apocalypse Bringer Mynoghra: World Conquest Starts with the Civilization of Ruin",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178433-8KzNsjTmdAvw.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 305187,
+        "airing_at_unix": 1753018200
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 909987,
+        "airing_at_unix": 1753623000
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1514787,
+        "airing_at_unix": 1754227800
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2119587,
+        "airing_at_unix": 1754832600
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2724387,
+        "airing_at_unix": 1755437400
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3329187,
+        "airing_at_unix": 1756042200
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3933987,
+        "airing_at_unix": 1756647000
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4538787,
+        "airing_at_unix": 1757251800
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5143587,
+        "airing_at_unix": 1757856600
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5748387,
+        "airing_at_unix": 1758461400
+      }
+    ]
+  },
+  {
+    "title": "Ruri Rocks",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180929-ytdzqbrOhots.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 28
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 301587,
+        "airing_at_unix": 1753014600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 906387,
+        "airing_at_unix": 1753619400
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1511187,
+        "airing_at_unix": 1754224200
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2115987,
+        "airing_at_unix": 1754829000
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2720787,
+        "airing_at_unix": 1755433800
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3325587,
+        "airing_at_unix": 1756038600
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3930387,
+        "airing_at_unix": 1756643400
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4535187,
+        "airing_at_unix": 1757248200
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5139987,
+        "airing_at_unix": 1757853000
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5744787,
+        "airing_at_unix": 1758457800
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6349587,
+        "airing_at_unix": 1759062600
+      }
+    ]
+  },
+  {
+    "title": "New Saga",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155838-0zx6MTeoo5sk.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 3
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 18
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 577947,
+        "airing_at_unix": 1753290960
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1182747,
+        "airing_at_unix": 1753895760
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1787547,
+        "airing_at_unix": 1754500560
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2392347,
+        "airing_at_unix": 1755105360
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2997147,
+        "airing_at_unix": 1755710160
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3601947,
+        "airing_at_unix": 1756314960
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4206747,
+        "airing_at_unix": 1756919760
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4811547,
+        "airing_at_unix": 1757524560
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5416347,
+        "airing_at_unix": 1758129360
+      }
+    ]
+  },
+  {
+    "title": "A Couple of Cuckoos Season 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179828-Yc1b1R2dxQyc.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 8
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 23
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 479787,
+        "airing_at_unix": 1753192800
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1084587,
+        "airing_at_unix": 1753797600
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1689387,
+        "airing_at_unix": 1754402400
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2294187,
+        "airing_at_unix": 1755007200
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2898987,
+        "airing_at_unix": 1755612000
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3503787,
+        "airing_at_unix": 1756216800
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4108587,
+        "airing_at_unix": 1756821600
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4713387,
+        "airing_at_unix": 1757426400
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5318187,
+        "airing_at_unix": 1758031200
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5922987,
+        "airing_at_unix": 1758636000
+      }
+    ]
+  },
+  {
+    "title": "Dealing with Mikadono Sisters Is a Breeze",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178886-KjzSXyEB61zX.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 10
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 18
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 570987,
+        "airing_at_unix": 1753284000
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1175787,
+        "airing_at_unix": 1753888800
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1780587,
+        "airing_at_unix": 1754493600
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2385387,
+        "airing_at_unix": 1755098400
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2990187,
+        "airing_at_unix": 1755703200
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3594987,
+        "airing_at_unix": 1756308000
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4199787,
+        "airing_at_unix": 1756912800
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4804587,
+        "airing_at_unix": 1757517600
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5409387,
+        "airing_at_unix": 1758122400
+      }
+    ]
+  },
+  {
+    "title": "Scooped Up by an S-Rank Adventurer!",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179885-m1nu1QvnRmII.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 224187,
+        "airing_at_unix": 1752937200
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 828987,
+        "airing_at_unix": 1753542000
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1433787,
+        "airing_at_unix": 1754146800
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2038587,
+        "airing_at_unix": 1754751600
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2643387,
+        "airing_at_unix": 1755356400
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3248187,
+        "airing_at_unix": 1755961200
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3852987,
+        "airing_at_unix": 1756566000
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4457787,
+        "airing_at_unix": 1757170800
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5062587,
+        "airing_at_unix": 1757775600
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5667387,
+        "airing_at_unix": 1758380400
+      }
+    ]
+  },
+  {
+    "title": "Reborn as a Vending Machine, I Now Wander the Dungeon Season 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169440-MhlOxaIyASRu.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 2
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 562587,
+        "airing_at_unix": 1753275600
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1167387,
+        "airing_at_unix": 1753880400
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1772187,
+        "airing_at_unix": 1754485200
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2376987,
+        "airing_at_unix": 1755090000
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2981787,
+        "airing_at_unix": 1755694800
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3586587,
+        "airing_at_unix": 1756299600
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4191387,
+        "airing_at_unix": 1756904400
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4796187,
+        "airing_at_unix": 1757509200
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5400987,
+        "airing_at_unix": 1758114000
+      }
+    ]
+  },
+  {
+    "title": "Watari-kun's ****** Is about to Collapse",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169420-u4wDhHlTfX9P.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 5
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 141387,
+        "airing_at_unix": 1752854400
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 746187,
+        "airing_at_unix": 1753459200
+      }
+    ]
+  },
+  {
+    "title": "Private Tutor to the Duke's Daughter",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170113-dk9h9ybZnGnZ.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 6,
+      "day": 29
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 14
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 229587,
+        "airing_at_unix": 1752942600
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 834387,
+        "airing_at_unix": 1753547400
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1439187,
+        "airing_at_unix": 1754152200
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2043987,
+        "airing_at_unix": 1754757000
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2648787,
+        "airing_at_unix": 1755361800
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3253587,
+        "airing_at_unix": 1755966600
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 3858387,
+        "airing_at_unix": 1756571400
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4463187,
+        "airing_at_unix": 1757176200
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5067987,
+        "airing_at_unix": 1757781000
+      }
+    ]
+  },
+  {
+    "title": "Detectives These Days Are Crazy!",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180460-rZn4pp9YNqW0.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 1
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 16
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 481587,
+        "airing_at_unix": 1753194600
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1086387,
+        "airing_at_unix": 1753799400
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1691187,
+        "airing_at_unix": 1754404200
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2295987,
+        "airing_at_unix": 1755009000
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2900787,
+        "airing_at_unix": 1755613800
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3505587,
+        "airing_at_unix": 1756218600
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4110387,
+        "airing_at_unix": 1756823400
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4715187,
+        "airing_at_unix": 1757428200
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5319987,
+        "airing_at_unix": 1758033000
+      }
+    ]
+  },
+  {
+    "title": "Solo Camping for Two",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185965-LlzTLSTBUbEA.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 11
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 2,
+        "time_until_airing": 53187,
+        "airing_at_unix": 1752766200
+      },
+      {
+        "episode": 3,
+        "time_until_airing": 657987,
+        "airing_at_unix": 1753371000
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1262787,
+        "airing_at_unix": 1753975800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1867587,
+        "airing_at_unix": 1754580600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2472387,
+        "airing_at_unix": 1755185400
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 3077187,
+        "airing_at_unix": 1755790200
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3681987,
+        "airing_at_unix": 1756395000
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4286787,
+        "airing_at_unix": 1756999800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4891587,
+        "airing_at_unix": 1757604600
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5496387,
+        "airing_at_unix": 1758209400
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6101187,
+        "airing_at_unix": 1758814200
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6705987,
+        "airing_at_unix": 1759419000
+      },
+      {
+        "episode": 14,
+        "time_until_airing": 7310787,
+        "airing_at_unix": 1760023800
+      },
+      {
+        "episode": 15,
+        "time_until_airing": 7915587,
+        "airing_at_unix": 1760628600
+      },
+      {
+        "episode": 16,
+        "time_until_airing": 8520387,
+        "airing_at_unix": 1761233400
+      },
+      {
+        "episode": 17,
+        "time_until_airing": 9125187,
+        "airing_at_unix": 1761838200
+      },
+      {
+        "episode": 18,
+        "time_until_airing": 9729987,
+        "airing_at_unix": 1762443000
+      },
+      {
+        "episode": 19,
+        "time_until_airing": 10334787,
+        "airing_at_unix": 1763047800
+      },
+      {
+        "episode": 20,
+        "time_until_airing": 10939587,
+        "airing_at_unix": 1763652600
+      },
+      {
+        "episode": 21,
+        "time_until_airing": 11544387,
+        "airing_at_unix": 1764257400
+      },
+      {
+        "episode": 22,
+        "time_until_airing": 12149187,
+        "airing_at_unix": 1764862200
+      },
+      {
+        "episode": 23,
+        "time_until_airing": 12753987,
+        "airing_at_unix": 1765467000
+      },
+      {
+        "episode": 24,
+        "time_until_airing": 13358787,
+        "airing_at_unix": 1766071800
+      }
+    ]
+  },
+  {
+    "title": "Welcome to the Outcast's Restaurant!",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185544-V9XoC8yJ906f.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 4
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 19
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 51387,
+        "airing_at_unix": 1752764400
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 656187,
+        "airing_at_unix": 1753369200
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1260987,
+        "airing_at_unix": 1753974000
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1865787,
+        "airing_at_unix": 1754578800
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2470587,
+        "airing_at_unix": 1755183600
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3075387,
+        "airing_at_unix": 1755788400
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3680187,
+        "airing_at_unix": 1756393200
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4284987,
+        "airing_at_unix": 1756998000
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4889787,
+        "airing_at_unix": 1757602800
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5494587,
+        "airing_at_unix": 1758207600
+      }
+    ]
+  },
+  {
+    "title": "With You and the Rain",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180425-e5yNWog1hDuu.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 21
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 229587,
+        "airing_at_unix": 1752942600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 834387,
+        "airing_at_unix": 1753547400
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1439187,
+        "airing_at_unix": 1754152200
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2043987,
+        "airing_at_unix": 1754757000
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2648787,
+        "airing_at_unix": 1755361800
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3253587,
+        "airing_at_unix": 1755966600
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3858387,
+        "airing_at_unix": 1756571400
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4463187,
+        "airing_at_unix": 1757176200
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5067987,
+        "airing_at_unix": 1757781000
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5672787,
+        "airing_at_unix": 1758385800
+      }
+    ]
+  },
+  {
+    "title": "Toilet-Bound Hanako-kun Season 2 Part 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189326-kaYdWFxyyYdx.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 283587,
+        "airing_at_unix": 1752996600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 888387,
+        "airing_at_unix": 1753601400
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1493187,
+        "airing_at_unix": 1754206200
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2097987,
+        "airing_at_unix": 1754811000
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2702787,
+        "airing_at_unix": 1755415800
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3307587,
+        "airing_at_unix": 1756020600
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3912387,
+        "airing_at_unix": 1756625400
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4517187,
+        "airing_at_unix": 1757230200
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5121987,
+        "airing_at_unix": 1757835000
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5726787,
+        "airing_at_unix": 1758439800
+      }
+    ]
+  },
+  {
+    "title": "Betrothed to My Sister's Ex",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179879-569v3MdQeVmt.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 5
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 20
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 144567,
+        "airing_at_unix": 1752857580
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 749367,
+        "airing_at_unix": 1753462380
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1354167,
+        "airing_at_unix": 1754067180
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1958967,
+        "airing_at_unix": 1754671980
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2563767,
+        "airing_at_unix": 1755276780
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3168567,
+        "airing_at_unix": 1755881580
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3773367,
+        "airing_at_unix": 1756486380
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4378167,
+        "airing_at_unix": 1757091180
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4982967,
+        "airing_at_unix": 1757695980
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5587767,
+        "airing_at_unix": 1758300780
+      }
+    ]
+  },
+  {
+    "title": "The Shy Hero and the Assassin Princesses",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186561-9qIZCSTYkAfw.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 5
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 20
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 220587,
+        "airing_at_unix": 1752933600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 825387,
+        "airing_at_unix": 1753538400
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1430187,
+        "airing_at_unix": 1754143200
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2034987,
+        "airing_at_unix": 1754748000
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2639787,
+        "airing_at_unix": 1755352800
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3244587,
+        "airing_at_unix": 1755957600
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3849387,
+        "airing_at_unix": 1756562400
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4454187,
+        "airing_at_unix": 1757167200
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5058987,
+        "airing_at_unix": 1757772000
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5663787,
+        "airing_at_unix": 1758376800
+      }
+    ]
+  },
+  {
+    "title": "Bad Girl",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178675-cTYMOedSpXsJ.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 21
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 224187,
+        "airing_at_unix": 1752937200
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 828987,
+        "airing_at_unix": 1753542000
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1433787,
+        "airing_at_unix": 1754146800
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2038587,
+        "airing_at_unix": 1754751600
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2643387,
+        "airing_at_unix": 1755356400
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3248187,
+        "airing_at_unix": 1755961200
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3852987,
+        "airing_at_unix": 1756566000
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4457787,
+        "airing_at_unix": 1757170800
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5062587,
+        "airing_at_unix": 1757775600
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5667387,
+        "airing_at_unix": 1758380400
+      }
+    ]
+  },
+  {
+    "title": "Cultural Exchange with a Game Centre Girl",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180794-rQGxkguEc2ov.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 21
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 308787,
+        "airing_at_unix": 1753021800
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 913587,
+        "airing_at_unix": 1753626600
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1518387,
+        "airing_at_unix": 1754231400
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2123187,
+        "airing_at_unix": 1754836200
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2727987,
+        "airing_at_unix": 1755441000
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3332787,
+        "airing_at_unix": 1756045800
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3937587,
+        "airing_at_unix": 1756650600
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4542387,
+        "airing_at_unix": 1757255400
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5147187,
+        "airing_at_unix": 1757860200
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5751987,
+        "airing_at_unix": 1758465000
+      }
+    ]
+  },
+  {
+    "title": "See You Tomorrow at the Food Court",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185519-cuRKYBlZ3uWw.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 7
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 391587,
+        "airing_at_unix": 1753104600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 996387,
+        "airing_at_unix": 1753709400
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1601187,
+        "airing_at_unix": 1754314200
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2205987,
+        "airing_at_unix": 1754919000
+      }
+    ]
+  },
+  {
+    "title": "Arknights: RISE FROM EMBER",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177175-cr5tlJIj7dEi.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 4
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 5
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 135987,
+        "airing_at_unix": 1752849000
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 740787,
+        "airing_at_unix": 1753453800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1345587,
+        "airing_at_unix": 1754058600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1950387,
+        "airing_at_unix": 1754663400
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2555187,
+        "airing_at_unix": 1755268200
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3159987,
+        "airing_at_unix": 1755873000
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3764787,
+        "airing_at_unix": 1756477800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4369587,
+        "airing_at_unix": 1757082600
+      }
+    ]
+  },
+  {
+    "title": "Uglymug, Epicfighter",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184575-hEzI5V8o818U.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 21
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 308787,
+        "airing_at_unix": 1753021800
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 913587,
+        "airing_at_unix": 1753626600
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1518387,
+        "airing_at_unix": 1754231400
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2123187,
+        "airing_at_unix": 1754836200
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2727987,
+        "airing_at_unix": 1755441000
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3332787,
+        "airing_at_unix": 1756045800
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3937587,
+        "airing_at_unix": 1756650600
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4542387,
+        "airing_at_unix": 1757255400
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5147187,
+        "airing_at_unix": 1757860200
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5751987,
+        "airing_at_unix": 1758465000
+      }
+    ]
+  },
+  {
+    "title": "Hell Teacher: Jigoku Sensei Nube (2025)",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179678-1isykDVghv8Q.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 2
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 5,
+        "time_until_airing": 568887,
+        "airing_at_unix": 1753281900
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1173687,
+        "airing_at_unix": 1753886700
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 1778487,
+        "airing_at_unix": 1754491500
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2383287,
+        "airing_at_unix": 1755096300
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 2988087,
+        "airing_at_unix": 1755701100
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 3592887,
+        "airing_at_unix": 1756305900
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4197687,
+        "airing_at_unix": 1756910700
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 4802487,
+        "airing_at_unix": 1757515500
+      }
+    ]
+  },
+  {
+    "title": "Nyaight of the Living Cat",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175124-eDYbn0W5F4to.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 306987,
+        "airing_at_unix": 1753020000
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 911787,
+        "airing_at_unix": 1753624800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1516587,
+        "airing_at_unix": 1754229600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2121387,
+        "airing_at_unix": 1754834400
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2726187,
+        "airing_at_unix": 1755439200
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3330987,
+        "airing_at_unix": 1756044000
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3935787,
+        "airing_at_unix": 1756648800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4540587,
+        "airing_at_unix": 1757253600
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5145387,
+        "airing_at_unix": 1757858400
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5750187,
+        "airing_at_unix": 1758463200
+      }
+    ]
+  },
+  {
+    "title": "Dekin no Mogura: The Earthbound Mole",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184574-Mb2qvX1e3RgG.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 21
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 303387,
+        "airing_at_unix": 1753016400
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 908187,
+        "airing_at_unix": 1753621200
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1512987,
+        "airing_at_unix": 1754226000
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2117787,
+        "airing_at_unix": 1754830800
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2722587,
+        "airing_at_unix": 1755435600
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3327387,
+        "airing_at_unix": 1756040400
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3932187,
+        "airing_at_unix": 1756645200
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4536987,
+        "airing_at_unix": 1757250000
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5141787,
+        "airing_at_unix": 1757854800
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5746587,
+        "airing_at_unix": 1758459600
+      }
+    ]
+  },
+  {
+    "title": "Busu ni Hanataba wo.",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156395-LW98bhT54IuM.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 4
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 26
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 132387,
+        "airing_at_unix": 1752845400
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 737187,
+        "airing_at_unix": 1753450200
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1341987,
+        "airing_at_unix": 1754055000
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1946787,
+        "airing_at_unix": 1754659800
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2551587,
+        "airing_at_unix": 1755264600
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3156387,
+        "airing_at_unix": 1755869400
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3761187,
+        "airing_at_unix": 1756474200
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4365987,
+        "airing_at_unix": 1757079000
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4970787,
+        "airing_at_unix": 1757683800
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5575587,
+        "airing_at_unix": 1758288600
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6180387,
+        "airing_at_unix": 1758893400
+      }
+    ]
+  },
+  {
+    "title": "Turkey! Time to Strike",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159483-nQKJ2EEqoo8x.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 9
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 488727,
+        "airing_at_unix": 1753201740
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1093527,
+        "airing_at_unix": 1753806540
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1698327,
+        "airing_at_unix": 1754411340
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2303127,
+        "airing_at_unix": 1755016140
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2907927,
+        "airing_at_unix": 1755620940
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3512727,
+        "airing_at_unix": 1756225740
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4117527,
+        "airing_at_unix": 1756830540
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4722327,
+        "airing_at_unix": 1757435340
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5327127,
+        "airing_at_unix": 1758040140
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5931927,
+        "airing_at_unix": 1758644940
+      }
+    ]
+  },
+  {
+    "title": "Hotel Inhumans",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184034-gjIi5TIHJpZv.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 309747,
+        "airing_at_unix": 1753022760
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 914547,
+        "airing_at_unix": 1753627560
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1519347,
+        "airing_at_unix": 1754232360
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2124147,
+        "airing_at_unix": 1754837160
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2728947,
+        "airing_at_unix": 1755441960
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3333747,
+        "airing_at_unix": 1756046760
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3938547,
+        "airing_at_unix": 1756651560
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4543347,
+        "airing_at_unix": 1757256360
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5148147,
+        "airing_at_unix": 1757861160
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5752947,
+        "airing_at_unix": 1758465960
+      }
+    ]
+  },
+  {
+    "title": "Onmyo Kaiten Re:Birth Verse",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187387-dbi9hPNKyA35.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 3
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 572547,
+        "airing_at_unix": 1753285560
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1177347,
+        "airing_at_unix": 1753890360
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1782147,
+        "airing_at_unix": 1754495160
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2386947,
+        "airing_at_unix": 1755099960
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2991747,
+        "airing_at_unix": 1755704760
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3596547,
+        "airing_at_unix": 1756309560
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4201347,
+        "airing_at_unix": 1756914360
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4806147,
+        "airing_at_unix": 1757519160
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5410947,
+        "airing_at_unix": 1758123960
+      }
+    ]
+  },
+  {
+    "title": "Nukitashi THE ANIMATION",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174188-fZg8iePD9Dca.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 19
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 145347,
+        "airing_at_unix": 1752858360
+      },
+      {
+        "episode": 2,
+        "time_until_airing": 750147,
+        "airing_at_unix": 1753463160
+      },
+      {
+        "episode": 3,
+        "time_until_airing": 1354947,
+        "airing_at_unix": 1754067960
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1959747,
+        "airing_at_unix": 1754672760
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 2564547,
+        "airing_at_unix": 1755277560
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 3169347,
+        "airing_at_unix": 1755882360
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 3774147,
+        "airing_at_unix": 1756487160
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 4378947,
+        "airing_at_unix": 1757091960
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4983747,
+        "airing_at_unix": 1757696760
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 5588547,
+        "airing_at_unix": 1758301560
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 6193347,
+        "airing_at_unix": 1758906360
+      }
+    ]
+  },
+  {
+    "title": "BULLET/BULLET",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx157960-IrnEWE1pvoT3.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 16
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 13
+    },
+    "airing_schedule": [
+      {
+        "episode": 9,
+        "time_until_airing": 2297787,
+        "airing_at_unix": 1755010800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 2297787,
+        "airing_at_unix": 1755010800
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 2297787,
+        "airing_at_unix": 1755010800
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 2297787,
+        "airing_at_unix": 1755010800
+      }
+    ]
+  },
+  {
+    "title": "Fermat no Ryouri",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186003-scKw8JoTtnMT.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 5
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 20
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 222387,
+        "airing_at_unix": 1752935400
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 827187,
+        "airing_at_unix": 1753540200
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1431987,
+        "airing_at_unix": 1754145000
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2036787,
+        "airing_at_unix": 1754749800
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2641587,
+        "airing_at_unix": 1755354600
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3246387,
+        "airing_at_unix": 1755959400
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3851187,
+        "airing_at_unix": 1756564200
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4455987,
+        "airing_at_unix": 1757169000
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5060787,
+        "airing_at_unix": 1757773800
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5665587,
+        "airing_at_unix": 1758378600
+      }
+    ]
+  },
+  {
+    "title": "Chuhai Lips: Canned Flavor of Married Women",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186789-MNl0ZBiRzDqY.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 2
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 486987,
+        "airing_at_unix": 1753200000
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1091787,
+        "airing_at_unix": 1753804800
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1696587,
+        "airing_at_unix": 1754409600
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2301387,
+        "airing_at_unix": 1755014400
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2906187,
+        "airing_at_unix": 1755619200
+      }
+    ]
+  },
+  {
+    "title": "bâan: The Boundaries of Adulthood",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195494-2siDsNQmaKym.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 24
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 24
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 3248187,
+        "airing_at_unix": 1755961200
+      }
+    ]
+  },
+  {
+    "title": "100 METERS",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177687-Rjb7AszZCBU9.png",
+    "start_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 19
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 19
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 5494587,
+        "airing_at_unix": 1758207600
+      }
+    ]
+  },
+  {
+    "title": "9-nine- Shihaisha no Oukan",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177761-KdJxyWwdBdiS.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 5
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 20
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 216987,
+        "airing_at_unix": 1752930000
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 821787,
+        "airing_at_unix": 1753534800
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1426587,
+        "airing_at_unix": 1754139600
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2031387,
+        "airing_at_unix": 1754744400
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2636187,
+        "airing_at_unix": 1755349200
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3240987,
+        "airing_at_unix": 1755954000
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 3845787,
+        "airing_at_unix": 1756558800
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4450587,
+        "airing_at_unix": 1757163600
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5055387,
+        "airing_at_unix": 1757768400
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 5660187,
+        "airing_at_unix": 1758373200
+      }
+    ]
+  },
+  {
+    "title": "KAMITSUBAKI CITY UNDER CONSTRUCTION",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173335-iWDaWkuSuZW5.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 3
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 25
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 51147,
+        "airing_at_unix": 1752764160
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 655947,
+        "airing_at_unix": 1753368960
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1260747,
+        "airing_at_unix": 1753973760
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1865547,
+        "airing_at_unix": 1754578560
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2470347,
+        "airing_at_unix": 1755183360
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3075147,
+        "airing_at_unix": 1755788160
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3679947,
+        "airing_at_unix": 1756392960
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4284747,
+        "airing_at_unix": 1756997760
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4889547,
+        "airing_at_unix": 1757602560
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5494347,
+        "airing_at_unix": 1758207360
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6099147,
+        "airing_at_unix": 1758812160
+      }
+    ]
+  },
+  {
+    "title": "Leviathan",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177887-CDAgIrZOQvZc.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 10
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 10
+    },
+    "airing_schedule": []
+  },
+  {
+    "title": "Necronomico and the Cosmic Horror Show",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185505-l2ZcSDvdzhd8.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 1
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 481587,
+        "airing_at_unix": 1753194600
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1086387,
+        "airing_at_unix": 1753799400
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1691187,
+        "airing_at_unix": 1754404200
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2295987,
+        "airing_at_unix": 1755009000
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2900787,
+        "airing_at_unix": 1755613800
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3505587,
+        "airing_at_unix": 1756218600
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4110387,
+        "airing_at_unix": 1756823400
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4715187,
+        "airing_at_unix": 1757428200
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5319987,
+        "airing_at_unix": 1758033000
+      }
+    ]
+  },
+  {
+    "title": "Pokémon Concierge Part 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175035-lv7WMuMVYQk4.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 9,
+      "day": null
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": []
+  },
+  {
+    "title": "Let's Go Karaoke!",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183127-NuhBFFae2NYe.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 24
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 650787,
+        "airing_at_unix": 1753363800
+      },
+      {
+        "episode": 2,
+        "time_until_airing": 1255587,
+        "airing_at_unix": 1753968600
+      },
+      {
+        "episode": 3,
+        "time_until_airing": 1860387,
+        "airing_at_unix": 1754573400
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 2465187,
+        "airing_at_unix": 1755178200
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 3069987,
+        "airing_at_unix": 1755783000
+      }
+    ]
+  },
+  {
+    "title": "Captivated, By You",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183128-nMFf0c6IOs9g.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 21
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 3069987,
+        "airing_at_unix": 1755783000
+      },
+      {
+        "episode": 2,
+        "time_until_airing": 3674787,
+        "airing_at_unix": 1756387800
+      },
+      {
+        "episode": 3,
+        "time_until_airing": 4279587,
+        "airing_at_unix": 1756992600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 4884387,
+        "airing_at_unix": 1757597400
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 5489187,
+        "airing_at_unix": 1758202200
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 6093987,
+        "airing_at_unix": 1758807000
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 6698787,
+        "airing_at_unix": 1759411800
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 7303587,
+        "airing_at_unix": 1760016600
+      }
+    ]
+  },
+  {
+    "title": "Fushigi ‌no ‌Kuni ‌de ‌Alice to: Dive ‌in ‌Wonderland",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186181-m4vTJnKuYqje.png",
+    "start_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 29
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 29
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 3680187,
+        "airing_at_unix": 1756393200
+      }
+    ]
+  },
+  {
+    "title": "Utagoe wa Mille-Feuille",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166215-3GkidWAYu5cr.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 17
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 42147,
+        "airing_at_unix": 1752755160
+      },
+      {
+        "episode": 2,
+        "time_until_airing": 646947,
+        "airing_at_unix": 1753359960
+      },
+      {
+        "episode": 3,
+        "time_until_airing": 1251747,
+        "airing_at_unix": 1753964760
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1856547,
+        "airing_at_unix": 1754569560
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 2461347,
+        "airing_at_unix": 1755174360
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 3066147,
+        "airing_at_unix": 1755779160
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 3670947,
+        "airing_at_unix": 1756383960
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 4275747,
+        "airing_at_unix": 1756988760
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4880547,
+        "airing_at_unix": 1757593560
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 5485347,
+        "airing_at_unix": 1758198360
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 6090147,
+        "airing_at_unix": 1758803160
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6694947,
+        "airing_at_unix": 1759407960
+      }
+    ]
+  },
+  {
+    "title": "With Vengeance, Sincerely, Your Broken Saintess",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b195209-IwHhCJUcmoK0.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 10
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 571587,
+        "airing_at_unix": 1753284600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1176387,
+        "airing_at_unix": 1753889400
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1781187,
+        "airing_at_unix": 1754494200
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2385987,
+        "airing_at_unix": 1755099000
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2990787,
+        "airing_at_unix": 1755703800
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3595587,
+        "airing_at_unix": 1756308600
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4200387,
+        "airing_at_unix": 1756913400
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4805187,
+        "airing_at_unix": 1757518200
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5409987,
+        "airing_at_unix": 1758123000
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6014787,
+        "airing_at_unix": 1758727800
+      }
+    ]
+  },
+  {
+    "title": "Milky☆Subway: The Galactic Limited Express",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189069-mDKZPNUNKFOD.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 3
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 18
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 43827,
+        "airing_at_unix": 1752756840
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 648627,
+        "airing_at_unix": 1753361640
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1253427,
+        "airing_at_unix": 1753966440
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1858227,
+        "airing_at_unix": 1754571240
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2463027,
+        "airing_at_unix": 1755176040
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3067827,
+        "airing_at_unix": 1755780840
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3672627,
+        "airing_at_unix": 1756385640
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4277427,
+        "airing_at_unix": 1756990440
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4882227,
+        "airing_at_unix": 1757595240
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5487027,
+        "airing_at_unix": 1758200040
+      }
+    ]
+  },
+  {
+    "title": "My Melody & Kuromi",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186043-nXyStyc58cFd.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 24
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 24
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      },
+      {
+        "episode": 2,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      },
+      {
+        "episode": 3,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 569787,
+        "airing_at_unix": 1753282800
+      }
+    ]
+  },
+  {
+    "title": "ChaO",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186169-QRx9StczXhsR.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 15
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 15
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 2470587,
+        "airing_at_unix": 1755183600
+      }
+    ]
+  },
+  {
+    "title": "Puniru is a Kawaii Slime Season 2",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185755-xMle6RCAPwA6.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 21
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 287187,
+        "airing_at_unix": 1753000200
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 891987,
+        "airing_at_unix": 1753605000
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1496787,
+        "airing_at_unix": 1754209800
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2101587,
+        "airing_at_unix": 1754814600
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2706387,
+        "airing_at_unix": 1755419400
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3311187,
+        "airing_at_unix": 1756024200
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3915987,
+        "airing_at_unix": 1756629000
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4520787,
+        "airing_at_unix": 1757233800
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5125587,
+        "airing_at_unix": 1757838600
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5730387,
+        "airing_at_unix": 1758443400
+      }
+    ]
+  },
+  {
+    "title": "Mr. Osomatsu 4th Season",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177880-0TLsu8WXPaJy.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 9
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 10,
+      "day": 1
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 483387,
+        "airing_at_unix": 1753196400
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1088187,
+        "airing_at_unix": 1753801200
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1692987,
+        "airing_at_unix": 1754406000
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2297787,
+        "airing_at_unix": 1755010800
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2902587,
+        "airing_at_unix": 1755615600
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3507387,
+        "airing_at_unix": 1756220400
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4112187,
+        "airing_at_unix": 1756825200
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4716987,
+        "airing_at_unix": 1757430000
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5321787,
+        "airing_at_unix": 1758034800
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5926587,
+        "airing_at_unix": 1758639600
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6531387,
+        "airing_at_unix": 1759244400
+      }
+    ]
+  },
+  {
+    "title": "Cute High Earth Defense Club Hi-CARA!",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188138-uflx1ZZo5XsE.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 7
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 22
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 393387,
+        "airing_at_unix": 1753106400
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 998187,
+        "airing_at_unix": 1753711200
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1602987,
+        "airing_at_unix": 1754316000
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2207787,
+        "airing_at_unix": 1754920800
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2812587,
+        "airing_at_unix": 1755525600
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3417387,
+        "airing_at_unix": 1756130400
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4022187,
+        "airing_at_unix": 1756735200
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4626987,
+        "airing_at_unix": 1757340000
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5231787,
+        "airing_at_unix": 1757944800
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5836587,
+        "airing_at_unix": 1758549600
+      }
+    ]
+  },
+  {
+    "title": "Tooi-san wa Seishun Shitai! \"Baka to SmaPho to Romance to\"",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx193623-t9k2EmmT8G8E.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 18
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 18
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 51387,
+        "airing_at_unix": 1752764400
+      }
+    ]
+  },
+  {
+    "title": "AS ONE",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187317-oD1Pwu43UVPQ.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 22
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 22
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 3075387,
+        "airing_at_unix": 1755788400
+      }
+    ]
+  },
+  {
+    "title": "Kakurenbo THE ANIMATION",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186829-iV3BnA5KRgvu.png",
+    "start_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 26
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 26
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 6099387,
+        "airing_at_unix": 1758812400
+      }
+    ]
+  },
+  {
+    "title": "SUGAR SUGAR RUNE: Les deux sorcières",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195517-7rdcy3jbuW81.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 4
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 4
+    },
+    "airing_schedule": []
+  },
+  {
+    "title": "Shinsei Galverse",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx192474-4INGwDroNYKs.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 6,
+      "day": 25
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 6,
+      "day": 25
+    },
+    "airing_schedule": []
+  },
+  {
+    "title": "Odekake Kozame: Tokai no Otomodachi",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177518-uS1k7uaDNfzh.png",
+    "start_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 22
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 22
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 3075387,
+        "airing_at_unix": 1755788400
+      }
+    ]
+  },
+  {
+    "title": "Marry Me, Let's Have a Baby!",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx193607-gz99SDr9wgmq.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 7
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 310587,
+        "airing_at_unix": 1753023600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1520187,
+        "airing_at_unix": 1754233200
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 2124987,
+        "airing_at_unix": 1754838000
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2729787,
+        "airing_at_unix": 1755442800
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 3939387,
+        "airing_at_unix": 1756652400
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 4544187,
+        "airing_at_unix": 1757257200
+      }
+    ]
+  },
+  {
+    "title": "Theatre of Darkness: Yamishibai 15",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194088-lzp3BHNx0tnY.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 14
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 2,
+        "time_until_airing": 320787,
+        "airing_at_unix": 1753033800
+      },
+      {
+        "episode": 3,
+        "time_until_airing": 925587,
+        "airing_at_unix": 1753638600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 1530387,
+        "airing_at_unix": 1754243400
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 2135187,
+        "airing_at_unix": 1754848200
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2739987,
+        "airing_at_unix": 1755453000
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 3344787,
+        "airing_at_unix": 1756057800
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3949587,
+        "airing_at_unix": 1756662600
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4554387,
+        "airing_at_unix": 1757267400
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 5159187,
+        "airing_at_unix": 1757872200
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5763987,
+        "airing_at_unix": 1758477000
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 6368787,
+        "airing_at_unix": 1759081800
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6973587,
+        "airing_at_unix": 1759686600
+      }
+    ]
+  },
+  {
+    "title": "CARDFIGHT!! VANGUARD Divinez DELUXE Finals",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191994-hRBORUotkRjI.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 5
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 166587,
+        "airing_at_unix": 1752879600
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 771387,
+        "airing_at_unix": 1753484400
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1376187,
+        "airing_at_unix": 1754089200
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1980987,
+        "airing_at_unix": 1754694000
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2585787,
+        "airing_at_unix": 1755298800
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3190587,
+        "airing_at_unix": 1755903600
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3795387,
+        "airing_at_unix": 1756508400
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4400187,
+        "airing_at_unix": 1757113200
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5004987,
+        "airing_at_unix": 1757718000
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5609787,
+        "airing_at_unix": 1758322800
+      }
+    ]
+  },
+  {
+    "title": "Crayon Shin-chan: Chou Karei! Shakunetsu no Kasukabe Dancers",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185537-bHzg7pq3EIKe.png",
+    "start_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 8
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 8
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 1865787,
+        "airing_at_unix": 1754578800
+      }
+    ]
+  },
+  {
+    "title": "KING OF PRISM -Your Endless Call- Minna Kirameke! Prism☆Tours",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184756-ef85Z2D47G1C.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 6,
+      "day": 27
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 6,
+      "day": 27
+    },
+    "airing_schedule": []
+  },
+  {
+    "title": "Immoral Game Master THE ANIMATION",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191452-5303uC2Sntze.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 25
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 656187,
+        "airing_at_unix": 1753369200
+      },
+      {
+        "episode": 2,
+        "time_until_airing": 656187,
+        "airing_at_unix": 1753369200
+      }
+    ]
+  },
+  {
+    "title": "Netorareta Bakunyuu Tsuma-tachi",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx193348-uZaAeYZeAQHW.png",
+    "start_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 12
+    },
+    "end_date": {
+      "year": 2025,
+      "month": 10,
+      "day": 10
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 4889787,
+        "airing_at_unix": 1757602800
+      },
+      {
+        "episode": 2,
+        "time_until_airing": 7308987,
+        "airing_at_unix": 1760022000
+      }
+    ]
+  },
+  {
+    "title": "Kyou wa Yubiwa wo Hazusukara......",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191451-weddKt3utNpb.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 25
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 656187,
+        "airing_at_unix": 1753369200
+      }
+    ]
+  },
+  {
+    "title": "Shachiku Cinderella",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx193347-EnTUvSR3JOgd.png",
+    "start_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 29
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 3680187,
+        "airing_at_unix": 1756393200
+      }
+    ]
+  },
+  {
+    "title": "Purepure Peropero Princess",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195068-LOr1MKlDtH4Y.png",
+    "start_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 29
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 3680187,
+        "airing_at_unix": 1756393200
+      },
+      {
+        "episode": 2,
+        "time_until_airing": 3680187,
+        "airing_at_unix": 1756393200
+      }
+    ]
+  },
+  {
+    "title": "Chibi Godzilla Raids Again Season 3",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx193883-Im5tNHwtfAmz.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 2
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 4,
+        "time_until_airing": 508947,
+        "airing_at_unix": 1753221960
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1113747,
+        "airing_at_unix": 1753826760
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1718547,
+        "airing_at_unix": 1754431560
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2323347,
+        "airing_at_unix": 1755036360
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 2928147,
+        "airing_at_unix": 1755641160
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3532947,
+        "airing_at_unix": 1756245960
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4137747,
+        "airing_at_unix": 1756850760
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 4742547,
+        "airing_at_unix": 1757455560
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5347347,
+        "airing_at_unix": 1758060360
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 5952147,
+        "airing_at_unix": 1758665160
+      },
+      {
+        "episode": 14,
+        "time_until_airing": 6556947,
+        "airing_at_unix": 1759269960
+      },
+      {
+        "episode": 15,
+        "time_until_airing": 7161747,
+        "airing_at_unix": 1759874760
+      },
+      {
+        "episode": 16,
+        "time_until_airing": 7766547,
+        "airing_at_unix": 1760479560
+      },
+      {
+        "episode": 17,
+        "time_until_airing": 8371347,
+        "airing_at_unix": 1761084360
+      },
+      {
+        "episode": 18,
+        "time_until_airing": 8976147,
+        "airing_at_unix": 1761689160
+      },
+      {
+        "episode": 19,
+        "time_until_airing": 9580947,
+        "airing_at_unix": 1762293960
+      },
+      {
+        "episode": 20,
+        "time_until_airing": 10185747,
+        "airing_at_unix": 1762898760
+      },
+      {
+        "episode": 21,
+        "time_until_airing": 10790547,
+        "airing_at_unix": 1763503560
+      },
+      {
+        "episode": 22,
+        "time_until_airing": 11395347,
+        "airing_at_unix": 1764108360
+      },
+      {
+        "episode": 23,
+        "time_until_airing": 12000147,
+        "airing_at_unix": 1764713160
+      },
+      {
+        "episode": 24,
+        "time_until_airing": 12604947,
+        "airing_at_unix": 1765317960
+      },
+      {
+        "episode": 25,
+        "time_until_airing": 13209747,
+        "airing_at_unix": 1765922760
+      },
+      {
+        "episode": 26,
+        "time_until_airing": 13814547,
+        "airing_at_unix": 1766527560
+      },
+      {
+        "episode": 27,
+        "time_until_airing": 14419347,
+        "airing_at_unix": 1767132360
+      },
+      {
+        "episode": 28,
+        "time_until_airing": 15024147,
+        "airing_at_unix": 1767737160
+      }
+    ]
+  },
+  {
+    "title": "Mujin Eki The Animation",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx193707-kOyJ9fzeQPZC.png",
+    "start_date": {
+      "year": 2025,
+      "month": 8,
+      "day": 29
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 3680187,
+        "airing_at_unix": 1756393200
+      },
+      {
+        "episode": 2,
+        "time_until_airing": 6099387,
+        "airing_at_unix": 1758812400
+      }
+    ]
+  },
+  {
+    "title": "Kiken na Mori Onigokko",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195033-U5Y8Hy5zbnMC.png",
+    "start_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 26
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 6099387,
+        "airing_at_unix": 1758812400
+      }
+    ]
+  },
+  {
+    "title": "Punirunes Puni 3",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188653-B24R4Eo7GMi2.jpg",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 5
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 172887,
+        "airing_at_unix": 1752885900
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 777687,
+        "airing_at_unix": 1753490700
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1382487,
+        "airing_at_unix": 1754095500
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1987287,
+        "airing_at_unix": 1754700300
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2592087,
+        "airing_at_unix": 1755305100
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3196887,
+        "airing_at_unix": 1755909900
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3801687,
+        "airing_at_unix": 1756514700
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4406487,
+        "airing_at_unix": 1757119500
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5011287,
+        "airing_at_unix": 1757724300
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5616087,
+        "airing_at_unix": 1758329100
+      },
+      {
+        "episode": 13,
+        "time_until_airing": 6220887,
+        "airing_at_unix": 1758933900
+      },
+      {
+        "episode": 14,
+        "time_until_airing": 6825687,
+        "airing_at_unix": 1759538700
+      },
+      {
+        "episode": 15,
+        "time_until_airing": 7430487,
+        "airing_at_unix": 1760143500
+      },
+      {
+        "episode": 16,
+        "time_until_airing": 8035287,
+        "airing_at_unix": 1760748300
+      },
+      {
+        "episode": 17,
+        "time_until_airing": 8640087,
+        "airing_at_unix": 1761353100
+      },
+      {
+        "episode": 18,
+        "time_until_airing": 9244887,
+        "airing_at_unix": 1761957900
+      },
+      {
+        "episode": 19,
+        "time_until_airing": 9849687,
+        "airing_at_unix": 1762562700
+      },
+      {
+        "episode": 20,
+        "time_until_airing": 10454487,
+        "airing_at_unix": 1763167500
+      },
+      {
+        "episode": 21,
+        "time_until_airing": 11059287,
+        "airing_at_unix": 1763772300
+      },
+      {
+        "episode": 22,
+        "time_until_airing": 11664087,
+        "airing_at_unix": 1764377100
+      },
+      {
+        "episode": 23,
+        "time_until_airing": 12268887,
+        "airing_at_unix": 1764981900
+      },
+      {
+        "episode": 24,
+        "time_until_airing": 12873687,
+        "airing_at_unix": 1765586700
+      },
+      {
+        "episode": 25,
+        "time_until_airing": 13478487,
+        "airing_at_unix": 1766191500
+      }
+    ]
+  },
+  {
+    "title": "Korette Naani?",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195034-kh5FbK07fShG.png",
+    "start_date": {
+      "year": 2025,
+      "month": 9,
+      "day": 26
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 1,
+        "time_until_airing": 6099387,
+        "airing_at_unix": 1758812400
+      }
+    ]
+  },
+  {
+    "title": "Gakkou de wa Oshiete Kurenai Taisetsu na Koto",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx193238-iOCgM9VCiFgo.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 5
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 162987,
+        "airing_at_unix": 1752876000
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 767787,
+        "airing_at_unix": 1753480800
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1372587,
+        "airing_at_unix": 1754085600
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 1977387,
+        "airing_at_unix": 1754690400
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2582187,
+        "airing_at_unix": 1755295200
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3186987,
+        "airing_at_unix": 1755900000
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 3791787,
+        "airing_at_unix": 1756504800
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4396587,
+        "airing_at_unix": 1757109600
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5001387,
+        "airing_at_unix": 1757714400
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5606187,
+        "airing_at_unix": 1758319200
+      }
+    ]
+  },
+  {
+    "title": "Shinobanai! Crypto Ninja Sakuya San no Maki",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181867-mRwcaXoo0cl4.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 7
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": [
+      {
+        "episode": 3,
+        "time_until_airing": 389427,
+        "airing_at_unix": 1753102440
+      },
+      {
+        "episode": 4,
+        "time_until_airing": 994227,
+        "airing_at_unix": 1753707240
+      },
+      {
+        "episode": 5,
+        "time_until_airing": 1599027,
+        "airing_at_unix": 1754312040
+      },
+      {
+        "episode": 6,
+        "time_until_airing": 2203827,
+        "airing_at_unix": 1754916840
+      },
+      {
+        "episode": 7,
+        "time_until_airing": 2808627,
+        "airing_at_unix": 1755521640
+      },
+      {
+        "episode": 8,
+        "time_until_airing": 3413427,
+        "airing_at_unix": 1756126440
+      },
+      {
+        "episode": 9,
+        "time_until_airing": 4018227,
+        "airing_at_unix": 1756731240
+      },
+      {
+        "episode": 10,
+        "time_until_airing": 4623027,
+        "airing_at_unix": 1757336040
+      },
+      {
+        "episode": 11,
+        "time_until_airing": 5227827,
+        "airing_at_unix": 1757940840
+      },
+      {
+        "episode": 12,
+        "time_until_airing": 5832627,
+        "airing_at_unix": 1758545640
+      }
+    ]
+  },
+  {
+    "title": "Tsuihou Shiro Madoushi Mini Anime",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196064-DkBfxiaiUuto.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 11
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": []
+  },
+  {
+    "title": "Obusu ni Hanataba wo",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196063-hDLoZ2anG97G.png",
+    "start_date": {
+      "year": 2025,
+      "month": 7,
+      "day": 10
+    },
+    "end_date": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "airing_schedule": []
   }
 ]

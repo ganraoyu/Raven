@@ -12,10 +12,12 @@ CREATE TABLE IF NOT EXISTS anime_notify_list (
   episodes_list  TEXT
 );
 
-CREATE TABLE IF NOT EXISTS airing_schedule (
+CREATE TABLE IF NOT EXISTS seasonal_schedule (
   id             INTEGER PRIMARY KEY AUTOINCREMENT,
   anime_name     TEXT NOT NULL,
   episode_number INTEGER,
   image          TEXT,
-  airing_at      INTEGER
+  airing_at      INTEGER,
+  season:        TEXT NOT NULL,
+  year:          INT NOT NULL 
 );
