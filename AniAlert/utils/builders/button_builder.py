@@ -79,7 +79,7 @@ class CombinedAnimeButtonView(discord.ui.View):
 
     embed = build_add_anime_embed(self.anime)
     await interaction.response.send_message(
-      content=f"✅ **{anime_name}** added to your watchlist.",
+      content=f"✅ **{anime_name}** added to your notify list.",
       embed=embed,
       ephemeral=True,
     )
@@ -90,18 +90,23 @@ class CombinedAnimeButtonView(discord.ui.View):
     anime_name = self.anime.get('title', 'Unknown Title')
     query_params = (guild_id, guild_name, user_id, user_name, anime_name)
 
-    await check_anime_exists(interaction, query_params, anime_name)
+    if await check_anime_exists(interaction, query_params, anime_name):
+      delete_anime_table(query_params)
 
-    delete_anime_table(query_params)
+      conn.commit()
 
-    conn.commit()
-
-    embed = build_remove_anime_embed(self.anime)
-    await interaction.response.send_message(
-      content=f"✅ **{anime_name}** removed from your watchlist.",
-      embed=embed,
-      ephemeral=True,
-    )
+      embed = build_remove_anime_embed(self.anime)
+      await interaction.response.send_message(
+        content=f"✅ **{anime_name}** removed from your notify list.",
+        embed=embed,
+        ephemeral=True,
+      )
+    else:
+      await interaction.response.send_message(
+        content=f"✅ **{anime_name}** can't be removed beause it is not in your notify list.",
+        embed=embed,
+        ephemeral=True,
+      )
 
 class GuessAnimeButton(discord.ui.Button):
   def __init__(self, label: str, correct_answer: str, row: int):

@@ -1,8 +1,8 @@
 import discord
 from typing import List, Tuple
-from ..time_converter import convert_iso
+from ..time_helper import convert_iso, convert_unix
 
-def get_anime_variables(anime: dict):
+def get_anime_variables(anime: dict) -> dict:
   title = anime.get('title') or 'Unknown Title'
   synopsis = anime.get('synopsis') or 'No synopsis available.'
   studios = str(anime.get('studios') or 'N/A')
@@ -134,7 +134,7 @@ def build_anime_airing_notification_embed(anime_name: str, episode: int, image_u
   embed.set_footer(text="AniAlert • Airing Notification")
   return embed
 
-def build_random_anime_embed(anime: dict):
+def build_random_anime_embed(anime: dict) -> discord.Embed:
   vars = get_anime_variables(anime)
   
   embed = discord.Embed(
@@ -166,3 +166,29 @@ def build_guess_anime_embed(anime: dict) -> discord.Embed:
   embed.set_image(url=vars['image'])
 
   return embed
+
+def build_schedule_embed(
+  anime_name: str,
+  airing_schedule: list[dict],
+  image_url: str,
+  schedule_label: str = None
+) -> discord.Embed :
+  embed = discord.Embed(
+    title=f'🎬 {anime_name}',
+    color=discord.Color.dark_blue()
+  )
+
+  for ep in airing_schedule:
+    episode_num = ep.get('episode')
+    air_time = convert_unix(ep.get('time_until_airing'))
+    embed.add_field(
+      name=f'Episode {episode_num} airs in',
+      value=air_time,
+      inline=False
+    )
+
+  embed.set_thumbnail(url=image_url)
+  embed.set_footer(text=schedule_label)
+
+  return embed
+

@@ -3,7 +3,7 @@ from unittest.mock import patch
 import datetime
 
 from AniAlert.providers.anilist.processors.search_processor import search_anime_anilist
-from AniAlert.utils.time_converter import convert_unix
+from AniAlert.utils.time_helper import convert_unix
 
 @patch('AniAlert.providers.anilist.search.requests.post')
 def test_search_anime(mock_post):
