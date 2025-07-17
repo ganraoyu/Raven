@@ -2,7 +2,7 @@ import discord
 from typing import List, Tuple
 from ..time_helper import convert_iso, convert_unix
 
-def get_anime_variables(anime: dict):
+def get_anime_variables(anime: dict) -> dict:
   title = anime.get('title') or 'Unknown Title'
   synopsis = anime.get('synopsis') or 'No synopsis available.'
   studios = str(anime.get('studios') or 'N/A')
@@ -167,8 +167,12 @@ def build_guess_anime_embed(anime: dict) -> discord.Embed:
 
   return embed
 
-def build_schedule_embed(anime_name: str, airing_schedule: list[dict], image_url: str):
-  
+def build_schedule_embed(
+  anime_name: str,
+  airing_schedule: list[dict],
+  image_url: str,
+  schedule_label: str = None
+) -> discord.Embed :
   embed = discord.Embed(
     title=f'🎬 {anime_name}',
     color=discord.Color.dark_blue()
@@ -183,7 +187,8 @@ def build_schedule_embed(anime_name: str, airing_schedule: list[dict], image_url
       inline=False
     )
 
-  embed.set_thumbnail(url=image_url)  
+  embed.set_thumbnail(url=image_url)
+  embed.set_footer(text=schedule_label)
 
   return embed
 
