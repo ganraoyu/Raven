@@ -5,7 +5,7 @@ import time
 DB_PATH = os.path.join("AniAlert", "db", "database.db")
 
 def get_db_connection():
-  return sqlite3.connect(DB_PATH)
+  return sqlite3.connect(DB_PATH, check_same_thread=True)
 
 conn = get_db_connection()
 cursor = conn.cursor()
@@ -13,6 +13,7 @@ cursor = conn.cursor()
 def create_tables_from_file(sql_file_path: str):
   with open(sql_file_path, 'r', encoding='utf-8') as f:
     sql_script = f.read()
+    
   cursor.executescript(sql_script)
   conn.commit()
 

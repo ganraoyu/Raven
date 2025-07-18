@@ -1,13 +1,17 @@
 from discord.ext import commands
 from discord import app_commands, Interaction
 from AniAlert.utils.builders.embed_builder import build_remove_anime_embed
+from AniAlert.db.database import get_db_connection
 
 class RemoveAnimeCog(commands.Cog):
-
-  def __init__(self, bot, cursor, conn):
+  def __init__(self, bot):
     self.bot = bot
-    self.cursor = cursor
-    self.conn = conn
+    self.conn = get_db_connection()
+    self.cursor = self.conn.cursor()
+
+  def cog_unload(self):
+    self.cursor.close()
+    self.conn.close()
 
   def _fetch_notify_list(self, id: int):
     self.cursor.execute('SELECT * FROM anime_notify_list WHERE id = ?', (id,))
@@ -17,10 +21,12 @@ class RemoveAnimeCog(commands.Cog):
   @app_commands.describe(id='Enter anime ID to remove')
   async def remove_anime(self, interaction: Interaction, id: int):
     await interaction.response.defer(ephemeral=True)
-
-    result = self._fetch_notify_list(id)
-
-    if result:
+    try:
+      result = self._fetch_notify_list(id)
+      if not result:
+        await interaction.followup.send(f"⚠️ No anime found with ID `{id}`.", ephemeral=True)
+        return
+      
       anime_dict = {
         'id': result[0],
         'guild_id': result[1],
@@ -35,12 +41,13 @@ class RemoveAnimeCog(commands.Cog):
       }
 
       embed = build_remove_anime_embed(anime_dict)
-      self.cursor.execute('DELETE FROM anime_notify_list WHERE id = ?', (id,))
-      await interaction.followup.send(embed=embed, ephemeral=True)
-    else:
-      await interaction.followup.send(
-        f"⚠️ No anime found with ID `{id}`.",
-        ephemeral=True
-      )
 
-    self.conn.commit()
+      self.cursor.execute('DELETE FROM anime_notify_list WHERE id = ?', (id,))
+
+      self.conn.commit()
+
+      await interaction.followup.send(embed=embed, ephemeral=True)
+      
+    except Exception as e:
+      await interaction.followup.send("⚠️ An error occurred while trying to remove the anime.", ephemeral=True)
+      print(f"[ERROR] remove_anime: {e}")

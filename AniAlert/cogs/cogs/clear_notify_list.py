@@ -1,22 +1,35 @@
-
 from discord.ext import commands
 from discord import app_commands, Interaction
 
 from AniAlert.utils.discord_commands.interaction_helper import get_user_and_guild_ids
+from AniAlert.db.database import get_db_connection
 
 class ClearNotifyListCog(commands.Cog):
-  def __init__(self, bot, cursor, conn):
+  def __init__(self, bot):
     self.bot = bot
-    self.cursor = cursor
-    self.conn = conn
+    self.conn = get_db_connection()
+    self.cursor = self.conn.cursor()
 
+  def cog_unload(self):
+    self.cursor.close()
+    self.conn.close()
+    
   @app_commands.command(name='clear_list')
   async def clear(self, interaction: Interaction):
     await interaction.response.defer(ephemeral=True)
 
     user_id, guild_id = get_user_and_guild_ids(interaction)
     user_id, guild_id = int(user_id), int(guild_id)
-    deleted_count = self._delete_notify_list(user_id, guild_id)
+
+    try:
+      deleted_count = self._delete_notify_list(user_id, guild_id)
+    except Exception as e:
+      await interaction.followup.send(
+        "⚠️ An error occurred while clearing your notify list.",
+        ephemeral=True
+      )
+      print(f"[ERROR] clear_list command: {e}")
+      return
 
     if deleted_count == 0:
       await interaction.followup.send(

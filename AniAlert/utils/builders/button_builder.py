@@ -14,10 +14,6 @@ async def check_anime_exists(interaction, query_params, anime_name) -> bool:
   )
 
   if cursor.fetchone():
-    await interaction.response.send_message(
-      f"⚠️ **{anime_name}** is already in your notify list.",
-      ephemeral=True,
-    )
     return True
 
   return False
@@ -90,12 +86,13 @@ class CombinedAnimeButtonView(discord.ui.View):
     anime_name = self.anime.get('title', 'Unknown Title')
     query_params = (guild_id, guild_name, user_id, user_name, anime_name)
 
+    embed = build_remove_anime_embed(self.anime)
+
     if await check_anime_exists(interaction, query_params, anime_name):
       delete_anime_table(query_params)
 
       conn.commit()
-
-      embed = build_remove_anime_embed(self.anime)
+      
       await interaction.response.send_message(
         content=f"✅ **{anime_name}** removed from your notify list.",
         embed=embed,
@@ -104,7 +101,6 @@ class CombinedAnimeButtonView(discord.ui.View):
     else:
       await interaction.response.send_message(
         content=f"✅ **{anime_name}** can't be removed beause it is not in your notify list.",
-        embed=embed,
         ephemeral=True,
       )
 

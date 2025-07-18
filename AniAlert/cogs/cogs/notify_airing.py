@@ -2,25 +2,32 @@ import datetime
 
 from discord.ext import commands, tasks
 
-from services.anime_service import get_full_anime_info
+from AniAlert.services.anime_service import get_full_anime_info
 from AniAlert.tasks.airing_checker import check_notify_list, check_if_aired
-
 from AniAlert.utils.builders.embed_builder import build_anime_airing_notification_embed
+from AniAlert.db.database import get_db_connection
 
 class NotifyAnimeAiredCog(commands.Cog):
-  def __init__(self, bot, cursor, conn):
+  def __init__(self, bot):
     self.bot = bot
-    self.cursor = cursor
-    self.conn = conn
+    self.conn = get_db_connection()
+    self.cursor = self.conn.cursor()
     self.check_airing.start()
 
+  def cog_unload(self):
+    self.cursor.close()
+    self.conn.close()
+    
   @tasks.loop(minutes=1)
   async def check_airing(self):
-    self.cursor.execute('SELECT DISTINCT user_id, guild_id FROM anime_notify_list')
-    user_guild_pairs = self.cursor.fetchall()
+    try:
+      self.cursor.execute('SELECT DISTINCT user_id, guild_id FROM anime_notify_list')
+      user_guild_pairs = self.cursor.fetchall()
 
-    for user_id, guild_id in user_guild_pairs:
-      await self._process_user_guild_pair(user_id, guild_id)
+      for user_id, guild_id in user_guild_pairs:
+        await self._process_user_guild_pair(user_id, guild_id)
+    except Exception as e:
+      print(f"[ERROR] Error in check_airing task: {e}")
 
   async def _process_user_guild_pair(self, user_id, guild_id):
     anime_list = check_notify_list(user_id, guild_id, self.cursor)

@@ -6,13 +6,18 @@ from discord.ext import commands
 from discord import app_commands, Interaction
 
 from AniAlert.utils.builders.embed_builder import build_anime_notify_list_embed
-
 from AniAlert.utils.discord_commands.interaction_helper import get_user_and_guild_ids
+from AniAlert.db.database import get_db_connection
 
 class CheckNotifyListCog(commands.Cog):
-  def __init__(self, bot, cursor):
-    self.bot = bot
-    self.cursor = cursor
+  def __init__(self, bot):
+    self.bot = bot    
+    self.conn = get_db_connection()
+    self.cursor = self.conn.cursor()
+    
+  def cog_unload(self):
+    self.cursor.close()
+    self.conn.close()
 
   @app_commands.command(name='list', description='Check notify list')
   @app_commands.describe(
