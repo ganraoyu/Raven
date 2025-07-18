@@ -5,9 +5,9 @@ from AniAlert.utils.discord_commands.interaction_helper import get_user_and_guil
 from AniAlert.utils.builders.embed_builder import build_anime_airing_notification_embed
 
 def check_notify_list(user_id: str, guild_id: str, cursor):
+  
   cursor.execute('SELECT * FROM anime_notify_list WHERE guild_id = ? and user_id = ?', (guild_id, user_id))
   results = cursor.fetchall()
-
   anime_list = []
 
   for anime in results:
@@ -26,6 +26,8 @@ def check_notify_list(user_id: str, guild_id: str, cursor):
     "iso_air_time": iso_air_time,
     "image": image
     })
+
+  print('')
 
   return anime_list 
 

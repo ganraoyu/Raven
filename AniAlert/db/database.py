@@ -4,8 +4,10 @@ import os
 import time 
 DB_PATH = os.path.join("AniAlert", "db", "database.db")
 
-# Create a global connection and cursor
-conn = sqlite3.connect(DB_PATH)
+def get_db_connection():
+  return sqlite3.connect(DB_PATH)
+
+conn = get_db_connection()
 cursor = conn.cursor()
 
 def create_tables_from_file(sql_file_path: str):
