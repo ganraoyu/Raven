@@ -192,3 +192,30 @@ def build_schedule_embed(
 
   return embed
 
+def build_anime_by_image_builder(
+  anime_name: str, 
+  episode: int,
+  similarity: float,
+  start_time: int,
+  end_time: int, 
+  link: str,
+  image: str,
+) -> discord.Embed:
+  def format_time(seconds: float) -> str:
+    total_seconds = int(seconds)
+    minutes, secs = divmod(total_seconds, 60)
+    return f'{minutes}:{secs:02}'
+  
+  embed = discord.Embed(
+    title=f"🎬 {anime_name}",
+    color=discord.Color.dark_blue()
+  )
+
+  embed.add_field(name="📺 Episode", value=str(episode), inline=True)
+  embed.add_field(name="⏰ Timestamp", value=f"{format_time(start_time)} - {format_time(end_time)}", inline=True)
+  embed.add_field(name="🔗 AniList Link", value=f"[Click here to view]({link})", inline=True)
+
+  embed.set_footer(text="AniAlert • Search Image")
+  embed.set_image(url=image)
+  return embed
+
