@@ -100,7 +100,7 @@ class CombinedAnimeButtonView(discord.ui.View):
       )
     else:
       await interaction.response.send_message(
-        content=f"✅ **{anime_name}** can't be removed beause it is not in your notify list.",
+        content=f"❌ **{anime_name}** can't be removed beause it is not in your notify list.",
         ephemeral=True,
       )
 

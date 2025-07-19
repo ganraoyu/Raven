@@ -25,7 +25,7 @@ async def on_ready():
     print("Application commands synced successfully!")
 
     # Tasks
-    run_schedule_loop() 
+    # run_schedule_loop() 
       
   except Exception as e:
     print(f"Failed to load commands cog: {e}")
