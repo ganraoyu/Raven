@@ -21,3 +21,4 @@ async def setup(bot):
   await bot.add_cog(GuessAnimeCog(bot))
   await bot.add_cog(ScheduleCog(bot))
   await bot.add_cog(SearchAnimeByImage(bot))
+

@@ -2,6 +2,7 @@ import os
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+from AniAlert.db.database import tbemain
 from AniAlert.tasks.anime_schedule_updater import run_schedule_loop
 
 load_dotenv()   
@@ -25,7 +26,8 @@ async def on_ready():
     print("Application commands synced successfully!")
 
     # Tasks
-    run_schedule_loop() 
+    tbemain()
+    run_schedule_loop() # May take some time if database is empty
       
   except Exception as e:
     print(f"Failed to load commands cog: {e}")

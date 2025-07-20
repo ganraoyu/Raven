@@ -122,9 +122,12 @@ def close_connection():
   cursor.close()
   conn.close()
 
-if __name__ == '__main__':
+def tbemain():
   create_tables_from_file(os.path.join("AniAlert", "db", "schema_postgres.sql"))
-  print_table_contents()
+  # print_table_contents()
   # delete_all_data()
   # print_table_contents()
   close_connection()
+
+if __name__ == '__main__':
+  tbemain()
