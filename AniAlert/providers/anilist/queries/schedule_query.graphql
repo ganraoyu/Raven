@@ -10,7 +10,9 @@ query(
       seasonYear: $seasonYear,
       season: $season,
       type: $type,
-      sort: [POPULARITY_DESC]
+      sort: [POPULARITY_DESC],
+      genre_not_in: ["Hentai"],
+      tag_not_in: ["Hentai"]
     ) {
       id
       title {

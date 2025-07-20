@@ -97,6 +97,27 @@ def print_table_contents():
       "image": row[6]
     }, indent=2, ensure_ascii=False))
 
+def delete_all_data():
+    if DB_TYPE == "sqlite":
+      cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+      tables = cursor.fetchall()
+      for (table_name,) in tables:
+        if table_name.startswith('sqlite_'):  
+          continue
+        cursor.execute(f"DELETE FROM {table_name};")
+
+    else:
+      cursor.execute("""
+        SELECT table_name 
+        FROM information_schema.tables
+        WHERE table_schema = 'public' AND table_type = 'BASE TABLE';
+      """)
+      tables = cursor.fetchall()
+      for (table_name,) in tables:
+        cursor.execute(f"TRUNCATE TABLE {table_name} RESTART IDENTITY CASCADE;")
+
+    conn.commit()
+
 def close_connection():
   cursor.close()
   conn.close()
@@ -104,4 +125,6 @@ def close_connection():
 if __name__ == '__main__':
   create_tables_from_file(os.path.join("AniAlert", "db", "schema_postgres.sql"))
   print_table_contents()
+  # delete_all_data()
+  # print_table_contents()
   close_connection()
