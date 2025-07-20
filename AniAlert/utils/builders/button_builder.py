@@ -100,7 +100,7 @@ class CombinedAnimeButtonView(discord.ui.View):
         content=f"❌ **{anime_name}** is not in your notify list.",
         ephemeral=True,
       )
-
+      
 class GuessAnimeButton(discord.ui.Button):
   def __init__(self, label: str, correct_answer: str, row: int):
     super().__init__(label=label, style=discord.ButtonStyle.primary, row=row)
