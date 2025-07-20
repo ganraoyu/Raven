@@ -1,7 +1,9 @@
 from discord.ext import commands
 from discord import app_commands, Interaction
 from AniAlert.utils.builders.embed_builder import build_remove_anime_embed
-from AniAlert.db.database import get_db_connection
+from AniAlert.db.database import get_db_connection, get_placeholder
+
+placeholder = get_placeholder()
 
 class RemoveAnimeCog(commands.Cog):
   def __init__(self, bot):
@@ -14,7 +16,8 @@ class RemoveAnimeCog(commands.Cog):
     self.conn.close()
 
   def _fetch_notify_list(self, id: int):
-    self.cursor.execute('SELECT * FROM anime_notify_list WHERE id = ?', (id,))
+    query = f'SELECT * FROM anime_notify_list WHERE id = {placeholder}'
+    self.cursor.execute(query, (id,))
     return self.cursor.fetchone()
 
   @app_commands.command(name='remove_anime', description='Remove animes from notify list')
@@ -42,7 +45,8 @@ class RemoveAnimeCog(commands.Cog):
 
       embed = build_remove_anime_embed(anime_dict)
 
-      self.cursor.execute('DELETE FROM anime_notify_list WHERE id = ?', (id,))
+      delete_query = f'DELETE FROM anime_notify_list WHERE id = {placeholder}'
+      self.cursor.execute(delete_query, (id,))
 
       self.conn.commit()
 

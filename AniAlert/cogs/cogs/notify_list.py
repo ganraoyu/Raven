@@ -7,7 +7,9 @@ from discord import app_commands, Interaction
 
 from AniAlert.utils.builders.embed_builder import build_anime_notify_list_embed
 from AniAlert.utils.discord_commands.interaction_helper import get_user_and_guild_ids
-from AniAlert.db.database import get_db_connection
+from AniAlert.db.database import get_db_connection, get_placeholder
+
+placeholder = get_placeholder()
 
 class CheckNotifyListCog(commands.Cog):
   def __init__(self, bot):
@@ -53,12 +55,12 @@ class CheckNotifyListCog(commands.Cog):
     return int(user_id), int(guild_id)
 
   def _fetch_notify_list(self, user_id: int, guild_id: int, id: int = None) -> List[tuple]:
-    if id == None:
-      query = 'SELECT * FROM anime_notify_list WHERE user_id = ? AND guild_id = ?'
+    if id is None:
+      query = f'SELECT * FROM anime_notify_list WHERE user_id = {placeholder} AND guild_id = {placeholder}'
       self.cursor.execute(query, (user_id, guild_id))
       return self.cursor.fetchall()
-    elif id != None:
-      query = 'SELECT * FROM anime_notify_list WHERE user_id = ? AND guild_id = ? AND id = ?'
+    else:
+      query = f'SELECT * FROM anime_notify_list WHERE user_id = {placeholder} AND guild_id = {placeholder} AND id = {placeholder}'
       self.cursor.execute(query, (user_id, guild_id, id))
       return self.cursor.fetchall()
 
@@ -78,11 +80,10 @@ class CheckNotifyListCog(commands.Cog):
     return build_anime_notify_list_embed(anime_name, id_, episodes[:10], image)
 
   def _create_notify_list_embeds(self, results: List[tuple], full_list: str = 'False') -> List[discord.Embed]:
-      embeds = [] 
+    embeds = [] 
 
-      for anime in results:
-        embed = self._get_notify_list_embed(anime, full_list)
-        embeds.append(embed)
+    for anime in results:
+      embed = self._get_notify_list_embed(anime, full_list)
+      embeds.append(embed)
 
-      return embeds
-      
+    return embeds

@@ -2,7 +2,9 @@ from discord.ext import commands
 from discord import app_commands, Interaction
 
 from AniAlert.utils.discord_commands.interaction_helper import get_user_and_guild_ids
-from AniAlert.db.database import get_db_connection
+from AniAlert.db.database import get_db_connection, get_placeholder
+
+placeholder = get_placeholder()
 
 class ClearNotifyListCog(commands.Cog):
   def __init__(self, bot):
@@ -46,7 +48,7 @@ class ClearNotifyListCog(commands.Cog):
     )
 
   def _delete_notify_list(self, user_id: int, guild_id: int) -> int:
-    query = 'DELETE FROM anime_notify_list WHERE guild_id = ? AND user_id = ?'
+    query = f'DELETE FROM anime_notify_list WHERE guild_id = {placeholder} AND user_id = {placeholder}'
     self.cursor.execute(query, (guild_id, user_id))
     self.conn.commit()
     return self.cursor.rowcount

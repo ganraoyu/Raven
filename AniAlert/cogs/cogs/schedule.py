@@ -6,7 +6,9 @@ from discord import app_commands, Interaction
 from AniAlert.services.anime_service import get_schedule
 from AniAlert.utils.builders.embed_builder import build_schedule_embed
 from AniAlert.utils.time_helper import get_today_time, get_end_of_week_unix
-from AniAlert.db.database import get_db_connection
+from AniAlert.db.database import get_db_connection, get_placeholder
+
+placeholder = get_placeholder()
 
 def _get_time_stamp(day_range):
   choice = day_range.value if day_range else 'today'
@@ -60,8 +62,8 @@ class ScheduleCog(commands.Cog):
       choice, current_unix_time, time_stamp = _get_time_stamp(day_range)
       schedule_label = _build_labels(time_stamp, choice)
 
-      select_query = '''
-        SELECT * FROM seasonal_schedule WHERE airing_at_unix BETWEEN ? AND ?
+      select_query = f'''
+        SELECT * FROM seasonal_schedule WHERE airing_at_unix BETWEEN {placeholder} AND {placeholder}
       '''
       self.cursor.execute(select_query, time_stamp)
       rows = self.cursor.fetchall()
@@ -77,10 +79,18 @@ class ScheduleCog(commands.Cog):
           'episode': episode_number,
           'time_until_airing': airing_at_unix - current_unix_time
         }]
+        
         embed = build_schedule_embed(anime_name, airing_schedule, image, schedule_label)
-        embeds.append(embed)
+        if embed.title or embed.description or embed.fields:
+          embeds.append(embed)
 
-      await interaction.followup.send(embeds=embeds[:10], ephemeral=True)
+      if embeds and len(embeds) > 0: 
+        await interaction.followup.send(embeds=embeds[:10], ephemeral=True)
+      else: 
+        await interaction.followup.send(
+          "⚠️ No more anime are currently airing today. Please try again later.",
+          ephemeral=True
+        )
 
     except Exception as e:
       print(f"[ERROR] schedule command: {e}")

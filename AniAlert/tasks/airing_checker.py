@@ -1,12 +1,13 @@
 from datetime import datetime
-
-from discord import Interaction
 from AniAlert.utils.discord_commands.interaction_helper import get_user_and_guild_ids
 from AniAlert.utils.builders.embed_builder import build_anime_airing_notification_embed
+from AniAlert.db.database import get_placeholder
+
+placeholder = get_placeholder()
 
 def check_notify_list(user_id: str, guild_id: str, cursor):
-  
-  cursor.execute('SELECT * FROM anime_notify_list WHERE guild_id = ? and user_id = ?', (guild_id, user_id))
+  query = f'SELECT * FROM anime_notify_list WHERE guild_id = {placeholder} and user_id = {placeholder}'
+  cursor.execute(query, (guild_id, user_id))
   results = cursor.fetchall()
   anime_list = []
 
@@ -19,12 +20,12 @@ def check_notify_list(user_id: str, guild_id: str, cursor):
     image = anime[9]            
 
     anime_list.append({
-    "anime_id": anime_id,
-    "user_id": user_id,
-    "anime_name": anime_name,
-    "episode": episode,
-    "iso_air_time": iso_air_time,
-    "image": image
+      "anime_id": anime_id,
+      "user_id": user_id,
+      "anime_name": anime_name,
+      "episode": episode,
+      "iso_air_time": iso_air_time,
+      "image": image
     })
 
   print('')
@@ -50,12 +51,9 @@ def check_if_aired(anime_list):
 
   return animes_with_episode_aired
 
-def get_user_anime_status(interaction: Interaction, cursor):
+def get_user_anime_status(interaction, cursor):
   user_id, guild_id = get_user_and_guild_ids(interaction)
   anime_list = check_notify_list(user_id, guild_id, cursor)
   animes_with_episode_aired = check_if_aired(anime_list)
 
   return user_id, guild_id, anime_list, animes_with_episode_aired
-
-
-

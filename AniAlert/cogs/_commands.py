@@ -1,5 +1,3 @@
-from AniAlert.db.database import cursor, conn
-
 from AniAlert.cogs.cogs.seasonal import SeasonalAnimeLookUpCog
 from AniAlert.cogs.cogs.search import AllAnimeSearchCog
 from AniAlert.cogs.cogs.remove import RemoveAnimeCog

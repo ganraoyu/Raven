@@ -5,7 +5,9 @@ from discord.ext import commands, tasks
 from AniAlert.services.anime_service import get_full_anime_info
 from AniAlert.tasks.airing_checker import check_notify_list, check_if_aired
 from AniAlert.utils.builders.embed_builder import build_anime_airing_notification_embed
-from AniAlert.db.database import get_db_connection
+from AniAlert.db.database import get_db_connection, get_placeholder
+
+placeholder = get_placeholder()
 
 class NotifyAnimeAiredCog(commands.Cog):
   def __init__(self, bot):
@@ -70,7 +72,8 @@ class NotifyAnimeAiredCog(commands.Cog):
     self.conn.commit()
 
   async def _handle_final_episode(self, anime_id, anime_name, user_id, channel):
-    self.cursor.execute('DELETE FROM anime_notify_list WHERE id = ?', (anime_id,))
+    delete_query = f'DELETE FROM anime_notify_list WHERE id = {placeholder}'
+    self.cursor.execute(delete_query, (anime_id,))
     await channel.send(
       content=(
         f"<@{user_id}> 🔔 **The final episode of _{anime_name}_ just aired!**\n"
@@ -88,11 +91,11 @@ class NotifyAnimeAiredCog(commands.Cog):
     await channel.send(content=f"<@{user_id}>", embed=embed)
 
   def _update_airing_time(self, anime_id, anime_data):
-    self.cursor.execute(
-      'UPDATE anime_notify_list SET unix_air_time = ?, iso_air_time = ? WHERE id = ?',
-      (
-        anime_data['airingAt_unix'],
-        anime_data.get('airingAt_iso'),
-        anime_id
-      )
+    update_query = (
+      f'UPDATE anime_notify_list SET unix_air_time = {placeholder}, iso_air_time = {placeholder} WHERE id = {placeholder}'
     )
+    self.cursor.execute(update_query, (
+      anime_data['airingAt_unix'],
+      anime_data.get('airingAt_iso'),
+      anime_id
+    ))

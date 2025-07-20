@@ -1,28 +1,18 @@
 import time
 import threading
-import sqlite3
 import os
 
 from AniAlert.services.anime_service import get_seasonal_schedule
 from AniAlert.utils.seasonal_helper import get_season
 from AniAlert.utils.time_helper import get_today_time
+from AniAlert.db.database import get_db_connection, get_placeholder
 
-DB_PATH = os.path.join("AniAlert", "db", "database.db")
-
-def get_db_connection():
-  return sqlite3.connect(DB_PATH)
-
-def table_exists(table_name: str, cursor) -> bool:
-  cursor.execute("""
-    SELECT name FROM sqlite_master
-    WHERE type='table' AND name=?;
-  """, (table_name,))
-  return cursor.fetchone() is not None
+placeholder = get_placeholder()
 
 def check_if_episode_exists(anime_name: str, episode_number: int, cursor) -> bool:
-  select_query = '''
+  select_query = f'''
     SELECT 1 FROM seasonal_schedule 
-    WHERE anime_name = ? AND episode_number = ?
+    WHERE anime_name = {placeholder} AND episode_number = {placeholder}
     LIMIT 1
   '''
   cursor.execute(select_query, (anime_name, episode_number))
@@ -30,11 +20,11 @@ def check_if_episode_exists(anime_name: str, episode_number: int, cursor) -> boo
 
 def update_anime_schedule(cursor):
   animes = get_seasonal_schedule()
-  insert_query = '''
+  insert_query = f'''
     INSERT INTO seasonal_schedule (
       anime_name, episode_number, airing_at_unix,
       season, year, image
-    ) VALUES (?, ?, ?, ?, ?, ?)
+    ) VALUES ({placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder})
   '''
   for anime in animes:
     start_date = anime.get('start_date', {})
@@ -58,16 +48,15 @@ def update_anime_schedule(cursor):
         ))
 
 def delete_aired_episodes(cursor):
-  today, today_unix_midnight, current_unix_time = get_today_time()
+  _, today_unix_midnight, _ = get_today_time()
   cursor.execute('SELECT anime_name, episode_number, airing_at_unix FROM seasonal_schedule')
   rows = cursor.fetchall()
-
   for row in rows:
     anime_name, episode_number, airing_at_unix = row
     if today_unix_midnight > airing_at_unix:
       print(f'Deleted: {anime_name} episode {episode_number}')
-      delete_query = """
-        DELETE FROM seasonal_schedule WHERE anime_name = ? AND episode_number = ?
+      delete_query = f"""
+        DELETE FROM seasonal_schedule WHERE anime_name = {placeholder} AND episode_number = {placeholder}
       """
       cursor.execute(delete_query, (anime_name, episode_number))
 
@@ -76,10 +65,6 @@ def refresh_schedule():
   cursor = conn.cursor()
 
   try:
-    if not table_exists('seasonal_schedule', cursor):
-      print("[INFO] Table 'seasonal_schedule' does not exist.")
-      return
-
     update_anime_schedule(cursor)
     delete_aired_episodes(cursor)
     print(f"Seasonal Schedule Refreshed at {time.ctime()}")
@@ -100,3 +85,10 @@ def run_schedule_loop(interval_seconds: int = 604800):
       time.sleep(interval_seconds)
 
   threading.Thread(target=loop, daemon=True).start()
+
+if __name__ == "__main__":
+  conn = get_db_connection()
+  conn.close()
+
+  refresh_schedule()  
+  print("Anime schedule updater started.")
