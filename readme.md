@@ -58,9 +58,6 @@ pip install -e .
 DISCORD_TOKEN=your_discord_bot_token
 CLIENT_ID=your_client_id
 
-# Header string used in API requests
-HEADER=AniAlert_GANRAOYU
-
 # Database configuration:
 # By default, the bot uses a local SQLite database which requires no additional settings.
 # To use PostgreSQL instead, set DB_TYPE to "postgres" and provide the connection details below.
