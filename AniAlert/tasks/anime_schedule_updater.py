@@ -53,11 +53,13 @@ def delete_aired_episodes(cursor):
   rows = cursor.fetchall()
   for row in rows:
     anime_name, episode_number, airing_at_unix = row
-    if today_unix_midnight > airing_at_unix:
+
+    if today_unix_midnight > airing_at_unix + 84600:
       print(f'Deleted: {anime_name} episode {episode_number}')
       delete_query = f"""
         DELETE FROM seasonal_schedule WHERE anime_name = {placeholder} AND episode_number = {placeholder}
       """
+
       cursor.execute(delete_query, (anime_name, episode_number))
 
 def refresh_schedule():

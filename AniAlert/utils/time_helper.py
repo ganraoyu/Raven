@@ -10,6 +10,18 @@ def get_today_time():
 
   return today, today_unix_midnight, current_unix_time
 
+def get_next_day_unix():
+  today = datetime.date.today()
+  next_day = today + datetime.timedelta(days=1)
+
+  start_of_day = datetime.datetime.combine(next_day, datetime.time.min)  # 00:00:00
+  end_of_day = datetime.datetime.combine(next_day, datetime.time(hour=23, minute=59, second=59))  # 23:59:59
+
+  start_unix = int(start_of_day.timestamp())
+  end_unix = int(end_of_day.timestamp())
+
+  return start_unix, end_unix
+
 def get_end_of_week_unix() -> int:
   today = datetime.date.today()
   days_ahead = 6 - today.weekday() 
@@ -17,6 +29,21 @@ def get_end_of_week_unix() -> int:
   end_of_week_datetime = datetime.datetime.combine(end_of_week_date, datetime.time.max)
   end_of_week_datetime = end_of_week_datetime.replace(tzinfo=timezone.utc)
   return int(end_of_week_datetime.timestamp())
+
+def get_end_of_next_week_unix ():
+  today = datetime.date.today()
+
+  days_until_next_monday = (7 - today.weekday()) % 7 + 0
+  next_monday = today + datetime.timedelta(days=days_until_next_monday)
+  next_sunday = next_monday + datetime.timedelta(days=6)
+
+  start_of_week = datetime.datetime.combine(next_monday, datetime.time.min)
+  end_of_week = datetime.datetime.combine(next_sunday, datetime.time(hour=23, minute=59))
+
+  start_unix = int(start_of_week.timestamp())
+  end_unix = int(end_of_week.timestamp())
+
+  return start_unix, end_unix
 
 def convert_unix(seconds: int) -> str:
   if seconds is None:
