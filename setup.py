@@ -8,7 +8,8 @@ setup(
         "discord.py>=2.0.0",
         "python-dotenv>=0.19.0",
         "requests>=2.25.0",
-        "psycopg2-binary", 
+        "psycopg2-binary",
+        "redis>=4.0.0",  
     ],
     python_requires=">=3.8",
 )
