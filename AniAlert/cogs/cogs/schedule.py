@@ -10,14 +10,12 @@ from AniAlert.db.database import get_db_connection, get_placeholder
 
 placeholder = get_placeholder()
 
-
 def _get_time_stamp(day_range):
   choice = day_range.value if day_range else 'today'
-  _, today_unix_midnight, current_unix_time = get_today_time()
+  _, today_unix_midnight, current_unix_time, yesterday_unix_midnight = get_today_time()
 
   if choice == 'today':
-    tomorrow_unix = today_unix_midnight + 86400  # 1 day in seconds
-    time_stamp = (today_unix_midnight, tomorrow_unix)
+    time_stamp = (today_unix_midnight, current_unix_time)
   elif choice == 'tomorrow':
     start_of_tomorrow, end_of_tomorrow = get_next_day_unix()
     time_stamp = (start_of_tomorrow, end_of_tomorrow)
@@ -40,14 +38,12 @@ def _build_labels(time_stamp: tuple, choice: str):
     schedule_label = f"Schedule for {start_label} - {end_label}"
   return schedule_label
 
-
 def _fetch_schedule_rows(cursor, time_stamp):
   select_query = f'''
     SELECT * FROM seasonal_schedule WHERE airing_at_unix BETWEEN {placeholder} AND {placeholder}
   '''
   cursor.execute(select_query, time_stamp)
   return cursor.fetchall()
-
 
 def _build_embed_with_times(rows, current_unix_time, schedule_label):
   embed_with_times = []
@@ -70,7 +66,6 @@ def _build_embed_with_times(rows, current_unix_time, schedule_label):
       embed_with_times.append((embed, time_until_airing))
 
   return embed_with_times
-
 
 def _sort_embed(embed_with_times: list):
   sorted_list = sorted(embed_with_times, key=lambda x: x[1])
@@ -105,7 +100,7 @@ class ScheduleCog(commands.Cog):
   ):
     await interaction.response.defer(ephemeral=True)
 
-    try:
+    try:  
       choice, current_unix_time, time_stamp = _get_time_stamp(day_range)
       schedule_label = _build_labels(time_stamp, choice)
       rows = _fetch_schedule_rows(self.cursor, time_stamp)

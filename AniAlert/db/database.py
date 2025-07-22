@@ -138,7 +138,7 @@ def tbemain():
   sql_path = os.path.join(base_dir, "schema_postgres.sql")
 
   create_tables_from_file(sql_path)
-  # print_table_contents()
+  print_table_contents()
   # delete_all_data()
   # print_table_contents()
   close_connection()
@@ -159,4 +159,4 @@ def test_redis_cache():
 
 
 if __name__ == '__main__':
-  test_redis_cache()
+  tbemain()

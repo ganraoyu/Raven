@@ -2,20 +2,22 @@ from datetime import datetime, timezone
 import datetime
 
 def get_today_time():
-  today = datetime.date.today()
-  current_time = datetime.datetime.now()
-  current_unix_time = int(current_time.timestamp())
-  midnight = datetime.datetime.combine(today, datetime.time.min)
-  today_unix_midnight = int(midnight.timestamp())
+  now_utc = datetime.datetime.now(datetime.timezone.utc)
+  today = now_utc.date()
 
-  return today, today_unix_midnight, current_unix_time
+  current_unix_time = int(now_utc.timestamp())
+  midnight = datetime.datetime.combine(today, datetime.time.min, tzinfo=datetime.timezone.utc)
+  today_unix_midnight = int(midnight.timestamp())
+  yesterday_unix_midnight = today_unix_midnight - 86400
+
+  return today, today_unix_midnight, current_unix_time, yesterday_unix_midnight
 
 def get_next_day_unix():
-  today = datetime.date.today()
+  today = datetime.datetime.now(timezone.utc).date()
   next_day = today + datetime.timedelta(days=1)
 
-  start_of_day = datetime.datetime.combine(next_day, datetime.time.min)  # 00:00:00
-  end_of_day = datetime.datetime.combine(next_day, datetime.time(hour=23, minute=59, second=59))  # 23:59:59
+  start_of_day = datetime.datetime.combine(next_day, datetime.time.min, tzinfo=timezone.utc)  # 00:00:00 UTC
+  end_of_day = datetime.datetime.combine(next_day, datetime.time(hour=23, minute=59, second=59), tzinfo=timezone.utc)  # 23:59:59 UTC
 
   start_unix = int(start_of_day.timestamp())
   end_unix = int(end_of_day.timestamp())
@@ -23,22 +25,20 @@ def get_next_day_unix():
   return start_unix, end_unix
 
 def get_end_of_week_unix() -> int:
-  today = datetime.date.today()
+  today = datetime.datetime.now(timezone.utc).date()
   days_ahead = 6 - today.weekday() 
   end_of_week_date = today + datetime.timedelta(days=days_ahead)
-  end_of_week_datetime = datetime.datetime.combine(end_of_week_date, datetime.time.max)
-  end_of_week_datetime = end_of_week_datetime.replace(tzinfo=timezone.utc)
+  end_of_week_datetime = datetime.datetime.combine(end_of_week_date, datetime.time.max, tzinfo=timezone.utc)
   return int(end_of_week_datetime.timestamp())
 
 def get_end_of_next_week_unix ():
-  today = datetime.date.today()
-
-  days_until_next_monday = (7 - today.weekday()) % 7 + 0
+  today = datetime.datetime.now(timezone.utc).date()
+  days_until_next_monday = (7 - today.weekday()) % 7
   next_monday = today + datetime.timedelta(days=days_until_next_monday)
   next_sunday = next_monday + datetime.timedelta(days=6)
 
-  start_of_week = datetime.datetime.combine(next_monday, datetime.time.min)
-  end_of_week = datetime.datetime.combine(next_sunday, datetime.time(hour=23, minute=59))
+  start_of_week = datetime.datetime.combine(next_monday, datetime.time.min, tzinfo=timezone.utc)
+  end_of_week = datetime.datetime.combine(next_sunday, datetime.time(hour=23, minute=59), tzinfo=timezone.utc)
 
   start_unix = int(start_of_week.timestamp())
   end_unix = int(end_of_week.timestamp())

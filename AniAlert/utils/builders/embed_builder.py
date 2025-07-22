@@ -180,7 +180,13 @@ def build_schedule_embed(
 
   for ep in airing_schedule:
     episode_num = ep.get('episode')
-    air_time = convert_unix(ep.get('time_until_airing'))
+    time_until_airing = ep.get('time_until_airing')
+
+    if time_until_airing > 0:
+      air_time = convert_unix(time_until_airing)
+    elif time_until_airing < 0:
+      air_time = 'Recently Aired'
+      
     embed.add_field(
       name=f'Episode {episode_num} airs in',
       value=air_time,
