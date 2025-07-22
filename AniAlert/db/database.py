@@ -3,6 +3,7 @@ import psycopg2
 import json
 import os
 from dotenv import load_dotenv
+import redis
 
 load_dotenv()
 
@@ -17,6 +18,16 @@ DB_NAME = os.getenv("DB_NAME")
 DB_USER = os.getenv("DB_USER")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_PORT = int(os.getenv("DB_PORT", 5432))
+
+def get_redis_cache():
+  redis_client = redis.StrictRedis(
+    host=os.getenv("REDIS_HOST"),
+    port=int(os.getenv("REDIS_PORT")),
+    ssl=os.getenv("REDIS_USE_TLS") == "true",
+    decode_responses=True,
+  )
+
+  return redis_client
 
 def get_placeholder():
   return "?" if DB_TYPE == "sqlite" else "%s"
@@ -123,11 +134,29 @@ def close_connection():
   conn.close()
 
 def tbemain():
-  create_tables_from_file(os.path.join("AniAlert", "db", "schema_postgres.sql"))
+  base_dir = os.path.dirname(os.path.abspath(__file__))  
+  sql_path = os.path.join(base_dir, "schema_postgres.sql")
+
+  create_tables_from_file(sql_path)
   # print_table_contents()
   # delete_all_data()
   # print_table_contents()
   close_connection()
 
+
+def test_redis_cache():
+  r = get_redis_cache()
+
+  # Test writing to cache
+  r.set("test_key", "hello from redis", ex=60) 
+
+  # Test reading from cache
+  value = r.get("test_key")
+  if value:
+    print("✅ Redis cache works! Value:", value)
+  else:
+    print("❌ Redis cache not working.")
+
+
 if __name__ == '__main__':
-  tbemain()
+  test_redis_cache()
