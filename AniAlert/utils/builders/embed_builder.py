@@ -177,24 +177,31 @@ def build_schedule_embed(
     title=f'🎬 {anime_name}',
     color=discord.Color.dark_blue()
   )
-
+ 
   for ep in airing_schedule:
     episode_num = ep.get('episode')
     time_until_airing = ep.get('time_until_airing')
 
+    if time_until_airing is None:
+      continue 
+    
+    formatted_time = convert_unix(time_until_airing)
     if time_until_airing > 0:
-      air_time = convert_unix(time_until_airing)
-    elif time_until_airing < 0:
-      air_time = 'Recently Aired'
-      
-    embed.add_field(
+      embed.add_field(
       name=f'Episode {episode_num} airs in',
-      value=air_time,
+      value=formatted_time,
       inline=False
     )
-
+    elif time_until_airing < 0:
+      embed.add_field(
+      name=f'Episode {episode_num} already aired',
+      value=f'{formatted_time} ago',
+      inline=False
+    )
+      
   embed.set_thumbnail(url=image_url)
-  embed.set_footer(text=schedule_label)
+  if schedule_label:
+    embed.set_footer(text=schedule_label)
 
   return embed
 
@@ -223,5 +230,6 @@ def build_anime_by_image_builder(
 
   embed.set_footer(text="AniAlert • Search Image")
   embed.set_image(url=image)
+
   return embed
 

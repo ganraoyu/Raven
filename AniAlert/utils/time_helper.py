@@ -49,10 +49,10 @@ def convert_unix(seconds: int) -> str:
   if seconds is None:
     return "unknown"
 
-  days = seconds // 86400
-  hours = (seconds % 86400) // 3600
-  minutes = (seconds % 3600) // 60
-  seconds = seconds % 60
+  days = abs(seconds) // 86400
+  hours = (abs(seconds) % 86400) // 3600
+  minutes = (abs(seconds) % 3600) // 60
+  seconds = abs(seconds) % 60
 
   parts = []
   if days > 0:
