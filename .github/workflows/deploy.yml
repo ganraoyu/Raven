@@ -42,32 +42,3 @@ jobs:
         run: |
           echo "${{ secrets.EC2_KEY }}" > ec2_key.pem
           chmod 600 ec2_key.pem
-
-      - name: Debug EC2_HOST value
-        run: echo "EC2_HOST is '$EC2_HOST'"
-
-      - name: Deploy to EC2 and setup .env
-        run: |
-          ssh -o StrictHostKeyChecking=no -i ec2_key.pem $EC2_USER@$EC2_HOST /bin/bash << 'ENDSSH'
-          mkdir -p ~/anialert
-          cd ~/anialert
-          cat > .env << 'EOF'
-DISCORD_BOT_TOKEN="${DISCORD_BOT_TOKEN}"
-CLIENT_ID="${CLIENT_ID}"
-HEADER="${HEADER}"
-DB_TYPE="${DB_TYPE}"
-DB_HOST="${DB_HOST}"
-DB_NAME="${DB_NAME}"
-DB_USER="${DB_USER}"
-DB_PASSWORD="${DB_PASSWORD}"
-DB_PORT="${DB_PORT}"
-REDIS_HOST="${REDIS_HOST}"
-REDIS_PORT="${REDIS_PORT}"
-REDIS_USE_TLS="${REDIS_USE_TLS}"
-EOF
-          docker stop anialert-bot || true
-          docker rm anialert-bot || true
-          docker build -t anialert-bot .
-          docker run -d --name anialert-bot --env-file .env anialert-bot
-          docker ps
-ENDSSH
