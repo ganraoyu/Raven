@@ -28,23 +28,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Show environment (no secrets)
-        run: |
-          echo "==== ENVIRONMENT VARIABLES (no secrets) ===="
-          echo "EC2_USER: $EC2_USER"
-          echo "EC2_HOST: $EC2_HOST"
-          echo "CLIENT_ID: $CLIENT_ID"
-          echo "HEADER: $HEADER"
-          echo "DB_TYPE: $DB_TYPE"
-          echo "DB_HOST: $DB_HOST"
-          echo "DB_NAME: $DB_NAME"
-          echo "DB_USER: $DB_USER"
-          echo "DB_PORT: $DB_PORT"
-          echo "REDIS_HOST: $REDIS_HOST"
-          echo "REDIS_PORT: $REDIS_PORT"
-          echo "REDIS_USE_TLS: $REDIS_USE_TLS"
-          echo "==========================================="
-
       - name: Prepare SSH key
         run: |
           echo "${{ secrets.EC2_KEY }}" > ec2_key.pem
@@ -58,38 +41,32 @@ jobs:
           key: ${{ secrets.EC2_KEY }}
           script: |
             set -ex
-            echo "===== [Start Deployment on EC2] ====="
-            
-            if [ ! -d ~/AniAlert ]; then
-              echo "Cloning AniAlert repository."
+
+            echo "==== [Ensure AniAlert repo exists and is clean] ===="
+            if [ ! -d ~/AniAlert/.git ]; then
+              echo "Repository broken or missing. Re-cloning AniAlert..."
+              rm -rf ~/AniAlert
               git clone https://github.com/ganraoyu/AniAlert.git ~/AniAlert
             fi
 
             cd ~/AniAlert || { echo "cd failed"; exit 1; }
 
-            echo "Resetting repository and pulling latest code."
+            echo "Resetting repository and pulling latest code..."
             git reset --hard
             timeout 60s git pull origin main
 
-            echo "Creating Python venv if missing..."
-            if [ ! -d ~/AniAlert/venv ]; then
-              python3 -m venv ~/AniAlert/venv
+            echo "==== [Setup Python venv and install] ===="
+            if [ ! -d venv ]; then
+              python3 -m venv venv
             fi
 
-            echo "Activating venv and installing dependencies..."
-            source ~/AniAlert/venv/bin/activate
+            source venv/bin/activate
             pip install --upgrade pip setuptools wheel
             sudo apt-get update
             sudo apt-get install -y libpq-dev
             pip install -e .
 
-            echo "Installing screen if not present..."
+            echo "==== [Install screen and restart bot] ===="
             sudo apt install -y screen
-
-            echo "Killing existing AniAlert bot if running..."
             pkill -f "python -u AniAlert/bot.py" || true
-
-            echo "Starting AniAlert bot in a detached screen..."
             screen -dmS anialert_session bash -c "source ~/AniAlert/venv/bin/activate && python -u AniAlert/bot.py"
-
-            echo "===== [Deployment Complete] ====="
