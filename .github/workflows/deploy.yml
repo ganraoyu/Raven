@@ -44,25 +44,26 @@ jobs:
           username: ${{ env.EC2_USER }}
           key: ${{ secrets.EC2_KEY }}
           script: |
-            if [ ! -d ~/AniAlert ]; then
+            if [ ! -d ~/AniAlert/.git ]; then
+              rm -rf ~/AniAlert
               git clone https://github.com/ganraoyu/AniAlert.git ~/AniAlert
             fi
             cd ~/AniAlert || exit 1
             git reset --hard
             git pull origin main
-            
+
             # Activate virtualenv
             source ~/AniAlert/venv/bin/activate
-            
+
             # Install your package in editable mode
             pip install -e .
-            
+
             # Make sure screen is installed
             sudo apt update
             sudo apt install -y screen
-            
+
             # Kill old bot if running
             pkill -f "python -u AniAlert/bot.py" || true
-            
+
             # Start new bot in detached screen session
             screen -dmS anialert_session bash -c "python -u AniAlert/bot.py"
