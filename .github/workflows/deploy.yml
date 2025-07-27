@@ -39,24 +39,35 @@ jobs:
           username: ${{ env.EC2_USER }}
           key: ${{ secrets.EC2_KEY }}
           script: |
-            # Clean up old session
+            # Clean up old screen session
             screen -S anialert_session -X quit || true
             screen -wipe || true
             
-            # Navigate to project
+            # Navigate to project directory
             cd ~/AniAlert || exit 1
+            
+            # Reset and update repo
             git reset --hard
             git pull origin main
             
-            # Start bot in screen exactly as specified
+            # Create virtual environment if missing
+            if [ ! -d venv ]; then
+              python3 -m venv venv
+            fi
+            
+            # Start bot inside a new detached screen session
             screen -dmS anialert_session bash -c "
-              cd ~/AniAlert/AniAlert
+              cd ~/AniAlert &&
+              source venv/bin/activate &&
+              pip install --upgrade pip setuptools wheel &&
+              pip install -e . &&
+              cd AniAlert &&
               python bot.py
             "
             
             # Verify deployment
             sleep 2
-            echo "=== Active Screens ==="
+            echo '=== Active Screens ==='
             screen -ls
-            echo "=== Running Processes ==="
-            pgrep -fl "python.*bot.py" || echo "No bot process found"
+            echo '=== Running Processes ==='
+            pgrep -fl 'python.*bot.py' || echo 'No bot process found'
