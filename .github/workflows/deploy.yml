@@ -44,6 +44,9 @@ jobs:
           username: ${{ env.EC2_USER }}
           key: ${{ secrets.EC2_KEY }}
           script: |
+            if [ ! -d ~/AniAlert ]; then
+              git clone https://github.com/ganraoyu/AniAlert.git ~/AniAlert
+            fi
             cd ~/AniAlert || exit 1
             git reset --hard
             git pull origin main
