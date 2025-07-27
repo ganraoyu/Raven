@@ -32,38 +32,30 @@ jobs:
         run: |
           echo "${{ secrets.EC2_KEY }}" > ec2_key.pem
           chmod 600 ec2_key.pem
-
-      - name: Debug SSH access to EC2
-        run: |
-          ssh -o StrictHostKeyChecking=no -i ec2_key.pem ${{ env.EC2_USER }}@${{ env.EC2_HOST }} "echo SSH connection successful"
-
+          
       - name: Deploy to EC2 via SSH
-        uses: appleboy/ssh-action@v0.1.9
+        uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ env.EC2_HOST }}
           username: ${{ env.EC2_USER }}
           key: ${{ secrets.EC2_KEY }}
           script: |
-            if [ ! -d ~/AniAlert/.git ]; then
-              rm -rf ~/AniAlert
-              git clone https://github.com/ganraoyu/AniAlert.git ~/AniAlert
-            fi
             cd ~/AniAlert || exit 1
             git reset --hard
             git pull origin main
-
+            
             # Activate virtualenv
             source ~/AniAlert/venv/bin/activate
-
+            
             # Install your package in editable mode
             pip install -e .
-
+            
             # Make sure screen is installed
             sudo apt update
             sudo apt install -y screen
-
+            
             # Kill old bot if running
             pkill -f "python -u AniAlert/bot.py" || true
-
+            
             # Start new bot in detached screen session
             screen -dmS anialert_session bash -c "python -u AniAlert/bot.py"
