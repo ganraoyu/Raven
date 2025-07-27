@@ -7,7 +7,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     env:
       EC2_USER: ${{ secrets.EC2_USER }}
       EC2_HOST: ${{ secrets.EC2_HOST }}
@@ -32,11 +31,7 @@ jobs:
         run: |
           echo "${{ secrets.EC2_KEY }}" > ec2_key.pem
           chmod 600 ec2_key.pem
-
-      - name: Debug SSH access to EC2
-        run: |
-          ssh -o StrictHostKeyChecking=no -i ec2_key.pem ${{ env.EC2_USER }}@${{ env.EC2_HOST }} "echo SSH connection successful"
-
+          
       - name: Deploy to EC2 via SSH
         uses: appleboy/ssh-action@v1.0.0
         with:
@@ -44,48 +39,44 @@ jobs:
           username: ${{ env.EC2_USER }}
           key: ${{ secrets.EC2_KEY }}
           script: |
-            set -ex
-
-            echo "===== [Start Deployment on EC2] ====="
-
-            if [ ! -d ~/AniAlert/.git ]; then
-              echo "Repository broken or missing. Re-cloning AniAlert..."
-              rm -rf ~/AniAlert
-              git clone https://github.com/ganraoyu/AniAlert.git ~/AniAlert
-            fi
-
-            cd ~/AniAlert || { echo "cd failed"; exit 1; }
-
-            echo "Resetting repository and pulling latest code..."
+            # Navigate to project directory
+            cd ~/AniAlert || exit 1
+            
+            # Reset and pull latest changes
             git reset --hard
-            timeout 60s git pull origin main
-
-            # Setup virtual environment if missing
-            if [ ! -d ~/AniAlert/venv ]; then
-              echo "Creating Python virtual environment..."
-              python3 -m venv ~/AniAlert/venv
-            fi
-
-            echo "Activating Python virtual environment..."
-            source ~/AniAlert/venv/bin/activate || { echo "venv activation failed"; exit 1; }
-
-            echo "Upgrading pip, setuptools, and wheel..."
+            git pull origin main
+            
+            # Activate virtualenv
+            source ~/AniAlert/venv/bin/activate
+            
+            # Modern package installation
             pip install --upgrade pip setuptools wheel
-
-            echo "Installing system dependencies for psycopg2..."
+            pip install --use-pep517 -e .
+            
+            # Install system dependencies only if needed
             sudo apt-get update
-            sudo apt-get install -y libpq-dev
-
-            echo "Installing Python dependencies..."
-            pip install -e . || { echo 'pip install failed'; exit 1; }
-
-            echo "Installing screen..."
-            sudo apt-get install -y screen
-
-            echo "Killing any existing AniAlert bot process (if running)..."
-            pkill -f "python -u AniAlert/bot.py" || echo "No existing bot process found."
-
-            echo "Starting AniAlert bot in a detached screen session..."
-            screen -dmS anialert_session bash -c "python -u AniAlert/bot.py"
-
-            echo "===== [Deployment Complete] ====="
+            sudo apt-get install -y libpq-dev screen || true
+            
+            # Gracefully stop existing bot using PID file
+            if [ -f ~/AniAlert/bot.pid ]; then
+              echo "Stopping existing bot process..."
+              kill -TERM $(cat ~/AniAlert/bot.pid) 2>/dev/null || true
+              sleep 3  # Wait for graceful shutdown
+              rm -f ~/AniAlert/bot.pid
+            fi
+            
+            # Clean up any dead screen sessions
+            screen -wipe >/dev/null 2>&1 || true
+            
+            # Start new bot in screen with PID tracking
+            screen -dmS anialert bash -c "
+              source ~/AniAlert/venv/bin/activate
+              python -u ~/AniAlert/bot.py &
+              echo \$! > ~/AniAlert/bot.pid
+              wait
+            "
+            
+            # Verify deployment
+            sleep 2
+            screen -ls | grep anialert || echo "Warning: Screen session not found"
+            [ -f ~/AniAlert/bot.pid ] && echo "Bot running with PID $(cat ~/AniAlert/bot.pid)"
