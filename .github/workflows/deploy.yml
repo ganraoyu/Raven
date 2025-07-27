@@ -28,10 +28,29 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Show environment (no secrets)
+        run: |
+          echo "==== ENVIRONMENT VARIABLES (no secrets) ===="
+          echo "EC2_USER: $EC2_USER"
+          echo "EC2_HOST: $EC2_HOST"
+          echo "CLIENT_ID: $CLIENT_ID"
+          echo "HEADER: $HEADER"
+          echo "DB_TYPE: $DB_TYPE"
+          echo "DB_HOST: $DB_HOST"
+          echo "DB_NAME: $DB_NAME"
+          echo "DB_USER: $DB_USER"
+          echo "DB_PORT: $DB_PORT"
+          echo "REDIS_HOST: $REDIS_HOST"
+          echo "REDIS_PORT: $REDIS_PORT"
+          echo "REDIS_USE_TLS: $REDIS_USE_TLS"
+          echo "==========================================="
+
       - name: Prepare SSH key
         run: |
+          echo "Preparing SSH key for EC2 connection..."
           echo "${{ secrets.EC2_KEY }}" > ec2_key.pem
           chmod 600 ec2_key.pem
+          echo "SSH key prepared."
 
       - name: Deploy to EC2 via SSH
         uses: appleboy/ssh-action@v1.0.0
@@ -40,25 +59,39 @@ jobs:
           username: ${{ env.EC2_USER }}
           key: ${{ secrets.EC2_KEY }}
           script: |
+            set -ex
+            echo "===== [Start Deployment on EC2] ====="
+            echo "Checking if ~/AniAlert directory exists..."
             if [ ! -d ~/AniAlert ]; then
+              echo "Directory not found. Cloning AniAlert repository."
               git clone https://github.com/ganraoyu/AniAlert.git ~/AniAlert
+            else
+              echo "Directory exists. Skipping clone."
             fi
-            cd ~/AniAlert || exit 1
+
+            echo "Switching to ~/AniAlert directory."
+            cd ~/AniAlert || { echo "Failed to cd into ~/AniAlert"; exit 1; }
+
+            echo "Resetting repository to HEAD."
             git reset --hard
-            git pull origin main
 
-            # Activate virtualenv
-            source ~/AniAlert/venv/bin/activate
+            echo "Pulling latest code (timeout 60s)..."
+            timeout 60s git pull origin main
 
-            # Install your package in editable mode
-            pip install -e .
+            echo "Activating Python virtual environment..."
+            source ~/AniAlert/venv/bin/activate || { echo "venv activation failed"; exit 1; }
 
-            # Make sure screen is installed
+            echo "Installing package in editable mode (pip install -e .)..."
+            pip install -e . || { echo 'pip install failed'; exit 1; }
+
+            echo "Updating apt and installing screen..."
             sudo apt update
             sudo apt install -y screen
 
-            # Kill old bot if running
-            pkill -f "python -u AniAlert/bot.py" || true
+            echo "Killing any existing AniAlert bot process (if running)..."
+            pkill -f "python -u AniAlert/bot.py" || echo "No existing bot process found."
 
-            # Start new bot in detached screen session
+            echo "Starting AniAlert bot in a detached screen session..."
             screen -dmS anialert_session bash -c "python -u AniAlert/bot.py"
+
+            echo "===== [Deployment Complete] ====="
