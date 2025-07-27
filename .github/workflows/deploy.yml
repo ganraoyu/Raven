@@ -32,7 +32,11 @@ jobs:
         run: |
           echo "${{ secrets.EC2_KEY }}" > ec2_key.pem
           chmod 600 ec2_key.pem
-          
+
+      - name: Debug SSH access to EC2
+        run: |
+          ssh -o StrictHostKeyChecking=no -i ec2_key.pem ${{ env.EC2_USER }}@${{ env.EC2_HOST }} "echo SSH connection successful"
+
       - name: Deploy to EC2 via SSH
         uses: appleboy/ssh-action@v0.1.9
         with:
