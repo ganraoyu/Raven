@@ -33,6 +33,10 @@ jobs:
           echo "${{ secrets.EC2_KEY }}" > ec2_key.pem
           chmod 600 ec2_key.pem
 
+      - name: Debug SSH access to EC2
+        run: |
+          ssh -o StrictHostKeyChecking=no -i ec2_key.pem ${{ env.EC2_USER }}@${{ env.EC2_HOST }} "echo SSH connection successful"
+
       - name: Deploy to EC2 via SSH
         uses: appleboy/ssh-action@v1.0.0
         with:
@@ -42,7 +46,8 @@ jobs:
           script: |
             set -ex
 
-            echo "==== [Ensure AniAlert repo exists and is clean] ===="
+            echo "===== [Start Deployment on EC2] ====="
+
             if [ ! -d ~/AniAlert/.git ]; then
               echo "Repository broken or missing. Re-cloning AniAlert..."
               rm -rf ~/AniAlert
@@ -55,18 +60,32 @@ jobs:
             git reset --hard
             timeout 60s git pull origin main
 
-            echo "==== [Setup Python venv and install] ===="
-            if [ ! -d venv ]; then
-              python3 -m venv venv
+            # Setup virtual environment if missing
+            if [ ! -d ~/AniAlert/venv ]; then
+              echo "Creating Python virtual environment..."
+              python3 -m venv ~/AniAlert/venv
             fi
 
-            source venv/bin/activate
+            echo "Activating Python virtual environment..."
+            source ~/AniAlert/venv/bin/activate || { echo "venv activation failed"; exit 1; }
+
+            echo "Upgrading pip, setuptools, and wheel..."
             pip install --upgrade pip setuptools wheel
+
+            echo "Installing system dependencies for psycopg2..."
             sudo apt-get update
             sudo apt-get install -y libpq-dev
-            pip install -e .
 
-            echo "==== [Install screen and restart bot] ===="
-            sudo apt install -y screen
-            pkill -f "python -u AniAlert/bot.py" || true
-            screen -dmS anialert_session bash -c "source ~/AniAlert/venv/bin/activate && python -u AniAlert/bot.py"
+            echo "Installing Python dependencies..."
+            pip install -e . || { echo 'pip install failed'; exit 1; }
+
+            echo "Installing screen..."
+            sudo apt-get install -y screen
+
+            echo "Killing any existing AniAlert bot process (if running)..."
+            pkill -f "python -u AniAlert/bot.py" || echo "No existing bot process found."
+
+            echo "Starting AniAlert bot in a detached screen session..."
+            screen -dmS anialert_session bash -c "python -u AniAlert/bot.py"
+
+            echo "===== [Deployment Complete] ====="
