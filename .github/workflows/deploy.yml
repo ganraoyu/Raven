@@ -31,7 +31,7 @@ jobs:
         run: |
           echo "${{ secrets.EC2_KEY }}" > ec2_key.pem
           chmod 600 ec2_key.pem
-          
+
       - name: Deploy to EC2
         uses: appleboy/ssh-action@v1.0.0
         with:
@@ -39,8 +39,10 @@ jobs:
           username: ${{ env.EC2_USER }}
           key: ${{ secrets.EC2_KEY }}
           script: |
-            # Clean up old screen session
-            screen -S anialert_session -X quit || true
+            # Kill all existing screen sessions
+            screen -ls | grep -o '[0-9]*\.' | xargs -r -n 1 screen -S {} -X quit || true
+
+            # Wipe dead screens
             screen -wipe || true
             
             # Navigate to project directory
@@ -55,13 +57,15 @@ jobs:
               python3 -m venv venv
             fi
             
+            # Activate venv and install dependencies
+            source venv/bin/activate
+            pip install --upgrade pip setuptools wheel
+            pip install -e .
+            
             # Start bot inside a new detached screen session
             screen -dmS anialert_session bash -c "
-              cd ~/AniAlert &&
-              source venv/bin/activate &&
-              pip install --upgrade pip setuptools wheel &&
-              pip install -e . &&
-              cd AniAlert &&
+              cd ~/AniAlert/AniAlert &&
+              source ~/AniAlert/venv/bin/activate &&
               python bot.py
             "
             
