@@ -42,41 +42,32 @@ jobs:
             # Navigate to project directory
             cd ~/AniAlert || exit 1
             
-            # Reset and pull latest changes
+            # Clean up any existing sessions
+            screen -S anialert -X quit || true
+            screen -wipe || true
+            
+            # Get latest code
             git reset --hard
             git pull origin main
             
-            # Activate virtualenv
-            source ~/AniAlert/venv/bin/activate
-            
-            # Modern package installation
+            # Set up environment
+            source venv/bin/activate
             pip install --upgrade pip setuptools wheel
             pip install --use-pep517 -e .
             
-            # Install system dependencies only if needed
+            # Install system dependencies
             sudo apt-get update
             sudo apt-get install -y libpq-dev screen || true
             
-            # Gracefully stop existing bot using PID file
-            if [ -f ~/AniAlert/bot.pid ]; then
-              echo "Stopping existing bot process..."
-              kill -TERM $(cat ~/AniAlert/bot.pid) 2>/dev/null || true
-              sleep 3  # Wait for graceful shutdown
-              rm -f ~/AniAlert/bot.pid
-            fi
-            
-            # Clean up any dead screen sessions
-            screen -wipe >/dev/null 2>&1 || true
-            
-            # Start new bot in screen with PID tracking
+            # Start fresh screen session
             screen -dmS anialert bash -c "
-              source ~/AniAlert/venv/bin/activate
-              python -u ~/AniAlert/bot.py &
-              echo \$! > ~/AniAlert/bot.pid
-              wait
+              cd ~/AniAlert
+              python -u bot.py
             "
             
             # Verify deployment
             sleep 2
-            screen -ls | grep anialert || echo "Warning: Screen session not found"
-            [ -f ~/AniAlert/bot.pid ] && echo "Bot running with PID $(cat ~/AniAlert/bot.pid)"
+            echo "Active screen sessions:"
+            screen -ls
+            echo "Bot process:"
+            pgrep -fl "python.*bot.py" || echo "No bot process found"
