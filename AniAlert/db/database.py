@@ -135,7 +135,7 @@ def close_connection():
 
 def tbemain():
   base_dir = os.path.dirname(os.path.abspath(__file__))  
-  sql_path = os.path.join(base_dir, "schema_postgres.sql")
+  sql_path = os.path.join(base_dir, "schema_sqlite.sql")
 
   create_tables_from_file(sql_path)
   print_table_contents()
