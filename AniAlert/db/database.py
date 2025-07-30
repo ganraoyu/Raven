@@ -133,16 +133,33 @@ def close_connection():
   cursor.close()
   conn.close()
 
+def check_if_tables_exist(conn):
+  cursor = conn.cursor()
+
+  if DB_TYPE == 'sqlite':
+    cursor.execute("""
+      SELECT name FROM sqlite_master 
+      WHERE type='table' AND name NOT LIKE 'sqlite_%';
+    """)
+  else:
+    cursor.execute("""
+      SELECT table_name FROM information_schema.tables 
+      WHERE table_schema='public' AND table_type='BASE TABLE';
+    """)
+
+  return cursor.fetchall()
+
+  
 def tbemain():
   base_dir = os.path.dirname(os.path.abspath(__file__))  
   sql_path = os.path.join(base_dir, "schema_sqlite.sql")
-
-  create_tables_from_file(sql_path)
-  print_table_contents()
-  # delete_all_data()
-  # print_table_contents()
-  close_connection()
-
+  table = check_if_tables_exist(conn)
+  if not table:
+    create_tables_from_file(sql_path)
+    print_table_contents()
+    # delete_all_data()
+    # print_table_contents()
+    close_connection()
 
 def test_redis_cache():
   r = get_redis_cache()
@@ -156,7 +173,6 @@ def test_redis_cache():
     print("✅ Redis cache works! Value:", value)
   else:
     print("❌ Redis cache not working.")
-
 
 if __name__ == '__main__':
   tbemain()

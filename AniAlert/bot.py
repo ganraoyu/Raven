@@ -26,7 +26,7 @@ async def on_ready():
     print("Application commands synced successfully!")
 
     # Tasks
-    # tbemain()
+    tbemain()
     run_schedule_loop() # May take some time if database is empty
       
   except Exception as e:
