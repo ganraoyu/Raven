@@ -89,8 +89,7 @@ AniAlert/
 ├── providers/            # External API integrations (Anilist, Kitsu, etc.)
 ├── services/             # Business logic for searching, notifications, etc.
 ├── tasks/                # Background jobs and scheduled tasks that run independently 
-├── utils/                # Helper functions and shared utilities
-└──  views/               # Discord UI elements like buttons, views, menus
+└── utils/                # Helper functions and shared utilities
 ```
 
 To run all tests using pytest:
