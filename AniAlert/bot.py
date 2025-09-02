@@ -11,7 +11,6 @@ DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 intents = discord.Intents.default()
 intents.message_content = True
 
-# DONT FUCKING REMOVE
 bot = commands.Bot(command_prefix="$", intents=intents)
 
 @bot.event
