@@ -1,8 +1,8 @@
-# AniAlert - Made with [discord.py](https://discordpy.readthedocs.io/en/stable/)
+# Raven - Made with [discord.py](https://discordpy.readthedocs.io/en/stable/)
 
-AniAlert is a Discord bot that helps anime fans track their favorite shows, get notified when episodes air, and discover seasonal anime.  
+Raven is a Discord bot that helps anime fans track their favorite shows, get notified when episodes air, and discover seasonal anime.  
 
-<img src="assets/list.png" alt="AniAlert UI" width="450"/>
+<img src="assets/list.png" alt="Raven UI" width="450"/>
 
 ## 🤖 Commands
 
@@ -21,10 +21,10 @@ AniAlert is a Discord bot that helps anime fans track their favorite shows, get 
 
 ## 🚀 Getting Started
 
-# 1. Clone the AniAlert repository
+# 1. Clone the Raven repository
 
 ```bash
-git clone https://github.com/ganraoyu/AniAlert.git
+git clone https://github.com/ganraoyu/Raven.git
 ```
 
 ### 2. Create and activate a virtual environment
@@ -48,11 +48,11 @@ python -m venv venv
 pip install -e .
 ```
 
-> This installs AniAlert in “editable” mode so changes to the source code take effect immediately.
+> This installs Raven in “editable” mode so changes to the source code take effect immediately.
 
 ### 4. Create a `.env` file
 ```env
-# Environment variables for AniAlert bot configuration
+# Environment variables for Raven bot configuration
 
 # Required for Discord bot authentication
 DISCORD_TOKEN=your_discord_bot_token
@@ -82,7 +82,7 @@ python bot.py
 ## 🗂 Project Structure
 
 ```
-AniAlert/
+Raven/
 ├── bot.py                # Main entry point for the Discord bot
 ├── cogs/                 # Command modules (slash commands, etc.)
 ├── db/                   # DB connection and queries
